@@ -1,0 +1,23 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+
+{% block content %}
+{# This should be broken into an atomic molecule inside of modules #}
+<ul class="menu">
+{% for val in site.data.menu %}
+  <li>{{link.content({
+    href: val.url,
+    text: val.name
+  })}}</li>
+{% endfor %}
+</ul>
+<div class="main-container">
+  <div class="yeogurt-info">
+    <h1>CWRU Annual Report 2017</h1>
+    <p>
+      Do cool stuff here, broh!
+    </p>
+  </div>
+</div>
+{% endblock %}
