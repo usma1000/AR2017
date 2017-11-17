@@ -1,5 +1,17 @@
 # CWRU Annual Report 2017 Site
 
+## ToDo
+- Include atoms and molecules to sass and js.
+- Move navmenu to the molecule file from page file.
+- Integrate tailwind.
+
+## First time setup
+
+`npm install` will install all the necessary node files.
+`npm install -g yo` will allow you to run yo commands.
+`npm install -g generator-yeogurt` will allow you to run the generators built on yo.
+If everything is setup correctly, `gulp serve --open` should launch the site.
+
 ## Technologies used
 
 Styles
