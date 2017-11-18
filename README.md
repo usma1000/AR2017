@@ -3,13 +3,17 @@
 ## ToDo
 - Include atoms and molecules to sass and js.
 - Move navmenu to the molecule file from page file.
-- Integrate tailwind.
+- Integrate PatternLab.
+- Integrate p5.
 
 ## First time setup
 
 `npm install` will install all the necessary node files.
+
 `npm install -g yo` will allow you to run yo commands.
+
 `npm install -g generator-yeogurt` will allow you to run the generators built on yo.
+
 If everything is setup correctly, `gulp serve --open` should launch the site.
 
 ## Technologies used
@@ -43,7 +47,9 @@ Code Management
 `gulp --production`: Same as `gulp serve --production` also run `gulp test` and  not boot up production server
 
 `gulp serve`: Compiles preprocessors and boots up development server
+
 `gulp serve --open`: Same as `gulp serve` but will also open up site/app in your default browser
+
 `gulp serve --production`: Same as `gulp serve` but will run all production tasks so you can view the site/app in it's final optimized form
 
 `gulp test`: Lints all `*.js` file in the `source` folder using eslint
@@ -55,14 +61,17 @@ Code Management
 ### Pages
 
 `yo yeogurt:page contact`: Creates a new page with proper folder structure and basic settings.
+
 `yo yeogurt:page contact --layout=one-col`: Optional layout import.
 
 ### Modules
 
 `yo yeogurt:module header`: Creates a new module with SCSS, js, and nunjucks files.
+
 `yo yeogurt:module link --atomic=atom`: Optional atomic design level (atom, molecule, organism).
 
 ### Layout
 
 `yo yeogurt:layout one-col`: Creates a new layout file.
+
 `yo yeogurt:page contact --layout=one-col`: Optional layout to extend from (base is default).

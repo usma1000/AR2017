@@ -1,8 +1,11 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,700');
+
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
 
 // Import Modules
-@import '../_modules/link/link';
+@import '../_modules/atoms/link/link';
 
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
@@ -12,13 +15,6 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.yeogurt-info {
-  text-align: center;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 // Styling on warning for users on IE7 or below

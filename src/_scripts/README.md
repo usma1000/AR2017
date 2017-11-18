@@ -1,9 +1,7 @@
 # Scripts
 
-This "Scripts" folder is designated for all of your global stylesheet files.
-The key file in this folder is `main.js` as it is designated as your bootstrapping file (intializes all your scripts) and is included in the `base.jade` file
-
-By default, ES6/2015 features are enabled in your scripts by using [Babel](https://babeljs.io)
+This "Scripts" folder is designated for all of the global script files.
+The key file in this folder is `main.js` as it is designated as the bootstrapping file (intializes all scripts) and is included in the `base.nunjucks` file
 
 ## Adding third-party script libraries
 Odds are that you will need to add some third party libraries to your project at some point. 

@@ -4,7 +4,7 @@
 'use strict';
 
 var $ = require('jquery');
-var Link = require('../_modules/link/link');
+var Link = require('../_modules/atoms/link/link');
 
 $(function() {
   new Link(); // Activate Link modules logic

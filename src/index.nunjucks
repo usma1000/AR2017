@@ -1,6 +1,6 @@
 {% extends '_layouts/base.nunjucks' %}
 
-{% import "_modules/link/link.nunjucks" as link %}
+{% import "_modules/atoms/link/link.nunjucks" as link %}
 
 {% block content %}
 {# This should be broken into an atomic molecule inside of modules #}
