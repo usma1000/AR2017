@@ -1,9 +1,9 @@
 'use strict';
 
 // Constructor
-var NavMenu = function() {
-  this.name = 'nav-menu';
+var Navmenu = function() {
+  this.name = 'navmenu';
   console.log('%s module', this.name.toLowerCase());
 };
 
-module.exports = NavMenu;
+module.exports = Navmenu;
