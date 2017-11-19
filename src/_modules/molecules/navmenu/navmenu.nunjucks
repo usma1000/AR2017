@@ -1,0 +1,12 @@
+{% macro content(spec) %}
+{% set spec = spec or {} %}
+{% set _data = spec.data %}
+
+<ul class="navmenu">
+{% for val in _data %}
+  <li>
+    <a href="{{val.url}}">{{val.name}}</a>
+  </li>
+{% endfor %}
+</ul>
+{% endmacro %}
