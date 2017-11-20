@@ -1,8 +1,7 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
-- Include atoms and molecules to sass and js.
-- Move navmenu to the molecule file from page file.
+- Include atoms and molecules to sass and js as globs.
 - Integrate PatternLab.
 - Integrate p5.
 

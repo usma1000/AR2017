@@ -42,6 +42,7 @@
     <meta name="theme-color" content="#0a304e">
 
     <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
+    <script>document.documentElement.className = 'js';</script>
     {% block stylesheets %}{% endblock %}
 
   </head>
