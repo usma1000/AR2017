@@ -9,4 +9,6 @@
 @import 'vars';
 
 // Import Modules
-@import '../_modules/atoms/link/link';
+@import '../_modules/atoms/**/*';
+@import '../_modules/molecules/**/*';
+@import '../_modules/organisms/**/*';

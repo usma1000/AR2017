@@ -3,6 +3,7 @@
 var path = require('path');
 var autoprefixer = require('autoprefixer');
 var gulpif = require('gulp-if');
+var globSass = require('gulp-sass-glob-import');
 
 module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) {
   var dirs = config.directories;
@@ -14,6 +15,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
     gulp.src(path.join(dirs.source, dirs.styles, entries.css))
       .pipe(plugins.plumber())
       .pipe(plugins.sourcemaps.init())
+      .pipe(globSass())
       .pipe(plugins.sass({
         outputStyle: 'expanded',
         precision: 10,
