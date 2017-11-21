@@ -52,6 +52,14 @@
       You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p>
     <![endif]-->
+    <div class="grid-lines">
+      <div class="gridlines g">
+      	<div class="gridlines-group"></div>
+      	<div class="gridlines-group"></div>
+      	<div class="gridlines-group"></div>
+      	<div class="gridlines-group"></div>
+      </div>
+    </div>
 
     {% block content %}{% endblock %}
 
