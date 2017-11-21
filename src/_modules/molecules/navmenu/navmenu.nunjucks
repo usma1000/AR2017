@@ -4,11 +4,16 @@
 {% set _ulClass = spec.class or 'navmenu' %}
 {% set _liClass = spec.class or 'menu--li' %}
 
+{% import "_modules/atoms/image/image.nunjucks" as image %}
 {% import "_modules/atoms/link/link.nunjucks" as link %}
 
 <ul class="{{_ulClass}}">
 {% for val in _data %}
   <li class="{{_liClass}}">
+    {{image.content({
+      class: "menu--featured-img",
+      src: "images/" + val.img
+    })}}
     {{link.content({
       class: "menu--link",
       href: val.url,
