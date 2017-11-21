@@ -5,8 +5,9 @@
 @import 'node_modules/normalize.css/normalize';
 
 // Import Main Styles
-@import 'base';
 @import 'vars';
+@import 'base';
+@import 'gridlines';
 
 // Import Modules
 @import '../_modules/atoms/**/*';

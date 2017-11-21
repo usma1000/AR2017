@@ -1,9 +1,14 @@
 {% macro content(spec) %}
 
 {% set spec = spec or {} %}
+{% set _data = spec.data %}
 {% set _class = spec.class or '' %}
 
+{% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
+
 <div class="{{_class}}">
-  <p>This is an example paragraph for the navsidebar module</p>
+  {{navmenu.content({
+    data: _data
+  })}}
 </div>
 {% endmacro %}

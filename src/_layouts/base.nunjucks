@@ -60,9 +60,15 @@
       	<div class="gridlines-group"></div>
       </div>
     </div>
+    <div class="main-container">
+      {{navsidebar.content({
+        data: site.data.menu,
+        class: "navsidebar"
+      })}}
 
-    {% block content %}{% endblock %}
-
+      {% block content %}{% endblock %}
+      
+    </div>
     <script src="{{baseUrl}}scripts/main.js"></script>
     {% block scripts %}{% endblock %}
   </body>
