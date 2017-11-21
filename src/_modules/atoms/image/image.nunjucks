@@ -1,0 +1,10 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _class = spec.class or 'img-responsive' %}
+{% set _src = spec.src or '' %}
+{% set _alt = spec.alt or '' %}
+{% set _srcset = spec.srcset or '' %}
+
+<img srcset="{{_srcset}}" src="{{_src}}" class="{{_class}}" />
+{% endmacro %}

@@ -4,9 +4,15 @@
 {% set _data = spec.data %}
 {% set _class = spec.class or '' %}
 
+{% import "_modules/atoms/image/image.nunjucks" as image %}
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
 <div class="{{_class}}">
+  {{image.content({
+    class: "cwru-logo",
+    src: "/images/cwru-logo-white.png"
+  })}}
+
   {{navmenu.content({
     data: _data
   })}}

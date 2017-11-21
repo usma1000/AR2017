@@ -1,13 +1,23 @@
 {
-  "featured": [{
-      "name": "Home",
-      "url": "/"
+  "featured": [
+    {
+      "name": "Applications",
+      "url": "#"
     },{
-      "name": "About",
-      "url": "/about"
-    }],
-  "secondary": [{
+      "name": "CES",
+      "url": "#"
+    },{
+      "name": "You Are Welcome Here",
+      "url": "#"
+    },{
+      "name": "Braingate",
+      "url": "#"
+    }
+  ],
+  "secondary": [
+    {
       "name": "Test",
       "url": "#"
-    }]
+    }
+  ]
 }
