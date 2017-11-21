@@ -60,10 +60,13 @@
       	<div class="gridlines-group"></div>
       </div>
     </div>
-    <div class="main-container">
+
+    {% import "_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
+
+    <div class="main-container flex-grid">
       {{navsidebar.content({
         data: site.data.menu.featured,
-        class: "navsidebar"
+        class: "navsidebar col"
       })}}
 
       {% block content %}{% endblock %}

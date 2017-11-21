@@ -1,1 +1,17 @@
 // navmenu styles
+.navmenu {
+  padding-left: 0;
+  .menu--li {
+    display: flex;
+    margin-bottom: $small;
+    .menu--featured-img {
+      width: auto;
+      margin-right: $small;
+    }
+    .menu--link {
+      color: white;
+      margin-top: $small;
+      font-size: 1.5em;
+    }
+  }
+}
