@@ -7,6 +7,8 @@ var $ = require('jquery');
 // var Link = require('../_modules/atoms/link/link');
 
 $(function() {
-  setTimeout(() => document.body.classList.add('render'), 60);
+  setTimeout(function() {
+    document.body.classList.add('render')
+  },60);
   // new Link(); // Activate Link modules logic
 });
