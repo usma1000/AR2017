@@ -1,11 +1,19 @@
 {% macro content(spec) %}
 {% set spec = spec or {} %}
 {% set _data = spec.data %}
+{% set _ulClass = spec.class or 'navmenu' %}
+{% set _liClass = spec.class or 'menu--li' %}
 
-<ul class="navmenu">
+{% import "_modules/atoms/link/link.nunjucks" as link %}
+
+<ul class="{{_ulClass}}">
 {% for val in _data %}
-  <li>
-    <a href="{{val.url}}">{{val.name}}</a>
+  <li class="{{_liClass}}">
+    {{link.content({
+      class: "menu--link",
+      href: val.url,
+      text: val.name
+    })}}
   </li>
 {% endfor %}
 </ul>
