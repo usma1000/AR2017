@@ -6,5 +6,5 @@
 {% set _alt = spec.alt or '' %}
 {% set _srcset = spec.srcset or '' %}
 
-<img srcset="{{_srcset}}" src="{{_src}}" class="{{_class}}" />
+<img srcset="{{_srcset}}" src="{{_src}}" class="{{_class}}" alt="{{_alt}}" />
 {% endmacro %}

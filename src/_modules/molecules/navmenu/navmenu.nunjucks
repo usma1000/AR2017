@@ -12,7 +12,8 @@
   <li class="{{_liClass}}">
     {{image.content({
       class: "menu--featured-img",
-      src: "images/" + val.img
+      src: "images/" + val.img,
+      alt: "thumbnail for " + val.name|lower
     })}}
     {{link.content({
       class: "menu--link",
