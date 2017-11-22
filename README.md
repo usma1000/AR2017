@@ -4,7 +4,6 @@
 - Featured links should be entire box, not just text
 - Featured links background hover effect
 - Find higher quality CWRU logo
-- Create radial button atom
 - Create carousel buttons molecule
 - Integrate PatternLab
 - Integrate p5
