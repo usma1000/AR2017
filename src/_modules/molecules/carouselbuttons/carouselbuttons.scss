@@ -1,14 +1,29 @@
 // carouselbuttons styles
 
-// https://codepen.io/anandu/pen/GOdNdM
+.carousel-controls {
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+
+  .carousel-numbers {
+    margin-top: $large;
+    margin-right: $large;
+    color: white;
+    font-size: 36px;
+    .current {
+      font-size: 64px;
+    }
+  }
+}
 
 .radios--carousel {
   position: relative;
   width: 100px;
   transform: rotate(90deg);
+
   input[type="radio"] {
     position: absolute;
-    right: 1000%;
+    right: 10000%;
   }
 
   .label--radio {
@@ -22,18 +37,20 @@
   }
 }
 
-#slider{
-  position:absolute;
-  left:0%; top:0;
-  width:10%; padding-bottom:10%;
-  margin:2.5% 0 0 5%;
-  background:#fff;
-  transition:transform 1s;
-  border-radius:50%;
+#slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10%;
+  padding-bottom: 10%;
+  margin: 2.5% 0 0 5%;
+  background: #fff;
+  transition: transform 1s;
+  border-radius: 50%;
   animation-timing-function: ease-in-out;
-  animation-duration:.3s;
+  animation-duration: 0.3s;
   animation-fill-mode: forwards;
-  transition: 0.2s left .05s ease-in-out;
+  transition: 0.2s left 0.05s ease-in-out;
 }
 
 #input1:checked  ~ #slider{ animation-name: input1; left:0; }

@@ -6,13 +6,19 @@
 
 {% import "_modules/atoms/radio/radio.nunjucks" as radio %}
 
-<div class="{{_class}}">
-  {% for val in _data %}
-    <label for="input{{loop.index}}" class="label--radio"></label>
-    {{radio.content({
-      id: "input" + loop.index
-    })}}
-  {% endfor %}
-  <span id="slider"></span>
+<div class="carousel-controls">
+  <div class="{{_class}}">
+    {% for val in _data %}
+      <label for="input{{loop.index}}" class="label--radio"></label>
+      {{radio.content({
+        id: "input" + loop.index
+      })}}
+    {% endfor %}
+    <span id="slider"></span>
+  </div>
+  <div class="carousel-numbers">
+    <span class="current">01</span>/<span class="total">{{_data | length}}</span>
+  </div>
 </div>
+
 {% endmacro %}
