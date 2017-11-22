@@ -17,7 +17,7 @@
     position: relative;
     margin-bottom: $small;
     margin-top: $medium;
-    background-image: linear-gradient(-45deg, #383836 0%, #1E1D1D 100%);
+    background-image: linear-gradient(45deg, #383836 0%, #1E1D1D 100%);
     align-items: flex-end;
 
     .menu--featured-img {
@@ -40,7 +40,7 @@
   flex-direction: row;
   justify-content: flex-end;
   .menu--li {
-    margin-right: 2em;
+    margin-left: 2em;
     list-style: none;
   }
 }

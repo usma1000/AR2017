@@ -1,6 +1,7 @@
 {% extends '_layouts/base.nunjucks' %}
 
+{% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
+
 {% block content %}
-<h1>test</h1>
-<p> <a href="#">test</a> </p>
+{{pagetitle.content({text: "Braingate"})}}
 {% endblock %}
