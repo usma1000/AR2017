@@ -28,6 +28,21 @@
   </ul>
 {% endif %}
 
+{# secondary menu #}
+{% if (_style == "secondary") %}
+  <ul class="navmenu {{_ulClass}}">
+  {% for val in _data.secondary %}
+    <li class="{{_liClass}}">
+      {{link.content({
+        class: "menu--link link--underline",
+        href: val.url,
+        text: val.name
+      })}}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
 {# top nav menu #}
 {% if (_style == "topnav") %}
   <ul class="navmenu {{_ulClass}}">
