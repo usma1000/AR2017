@@ -1,26 +1,46 @@
 {% macro content(spec) %}
 {% set spec = spec or {} %}
 {% set _data = spec.data %}
-{% set _ulClass = spec.class or 'navmenu' %}
-{% set _liClass = spec.class or 'menu--li' %}
+{% set _ulClass = spec.ulclass or '' %}
+{% set _liClass = spec.liclass or 'menu--li' %}
+{% set _style = spec.style or 'featured' %}
 
 {% import "_modules/atoms/image/image.nunjucks" as image %}
 {% import "_modules/atoms/link/link.nunjucks" as link %}
 
-<ul class="{{_ulClass}}">
-{% for val in _data %}
-  <li class="{{_liClass}}">
-    {{image.content({
-      class: "menu--featured-img",
-      src: "images/" + val.img,
-      alt: "thumbnail for " + val.name|lower
-    })}}
-    {{link.content({
-      class: "menu--link",
-      href: val.url,
-      text: val.name
-    })}}
-  </li>
-{% endfor %}
-</ul>
+{# featured menu #}
+{% if (_style == "featured") %}
+  <ul class="navmenu {{_ulClass}}">
+  {% for val in _data.featured %}
+    <li class="{{_liClass}}">
+      {{image.content({
+        class: "menu--featured-img",
+        src: "images/" + val.img,
+        alt: "thumbnail for " + val.name|lower
+      })}}
+      {{link.content({
+        class: "menu--link",
+        href: val.url,
+        text: val.name
+      })}}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{# top nav menu #}
+{% if (_style == "topnav") %}
+  <ul class="navmenu {{_ulClass}}">
+  {% for val in _data.topnav %}
+    <li class="{{_liClass}}">
+      {{link.content({
+        class: "menu--link link--underline",
+        href: val.url,
+        text: val.name
+      })}}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
 {% endmacro %}

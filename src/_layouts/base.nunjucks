@@ -52,24 +52,23 @@
       You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p>
     <![endif]-->
-    <div class="grid-lines">
-      <div class="gridlines g">
-      	<div class="gridlines-group"></div>
-      	<div class="gridlines-group"></div>
-      	<div class="gridlines-group"></div>
-      	<div class="gridlines-group"></div>
-      </div>
-    </div>
-
     {% import "_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
+    {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
     <div class="main-container flex-grid">
       {{navsidebar.content({
-        data: site.data.menu.featured,
+        data: site.data.menu,
         class: "navsidebar col"
       })}}
 
-      {% block content %}{% endblock %}
+      <div class="container">
+        {{navmenu.content({
+          data: site.data.menu,
+          style: "topnav",
+          ulclass: "topnav"
+        })}}
+        {% block content %}{% endblock %}
+      </div>
 
     </div>
     <script src="{{baseUrl}}scripts/main.js"></script>

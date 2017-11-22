@@ -1,26 +1,46 @@
-// navmenu styles
+// General navmenu styles
 .navmenu {
   padding-left: 0;
+}
+
+.menu--link {
+  color: white;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  z-index: 2;
+}
+
+// Featured navmenu styles
+.navmenu--featured {
   .menu--li {
     display: flex;
     position: relative;
     margin-bottom: $small;
     margin-top: $medium;
-    background: $link-blue;
+    background-image: linear-gradient(-45deg, #383836 0%, #1E1D1D 100%);
     align-items: flex-end;
+
     .menu--featured-img {
       width: auto;
       margin-right: $small;
       margin-top: -$small;
       z-index: 2;
     }
+
     .menu--link {
-      color: white;
-      font-size: .8em;
-      letter-spacing: .1em;
-      z-index: 2;
       margin-right: $small;
       margin-bottom: $tiny;
     }
+  }
+}
+
+// Topnav navmenu styles
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  .menu--li {
+    margin-right: 2em;
+    list-style: none;
   }
 }

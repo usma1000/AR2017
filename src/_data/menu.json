@@ -23,5 +23,17 @@
       "name": "Test",
       "url": "#"
     }
+  ],
+  "topnav": [
+    {
+      "name": "Facts & Figures",
+      "url": "/"
+    },{
+      "name": "President's Letter",
+      "url": "/"
+    },{
+      "name": "Download PDF",
+      "url": "/"
+    }
   ]
 }

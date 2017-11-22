@@ -14,7 +14,9 @@
   })}}
 
   {{navmenu.content({
-    data: _data
+    data: _data,
+    style: "featured",
+    ulclass: "navmenu--featured"
   })}}
 </div>
 {% endmacro %}

@@ -14,8 +14,12 @@ body {
   font-family: "Titillium Web";
   font-size: 20px;
   min-height: 100vh;
-  background: #FFF;
   padding: 0;
+  // TEMPORARY!!! CHANGE THIS!
+  background: #2B2B2B;
+  background-image: url("/images/feature-bkg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 // Fade effect
 .js body {
