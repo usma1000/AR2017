@@ -54,6 +54,7 @@
     <![endif]-->
     {% import "_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
     {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
+    {% import "_modules/molecules/carouselbuttons/carouselbuttons.nunjucks" as carouselbuttons %}
 
     <div class="main-container flex-grid">
       {{navsidebar.content({
@@ -68,6 +69,10 @@
           ulclass: "topnav"
         })}}
         {% block content %}{% endblock %}
+
+        {{carouselbuttons.content({
+          data: site.data.menu.featured
+        })}}
       </div>
 
     </div>

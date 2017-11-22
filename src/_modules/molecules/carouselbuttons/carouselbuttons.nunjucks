@@ -1,0 +1,18 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _data = spec.data %}
+{% set _class = spec.class or 'radios--carousel' %}
+
+{% import "_modules/atoms/radio/radio.nunjucks" as radio %}
+
+<div class="{{_class}}">
+  {% for val in _data %}
+    <label for="input{{loop.index}}" class="label--radio"></label>
+    {{radio.content({
+      id: "input" + loop.index
+    })}}
+  {% endfor %}
+  <span id="slider"></span>
+</div>
+{% endmacro %}
