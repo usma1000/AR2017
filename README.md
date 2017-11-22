@@ -3,6 +3,7 @@
 ## ToDo
 - Integrate PatternLab.
 - Integrate p5.
+- Progressive loading for background images
 
 ## First time setup
 

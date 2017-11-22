@@ -3,14 +3,24 @@
   padding-left: 0;
   .menu--li {
     display: flex;
+    position: relative;
     margin-bottom: $small;
+    margin-top: $medium;
+    background: $link-blue;
+    align-items: flex-end;
     .menu--featured-img {
       width: auto;
       margin-right: $small;
+      margin-top: -$small;
+      z-index: 2;
     }
     .menu--link {
       color: white;
-      margin-top: $small;
+      font-size: .8em;
+      letter-spacing: .1em;
+      z-index: 2;
+      margin-right: $small;
+      margin-bottom: $tiny;
     }
   }
 }
