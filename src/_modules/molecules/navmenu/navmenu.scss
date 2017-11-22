@@ -44,8 +44,8 @@
   .menu--li {
     padding: $small 0;
     border-bottom: 1px solid #383838;
-    &:first-of-type {
-      border-top: 1px solid #383838;
+    &:last-of-type {
+      border-bottom: none;
     }
   }
 }

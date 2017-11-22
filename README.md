@@ -1,9 +1,21 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
-- Integrate PatternLab.
-- Integrate p5.
+- Featured links should be entire box, not just text
+- Featured links background hover effect
+- Find higher quality CWRU logo
+- Create radial button atom
+- Create carousel buttons molecule
+- Integrate PatternLab
+- Integrate p5
+- Add transition effect between stories
+- Set up a proper container
+
+## ToDo Later
+- Rotoscope thumbnail images
+- Add all background images
 - Progressive loading for background images
+- Secondary stories layout
 
 ## First time setup
 
