@@ -5,8 +5,11 @@ var $ = require('jquery');
 var Carouselbuttons = function() {
   this.val = 1;
   var leadingzero = this.val <= 9 ? "0" : "";
-  
-  this.update = function() {
+
+  this.update = function(radioId) {
+    // replace all leading non-digits with nothing
+    var numId = radioId.replace( /^\D+/g, '');
+    this.val = numId;
     $('.carousel-numbers .current').text(leadingzero+this.val);
   }
 };

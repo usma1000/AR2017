@@ -15,8 +15,12 @@ $(function() {
   },60);
 
   // Carousel controls
-  // Numbers change on click
   var carouselbuttons = new Carouselbuttons();
-  // carouselbuttons.val = 5;
-  // carouselbuttons.update();
+  
+  // Numbers change when radio butto is clicked
+  $('input:radio[name="carouselradio"]').change(function(){
+    if ($(this).is(':checked')) {
+      carouselbuttons.update($(this).attr("id"));
+    }
+  });
 });

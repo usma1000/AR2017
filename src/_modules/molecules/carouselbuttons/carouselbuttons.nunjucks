@@ -11,7 +11,8 @@
     {% for val in _data %}
       <label for="input{{loop.index}}" class="label--radio"></label>
       {{radio.content({
-        id: "input" + loop.index
+        id: "input" + loop.index,
+        name: "carouselradio"
       })}}
     {% endfor %}
     <span id="slider"></span>
