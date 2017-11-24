@@ -1,7 +1,8 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
-- Move radio buttons into position
+- Fix radio buttons position
+- Clicking on radio button should update number
 - Featured links should be entire box, not just text
 - Featured links background hover effect
 - Find higher quality CWRU logo
@@ -15,7 +16,6 @@
 - Add all background images
 - Progressive loading for background images
 - Secondary stories layout
-- Add functionality to radio buttons
 - Integrate PatternLab
 
 ## First time setup
