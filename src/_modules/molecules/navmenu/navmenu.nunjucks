@@ -13,16 +13,19 @@
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.featured %}
     <li class="{{_liClass}}">
+      <a href="{{val.url}}" class="menu--featured-link">
       {{image.content({
         class: "menu--featured-img",
         src: "images/" + val.img,
         alt: "thumbnail for " + val.name|lower
       })}}
-      {{link.content({
+      <p class="menu--link">{{val.name}}</p>
+      {# {{link.content({
         class: "menu--link",
         href: val.url,
         text: val.name
-      })}}
+      })}} #}
+      </a>
     </li>
   {% endfor %}
   </ul>

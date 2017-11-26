@@ -18,18 +18,21 @@
 .navmenu--featured {
   margin: $large 0;
   .menu--li {
-    display: flex;
     position: relative;
     margin-bottom: $small;
     margin-top: $medium;
     background-image: linear-gradient(45deg, #383836 0%, #1E1D1D 100%);
-    align-items: flex-end;
 
     .menu--featured-img {
       width: auto;
       margin-right: $small;
       margin-top: -$small;
       z-index: 2;
+    }
+
+    .menu--featured-link {
+      display: flex;
+      align-items: flex-end;
     }
 
     .menu--link {
