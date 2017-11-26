@@ -2,13 +2,10 @@
 
 ## ToDo
 - Fix radio buttons position
-- Clicking on radio button should update number
-- Featured links should be entire box, not just text
-- Featured links background hover effect
 - Find higher quality CWRU logo
 - Integrate p5
 - Add transition effect between stories
-- Set up a proper container
+- Set up a proper responsive container
 - Try adding the prev/next buttons
 
 ## ToDo Later

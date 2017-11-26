@@ -1,4 +1,5 @@
 // General navmenu styles
+
 .navmenu {
   padding-left: 0;
 }
@@ -13,15 +14,31 @@
 .menu--li {
   list-style: none;
 }
-
 // Featured navmenu styles
+
 .navmenu--featured {
   margin: $large 0;
+
   .menu--li {
     position: relative;
     margin-bottom: $small;
     margin-top: $medium;
     background-image: linear-gradient(45deg, #383836 0%, #1E1D1D 100%);
+
+    &:after {
+      content: '';
+      background-color: $link-blue;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 100%;
+      transition: right 0.4s ease;
+    }
+
+    &:hover:after {
+      right: 0;
+    }
 
     .menu--featured-img {
       width: auto;
@@ -41,23 +58,25 @@
     }
   }
 }
-
 // Secondary navmenu styles
+
 .navmenu--secondary {
   .menu--li {
     padding: $small 0;
     border-bottom: 1px solid #383838;
+
     &:last-of-type {
       border-bottom: none;
     }
   }
 }
-
 // Topnav navmenu styles
+
 .topnav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+
   .menu--li {
     margin-left: 2em;
   }
