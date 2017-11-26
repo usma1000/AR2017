@@ -1,23 +1,22 @@
-// Main javascript entry point
-// Should handle bootstrapping/starting application
-
 'use strict';
 
 var $ = require('jquery');
-// var Link = require('../_modules/atoms/link/link');
-
 
 $(function() {
+  // REQUIRE MODULES
   var Carouselbuttons = require('../_modules/molecules/carouselbuttons/carouselbuttons');
+
+  // INSTANTIATE MODULES
+  var carouselbuttons = new Carouselbuttons();
+
+  // GENERAL METHODS
   // Body fades in from black on page load
   setTimeout(function() {
     document.body.classList.add('render')
   },60);
 
-  // Carousel controls
-  var carouselbuttons = new Carouselbuttons();
-  
-  // Numbers change when radio butto is clicked
+  // CAROUSEL CONTROLS
+  // Numbers change when radio button is clicked
   $('input:radio[name="carouselradio"]').change(function(){
     if ($(this).is(':checked')) {
       carouselbuttons.update($(this).attr("id"));
