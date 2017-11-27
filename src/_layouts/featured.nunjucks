@@ -3,9 +3,10 @@
 {# Add extra stylesheets #}
 {% block stylesheets %}{% endblock %}
 
-{% import "_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
+{% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 {% import "_modules/molecules/carouselbuttons/carouselbuttons.nunjucks" as carouselbuttons %}
+{% import "_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
 
 {% block layout %}
 <div class="main-container flex-grid">

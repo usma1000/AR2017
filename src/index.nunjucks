@@ -1,7 +1,5 @@
 {% extends '_layouts/featured.nunjucks' %}
 
-{% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
-
 {% block content %}
 {{pagetitle.content({text: "Braingate"})}}
 {% endblock %}
