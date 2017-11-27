@@ -1,4 +1,4 @@
-{% extends '_layouts/base.nunjucks' %}
+{% extends '_layouts/featured.nunjucks' %}
 
 {% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
 
