@@ -4,6 +4,12 @@ $link-blue: #3168A6;
 $cwru-green: #C1CD24;
 $off-black: #111111;
 
+// Shape overlay colors
+$path-fill-1: transparentize($cwru-blue, .25);
+$path-fill-2: transparentize($cwru-blue, .5);
+$path-fill-3: transparentize($cwru-blue, .75);
+$path-fill-4: transparent;
+
 // Pixel sizes
 $tiny: 8px;
 $small: 16px;
