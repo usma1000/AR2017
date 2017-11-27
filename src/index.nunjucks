@@ -2,4 +2,6 @@
 
 {% block content %}
 {{pagetitle.content({text: "Braingate"})}}
+{{featuredbutton.content({direction: "left"})}}
+{{featuredbutton.content({direction: "right"})}}
 {% endblock %}

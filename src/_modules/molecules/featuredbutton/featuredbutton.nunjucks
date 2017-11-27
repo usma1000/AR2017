@@ -1,0 +1,26 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _class = spec.class or 'button--featured' %}
+{% set _direction = spec.direction or 'left' %}
+
+{% import "_modules/atoms/image/image.nunjucks" as image %}
+{% import "_modules/atoms/link/link.nunjucks" as link %}
+
+<a href="#" class="{{_class}}" data-direction="{{_direction}}">
+  {% if _direction == 'left' %}
+    {# REPLACE WITH AN SVG #}
+    &lt;
+  {% endif %}
+
+  {{image.content({
+    class: "button--featured--img",
+    src: "/images/feature-btn-1.png"
+  })}}
+
+  {% if _direction == 'right' %}
+    {# REPLACE WITH AN SVG #}
+    &gt;
+  {% endif %}
+</a>
+{% endmacro %}
