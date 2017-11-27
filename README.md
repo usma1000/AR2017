@@ -12,6 +12,7 @@
 - Animation for hover and clicking of prev/next buttons
 - Rotoscope thumbnail images
 - Add all background images
+- Crop and resize all images
 - Progressive loading for background images
 - Secondary stories layout
 - Integrate PatternLab
