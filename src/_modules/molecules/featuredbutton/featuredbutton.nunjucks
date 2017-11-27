@@ -3,6 +3,7 @@
 {% set spec = spec or {} %}
 {% set _class = spec.class or 'button--featured' %}
 {% set _direction = spec.direction or 'left' %}
+{% set _src = spec.src or "/images/feature-btn-1.png" %}
 
 {% import "_modules/atoms/image/image.nunjucks" as image %}
 {% import "_modules/atoms/link/link.nunjucks" as link %}
@@ -15,7 +16,7 @@
 
   {{image.content({
     class: "button--featured--img",
-    src: "/images/feature-btn-1.png"
+    src: _src
   })}}
 
   {% if _direction == 'right' %}

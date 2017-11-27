@@ -1,0 +1,12 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _class = spec.class or 'container--featured-buttons' %}
+
+{% import "_modules/molecules/featuredbutton/featuredbutton.nunjucks" as featuredbutton %}
+
+<div class="{{_class}}">
+  {{featuredbutton.content({direction: "left", src: "/images/feature-btn-1.png"})}}
+  {{featuredbutton.content({direction: "right", src: "/images/feature-btn-2.png"})}}
+</div>
+{% endmacro %}

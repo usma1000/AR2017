@@ -2,9 +2,13 @@
 .button--featured {
   display: flex;
   justify-content: space-between;
-  max-width: 380px;
+  width: 380px;
   color: white;
   background-color: $link-blue;
+  transition: background-color .4s;
+  &:hover {
+    background-color: $cwru-blue;
+  }
   .button--featured--img {
     max-width: 320px;
   }

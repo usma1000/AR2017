@@ -6,8 +6,8 @@
 {% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 {% import "_modules/molecules/carouselbuttons/carouselbuttons.nunjucks" as carouselbuttons %}
-{% import "_modules/molecules/featuredbutton/featuredbutton.nunjucks" as featuredbutton %}
 {% import "_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
+{% import "_modules/organisms/featuredbuttons/featuredbuttons.nunjucks" as featuredbuttons %}
 
 {% block layout %}
 <div class="main-container flex-grid">
@@ -23,9 +23,11 @@
       ulclass: "topnav"
     })}}
 
-      <div class="layout-wrapper featured">
-        {% block content %}{% endblock %}
-      </div>
+    <div class="layout-wrapper featured">
+      {% block content %}{% endblock %}
+    </div>
+
+    {{featuredbuttons.content({})}}
 
     {{carouselbuttons.content({
       data: site.data.menu.featured
