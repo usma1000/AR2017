@@ -3,7 +3,7 @@ $navwidth: 300px;
 
 .container {
   width: 100%;
-  padding: 1em 2em;
+  padding: $small $large;
 }
 
 .container--full {
@@ -39,24 +39,20 @@ $navwidth: 300px;
   overflow-y: auto;
 }
 
-.container--navbar::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: $off-black;
+.container--navbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: $off-black;
 }
 
-.container--navbar::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: $off-black;
+.container--navbar::-webkit-scrollbar {
+  width: 10px;
+  background-color: $off-black;
 }
 
-.container--navbar::-webkit-scrollbar-thumb
-{
-	background-color: black;
-	border: 1px solid #222222;
+.container--navbar::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: 1px solid #222222;
 }
-
 
 .container--content {
   overflow: scroll;
@@ -81,4 +77,15 @@ header.feature-background {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+
+.two-col {
+  column-count: 2;
+  column-gap: $large;
+}
+
+.green-underline {
+  text-decoration: underline;
+  text-decoration-color: $cwru-green;
+  text-decoration-skip: ink;
 }
