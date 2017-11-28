@@ -12,7 +12,8 @@
       <label for="input{{loop.index}}" class="label--radio"></label>
       {{radio.content({
         id: "input" + loop.index,
-        name: "carouselradio"
+        name: "carouselradio",
+        dataid: loop.index
       })}}
     {% endfor %}
     <span id="slider"></span>

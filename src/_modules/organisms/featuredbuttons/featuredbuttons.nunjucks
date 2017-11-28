@@ -6,7 +6,7 @@
 {% import "_modules/molecules/featuredbutton/featuredbutton.nunjucks" as featuredbutton %}
 
 <div class="{{_class}}">
-  {{featuredbutton.content({direction: "left", src: "images/feature-btn-2.png"})}}
-  {{featuredbutton.content({direction: "right", src: "images/feature-btn-4.png"})}}
+  {{featuredbutton.content({direction: "left", src: "images/feature-btn-4.png"})}}
+  {{featuredbutton.content({direction: "right", src: "images/feature-btn-2.png"})}}
 </div>
 {% endmacro %}

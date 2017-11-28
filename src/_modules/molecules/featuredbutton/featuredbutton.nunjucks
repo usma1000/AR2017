@@ -17,7 +17,7 @@
   {% endif %}
 
   {{image.content({
-    class: "button--featured--img",
+    class: "button--featured--img " + _direction,
     src: _src
   })}}
 

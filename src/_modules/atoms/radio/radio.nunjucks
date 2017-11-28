@@ -4,7 +4,8 @@
 {% set _class = spec.class or '' %}
 {% set _id = spec.id or '' %}
 {% set _name = spec.name or 'radio' %}
+{% set _dataid = spec.dataid or 'radio' %}
 
-<input id="{{_id}}" name="{{_name}}" type="radio" class="{{_class}}" />
+<input id="{{_id}}" name="{{_name}}" type="radio" class="{{_class}}" data-id="{{_dataid}}" />
 
 {% endmacro %}

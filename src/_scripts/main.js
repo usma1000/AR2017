@@ -19,7 +19,7 @@ $(function() {
   // Numbers change when radio button is clicked
   $('input:radio[name="carouselradio"]').change(function(){
     if ($(this).is(':checked')) {
-      carouselbuttons.update($(this).attr("id"));
+      carouselbuttons.update($(this).attr("data-id"));
     }
   });
 });
