@@ -3,7 +3,7 @@ $navwidth: 300px;
 
 .container {
   width: 100%;
-  padding: $small $large;
+  padding: $large;
 }
 
 .container--full {
@@ -90,4 +90,12 @@ header.feature-background {
   text-decoration: underline;
   text-decoration-color: $cwru-green;
   text-decoration-skip: ink;
+}
+
+.spacer--top {
+  margin-top: $large;
+}
+
+.spacer--bottom {
+  margin-bottom: $large;
 }

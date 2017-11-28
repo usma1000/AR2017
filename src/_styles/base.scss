@@ -12,6 +12,12 @@ body {
   min-height: 100vh;
   padding: 0;
 }
+
+.container p {
+  margin-left: $large;
+  margin-right: $large;
+  line-height: 1.7;
+}
 // Fade effect
 .js body {
   opacity: 0;

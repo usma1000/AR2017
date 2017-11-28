@@ -1,17 +1,14 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
-- Fix radio buttons position
-- Find higher quality CWRU logo
+- Find SVG CWRU logo
 - Integrate p5
 - Add transition effect between stories
 - Set up a proper responsive container
-- Create the prev/next button SVGs
 
 ## ToDo Later
 - Animation for hover and clicking of prev/next buttons
-- Rotoscope thumbnail images
-- Add all background images
+- Add final background images
 - Crop and resize all images
 - Progressive loading for background images
 - Secondary stories layout
