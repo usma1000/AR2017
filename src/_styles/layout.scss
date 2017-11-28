@@ -17,7 +17,7 @@ $navwidth: 300px;
 .container--prev {
   flex: 0 0 $prevwidth;
   background-color: $off-black;
-  background-image: url("/images/feature-bkg-1.jpg");
+  background-image: url("../images/feature-bkg-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,7 +76,7 @@ $navwidth: 300px;
 
 header.feature-background {
   background: #2B2B2B;
-  background-image: url("/images/feature-bkg-2.jpg");
+  background-image: url("../images/feature-bkg-2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

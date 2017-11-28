@@ -12,7 +12,7 @@
   {% if _direction == 'left' %}
     {{image.content({
       class: "arrow arrow--prev",
-      src: "/images/arrow.svg"
+      src: "images/arrow.svg"
     })}}
   {% endif %}
 
@@ -24,7 +24,7 @@
   {% if _direction == 'right' %}
     {{image.content({
       class: "arrow arrow--next",
-      src: "/images/arrow.svg"
+      src: "images/arrow.svg"
     })}}
   {% endif %}
 </a>

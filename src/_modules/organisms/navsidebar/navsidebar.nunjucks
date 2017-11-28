@@ -10,7 +10,7 @@
 <div class="{{_class}}">
   {{image.content({
     class: "cwru-logo",
-    src: "/images/cwru-logo-white.png"
+    src: "images/cwru-logo-white.png"
   })}}
 
   {{navmenu.content({
