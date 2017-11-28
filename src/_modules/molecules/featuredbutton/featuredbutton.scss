@@ -12,4 +12,11 @@
   .button--featured--img {
     max-width: 320px;
   }
+  .arrow {
+    width: $small;
+    margin: 0 auto;
+    &.arrow--prev {
+      transform: rotate(180deg);
+    }
+  }
 }

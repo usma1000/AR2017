@@ -10,8 +10,10 @@
 
 <a href="#" class="{{_class}}" data-direction="{{_direction}}">
   {% if _direction == 'left' %}
-    {# REPLACE WITH AN SVG #}
-    &lt;
+    {{image.content({
+      class: "arrow arrow--prev",
+      src: "/images/arrow.svg"
+    })}}
   {% endif %}
 
   {{image.content({
@@ -20,8 +22,10 @@
   })}}
 
   {% if _direction == 'right' %}
-    {# REPLACE WITH AN SVG #}
-    &gt;
+    {{image.content({
+      class: "arrow arrow--next",
+      src: "/images/arrow.svg"
+    })}}
   {% endif %}
 </a>
 {% endmacro %}

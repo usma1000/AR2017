@@ -16,7 +16,22 @@ $navwidth: 300px;
 
 .container--prev {
   flex: 0 0 $prevwidth;
-  background: #000;
+  background-color: $off-black;
+  background-image: url("/images/feature-bkg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.8);
+  }
 }
 
 .container--navbar {
@@ -61,7 +76,7 @@ $navwidth: 300px;
 
 header.feature-background {
   background: #2B2B2B;
-  background-image: url("/images/feature-bkg-1.jpg");
+  background-image: url("/images/feature-bkg-2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
