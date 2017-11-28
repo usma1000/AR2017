@@ -21,7 +21,27 @@ $navwidth: 300px;
 
 .container--navbar {
   flex: 0 0 $navwidth;
+  overflow-y: auto;
 }
+
+.container--navbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: $off-black;
+}
+
+.container--navbar::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: $off-black;
+}
+
+.container--navbar::-webkit-scrollbar-thumb
+{
+	background-color: black;
+	border: 1px solid #222222;
+}
+
 
 .container--content {
   overflow: scroll;
