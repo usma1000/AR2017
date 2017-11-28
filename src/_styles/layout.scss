@@ -1,23 +1,49 @@
+$prevwidth: 100px;
+$navwidth: 300px;
+
 .container {
   width: 100%;
   padding: 1em 2em;
 }
 
-.container--main {
+.container--full {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .container--prev {
-  width: 100px;
+  flex: 0 0 $prevwidth;
+  background: #000;
 }
 
 .container--navbar {
-  width: 300px;
+  flex: 0 0 $navwidth;
+}
+
+.container--content {
+  overflow: scroll;
 }
 
 .flex {
   display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+header.feature-background {
+  background: #2B2B2B;
+  background-image: url("/images/feature-bkg-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

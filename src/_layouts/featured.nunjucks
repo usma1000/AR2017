@@ -10,7 +10,7 @@
 {% import "_modules/organisms/featuredbuttons/featuredbuttons.nunjucks" as featuredbuttons %}
 
 {% block layout %}
-<div class="container--main flex">
+<div class="container--full flex">
   <div class="container--prev"></div>
 
   {{navsidebar.content({
@@ -18,22 +18,27 @@
     class: "navsidebar container--navbar"
   })}}
 
-  <div class="container">
-    {{navmenu.content({
-      data: site.data.menu,
-      style: "topnav",
-      ulclass: "topnav"
-    })}}
+  <div class="container--content">
+    <header class="feature-background container flex flex-col">
+      {{navmenu.content({
+        data: site.data.menu,
+        style: "topnav",
+        ulclass: "topnav"
+      })}}
 
-    <div class="layout-wrapper featured">
+      <div class="flex-grow">
+        {% block title %}{% endblock %}
+      </div>
+
+      {{carouselbuttons.content({
+        data: site.data.menu.featured
+      })}}
+
+      {{featuredbuttons.content({})}}
+    </header>
+    <div class="container">
       {% block content %}{% endblock %}
     </div>
-
-    {{featuredbuttons.content({})}}
-
-    {{carouselbuttons.content({
-      data: site.data.menu.featured
-    })}}
   </div>
 </div>
 {% endblock %}

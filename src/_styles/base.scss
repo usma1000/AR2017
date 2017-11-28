@@ -7,7 +7,7 @@
 }
 
 html {
-  background: #000;
+
 }
 
 body {
@@ -15,21 +15,17 @@ body {
   font-size: 20px;
   min-height: 100vh;
   padding: 0;
-  // TEMPORARY!!! CHANGE THIS!
-  background: #2B2B2B;
-  background-image: url("/images/feature-bkg-1.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 // Fade effect
 .js body {
   opacity: 0;
   transition: opacity 1s;
+  background: #000;
 }
 
 .js body.render {
   opacity: 1;
+  background: #FFF;
 }
 // Styling on warning for users on IE7 or below
 .browsehappy {

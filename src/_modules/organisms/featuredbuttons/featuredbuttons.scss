@@ -2,7 +2,6 @@
 .container--featured-buttons {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  bottom: 5%;
-  width: 64%;
+  width: 100%;
+  margin: $large 0;
 }

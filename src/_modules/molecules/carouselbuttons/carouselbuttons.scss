@@ -1,13 +1,10 @@
 // carouselbuttons styles
 
 .carousel-controls {
-  position: absolute;
-  right: 0;
-  bottom: 25%;
+  margin: $large 0 $large auto;
 
   .carousel-numbers {
     margin-top: $large;
-    margin-right: $large;
     color: white;
     font-size: 36px;
     .current {
@@ -19,7 +16,7 @@
 .radios--carousel {
   position: relative;
   width: 100px;
-  transform: rotate(90deg);
+  transform: rotate(90deg) translateY(-60px);
 
   input[type="radio"] {
     position: absolute;
@@ -30,7 +27,7 @@
     float: left;
     width: 15%;
     padding-bottom: 15%;
-    margin: 0 2.5%;
+    margin: 0 5%;
     background: rgba(255,255,255,.2);
     border-radius: 50%;
     cursor: pointer;
@@ -43,7 +40,7 @@
   top: 0;
   width: 10%;
   padding-bottom: 10%;
-  margin: 2.5% 0 0 5%;
+  margin: 3px 0 0 8px;
   background: #fff;
   transition: transform 1s;
   border-radius: 50%;
@@ -54,9 +51,9 @@
 }
 
 #input1:checked  ~ #slider{ animation-name: input1; left:0; }
-#input2:checked  ~ #slider{ animation-name: input2; left:20%; }
-#input3:checked  ~ #slider{ animation-name: input3; left:40%; }
-#input4:checked  ~ #slider{ animation-name: input4; left:60%; }
+#input2:checked  ~ #slider{ animation-name: input2; left:25%; }
+#input3:checked  ~ #slider{ animation-name: input3; left:50%; }
+#input4:checked  ~ #slider{ animation-name: input4; left:75%; }
 
 @keyframes input1{ 30%, 70% { transform:scale(0.5); } }
 @keyframes input2{ 30%, 70% { transform:scale(0.5); } }
