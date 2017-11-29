@@ -1,0 +1,10 @@
+{% extends '_layouts/secondary.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block content %}
+<p>his-move page</p>
+{% endblock %}

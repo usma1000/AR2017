@@ -5,7 +5,7 @@
 
 {% block layout %}
 <div class="layout-wrapper secondary">
-  {% block secondary %}{% endblock %}
+  {% block content %}{% endblock %}
 </div>
 {% endblock %}
 

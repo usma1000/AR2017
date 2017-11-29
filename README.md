@@ -1,11 +1,13 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
+- Remove prev-image container
+- Move sidenav, topnav, title, and background image into base layout
+- Add thumbnails to secondary stories in sidenav
 - Find SVG CWRU logo
 - Create pull quote atom
 - Add transition effect between stories
 - Set up a proper responsive container
-- Create test page for secondary story and add to nav
 
 ## ToDo Later
 - Animation for hover and clicking of prev/next buttons
