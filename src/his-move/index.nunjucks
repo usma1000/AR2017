@@ -4,7 +4,12 @@
   {# Correct base url pathing for this page #}
   {% set baseUrl = '../' %}
 {% endblock %}
-
+{% block title %}
+<p>his-move title</p>
+{% endblock %}
+{% block pullquote %}
+<p>his-move pullquote</p>
+{% endblock %}
 {% block content %}
-<p>his-move page</p>
+<p>his-move content</p>
 {% endblock %}

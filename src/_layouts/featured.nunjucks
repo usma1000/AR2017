@@ -28,6 +28,10 @@
         {% block title %}{% endblock %}
       </div>
 
+      <div class="pull-quote">
+        {% block pullquote %}{% endblock %}
+      </div>
+
       {# {{carouselbuttons.content({
         data: site.data.menu.featured
       })}}

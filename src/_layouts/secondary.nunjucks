@@ -5,7 +5,17 @@
 
 {% block layout %}
 <div class="layout-wrapper secondary">
-  {% block content %}{% endblock %}
+  <div class="flex-grow">
+    {% block title %}{% endblock %}
+  </div>
+
+  <div class="pull-quote">
+    {% block pullquote %}{% endblock %}
+  </div>
+
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
 </div>
 {% endblock %}
 
