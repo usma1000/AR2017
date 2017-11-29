@@ -4,8 +4,8 @@
 {% block stylesheets %}{% endblock %}
 
 {% block layout %}
-<div class="layout-wrapper one-col">
-  {% block content %}{% endblock %}
+<div class="layout-wrapper secondary">
+  {% block secondary %}{% endblock %}
 </div>
 {% endblock %}
 

@@ -2,9 +2,10 @@
 
 ## ToDo
 - Find SVG CWRU logo
-- Integrate p5
+- Create pull quote atom
 - Add transition effect between stories
 - Set up a proper responsive container
+- Create test page for secondary story and add to nav
 
 ## ToDo Later
 - Animation for hover and clicking of prev/next buttons
@@ -82,4 +83,4 @@ Code Management
 
 `yo yeogurt:layout one-col`: Creates a new layout file.
 
-`yo yeogurt:page contact --layout=one-col`: Optional layout to extend from (base is default).
+`yo yeogurt:layout contact --layout=one-col`: Optional layout to extend from (base is default).
