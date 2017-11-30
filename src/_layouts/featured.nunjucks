@@ -16,13 +16,15 @@
   })}}
 
   {% block title %}{% endblock %}
-</header>
 
-<div class="content content--white">
   <div class="pull-quote">
     {% block pullquote %}{% endblock %}
   </div>
+</header>
+
+<div class="content content--white">
   
+
   {% block content %}{% endblock %}
 </div>
     
