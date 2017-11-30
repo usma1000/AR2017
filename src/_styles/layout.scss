@@ -3,7 +3,7 @@ $navwidth: 300px;
 
 .container {
   width: 100%;
-  padding: $large;
+  padding: $medium $large;
 }
 
 .container--main {
@@ -26,7 +26,7 @@ $navwidth: 300px;
 }
 
 .container--navbar::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   background-color: $off-black;
 }
 
@@ -55,7 +55,7 @@ $navwidth: 300px;
 .feature-background {
   background: #2B2B2B;
   background-image: url("../images/feature-bkg-1.jpg");
-  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -93,16 +93,21 @@ $navwidth: 300px;
   }
 }
 
-header {
-  position: relative;
-}
-
 .pull-quote {
-  font-size: 2em;
-  font-weight: bold;
-  position: absolute;
-  top: 100%;
+  opacity: 0;
+  position: fixed;
+  transition: opacity .4s;
+}
+.pull-quote.visible {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
   right: 0;
-  width: 300px;
-  text-align: right;
+  left: $navwidth;
+  background-color: $cwru-blue;
+  padding: $large;
+  font-size: 5em;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }

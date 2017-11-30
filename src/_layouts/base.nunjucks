@@ -60,8 +60,8 @@
         data: site.data.menu,
         class: "navsidebar container--navbar"
       })}}
-
-      <div class="container flex flex-col feature-background  content--white">
+      <div class="container flex flex-col feature-background content--white">
+        <div class="pull-quote">"This is a test pull quote."</div>
         {% block layout %}{% endblock %}
       </div>
     </div>

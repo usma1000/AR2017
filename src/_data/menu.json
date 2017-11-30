@@ -3,43 +3,54 @@
     {
       "name": "Applications",
       "url": "#",
-      "img": "feature-thumb-1.png"
+      "img": "feature-thumb-1.png",
+      "pullquote": "This is the pull quote."
     },{
       "name": "CES",
       "url": "#",
-      "img": "feature-thumb-2.png"
+      "img": "feature-thumb-2.png",
+      "pullquote": "This is the pull quote."
     },{
       "name": "You Are Welcome Here",
       "url": "#",
-      "img": "feature-thumb-3.png"
+      "img": "feature-thumb-3.png",
+      "pullquote": "This is the pull quote."
     },{
       "name": "Braingate",
       "url": "#",
-      "img": "feature-thumb-4.png"
+      "img": "feature-thumb-4.png",
+      "pullquote": "This is the pull quote."
     }
   ],
   "secondary": [
     {
       "name": "Prosthetic sense of touch",
-      "url": "#"
+      "url": "#",
+      "pullquote": "This is the pull quote"
     },{
       "name": "Computer program beats physicians at brain cancer diagnoses",
-      "url": "#"
+      "url": "#",
+      "pullquote": "This is the pull quote"
     },{
       "name": "Innocence Project",
-      "url": "#"
+      "url": "#",
+      "pullquote": "This is the pull quote"
     },{
       "name": "Colorectal Cancer \"Dream Team\"",
-      "url": "#"
+      "url": "#",
+      "pullquote": "This is the pull quote"
     },{
       "name": "Medicine, physics collaboration wins federal Patent for Humanity Award",
-      "url": "#"
+      "url": "#",
+      "pullquote": "This is the pull quote"
     },{
       "name": "Professor, trustee contribute to report on curtailing the opioid epidemic",
-      "url": "#"
+      "url": "#",
+      "pullquote": "This is the pull quote"
     },{
       "name": "His Move",
-      "url": "/his-move/"
+      "url": "/his-move/",
+      "pullquote": "This is the pull quote"
     }
   ],
   "topnav": [

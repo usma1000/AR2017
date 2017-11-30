@@ -1,8 +1,7 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
-- Remove prev-image container
-- Move sidenav, topnav, title, and background image into base layout
+- Toggle pullquote visibility on menu item hover
 - Add thumbnails to secondary stories in sidenav
 - Find SVG CWRU logo
 - Create pull quote atom

@@ -7,7 +7,6 @@
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
 {% block layout %}
-  
 <header>
   {{navmenu.content({
     data: site.data.menu,
@@ -16,10 +15,6 @@
   })}}
 
   {% block title %}{% endblock %}
-
-  <div class="pull-quote">
-    {% block pullquote %}{% endblock %}
-  </div>
 </header>
 
 <div class="content">

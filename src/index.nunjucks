@@ -4,10 +4,6 @@
 {{pagetitle.content({text: "His Move"})}}
 {% endblock %}
 
-{% block pullquote %}
-“He can now think about moving his arm, and his arm moves.”
-{% endblock %}
-
 {% block content %}
   <p>When a teenage Bob Kirsch began dating his future wife, Donna, he quickly found that her family would become an important part of his personal life. It wasn’t until far later that he realized how much they would drive his career—and, decades later, catalyze a landmark discovery.</p>
   <p>As the lead researcher on a project that gave a Cleveland man with quadriplegia the power to move his paralyzed limb with his thoughts, Kirsch created a first-of-its-kind connection that drew worldwide attention.</p>

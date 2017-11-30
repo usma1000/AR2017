@@ -12,19 +12,14 @@
 {% if (_style == "featured") %}
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.featured %}
-    <li class="{{_liClass}}">
+    <li class="{{_liClass}}" data-pullquote="{{val.pullquote}}">
       <a href="{{val.url}}" class="menu--featured-link">
-      {{image.content({
-        class: "menu--featured-img",
-        src: "images/" + val.img,
-        alt: "thumbnail for " + val.name|lower
-      })}}
-      <p class="menu--link">{{val.name}}</p>
-      {# {{link.content({
-        class: "menu--link",
-        href: val.url,
-        text: val.name
-      })}} #}
+        {{image.content({
+          class: "menu--featured-img",
+          src: "images/" + val.img,
+          alt: "thumbnail for " + val.name|lower
+        })}}
+        <p class="menu--link">{{val.name}}</p>
       </a>
     </li>
   {% endfor %}
@@ -35,7 +30,7 @@
 {% if (_style == "secondary") %}
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.secondary %}
-    <li class="{{_liClass}}">
+    <li class="{{_liClass}}" data-pullquote="{{val.pullquote}}">
       {{link.content({
         class: "menu--link link--underline",
         href: val.url,
