@@ -1,6 +1,7 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
+- Add slick through NPM
 - Remove prev-image container
 - Move sidenav, topnav, title, and background image into base layout
 - Add thumbnails to secondary stories in sidenav
