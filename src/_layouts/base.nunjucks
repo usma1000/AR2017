@@ -5,6 +5,8 @@
   {% set baseUrl = config.baseUrl or './' %}
 {% endblock %}
 
+{% import "../_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -53,7 +55,16 @@
     </p>
     <![endif]-->
 
-    {% block layout %}{% endblock %}
+    <div class="container--main flex">
+      {{navsidebar.content({
+        data: site.data.menu,
+        class: "navsidebar container--navbar"
+      })}}
+
+      <div class="container flex flex-col feature-background">
+        {% block layout %}{% endblock %}
+      </div>
+    </div>
 
     <script src="{{baseUrl}}scripts/main.js"></script>
     {% block scripts %}{% endblock %}

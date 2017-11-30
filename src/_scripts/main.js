@@ -13,6 +13,6 @@ $(function() {
   // GENERAL METHODS
   // Body fades in from black on page load
   setTimeout(function() {
-    document.body.classList.add('render')
+    document.body.classList.add('render');
   },60);
 });

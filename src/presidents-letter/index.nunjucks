@@ -1,0 +1,10 @@
+{% extends '_layouts/one-col.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block content %}
+<p>presidents-letter page</p>
+{% endblock %}

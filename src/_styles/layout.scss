@@ -6,37 +6,23 @@ $navwidth: 300px;
   padding: $large;
 }
 
-.container--full {
+.container--main {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.container--prev {
-  flex: 0 0 $prevwidth;
-  background-color: $off-black;
-  background-image: url("../images/feature-bkg-4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  position: relative;
-  &:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,.8);
-  }
-}
-
 .container--navbar {
   flex: 0 0 $navwidth;
   overflow-y: auto;
+  margin-left: 0;
+  transition: margin-left .4s;
+}
+
+.container--navbar.hidden {
+  margin-left: -$navwidth;
 }
 
 .container--navbar::-webkit-scrollbar-track {
@@ -54,10 +40,6 @@ $navwidth: 300px;
   border: 1px solid #222222;
 }
 
-.container--content {
-  overflow-y: scroll;
-}
-
 .flex {
   display: flex;
 }
@@ -70,7 +52,7 @@ $navwidth: 300px;
   flex-grow: 1;
 }
 
-header.feature-background {
+.feature-background {
   background: #2B2B2B;
   background-image: url("../images/feature-bkg-1.jpg");
   background-attachment: fixed;
@@ -81,9 +63,7 @@ header.feature-background {
 
 .two-col {
   column-count: 2;
-  column-gap: 10em;
-  column-width: 20em;
-  column-rule: 3px solid $cwru-green;
+  column-gap: 2em;
 }
 
 .green-underline {
@@ -98,4 +78,13 @@ header.feature-background {
 
 .spacer--bottom {
   margin-bottom: $large;
+}
+
+.content {
+  max-width: 600px;
+  line-height: 1.5;
+  margin-left: $large;
+  &.content--white{
+    color: white;
+  }
 }
