@@ -83,17 +83,21 @@ $navwidth: 300px;
 .content {
   max-width: 600px;
   line-height: 1.5;
-  margin-left: $large;
-  &.content--white{
+  margin-left: $large; 
+}
+
+.content--white{
+  color: white;
+  a {
     color: white;
   }
 }
+
 header {
   position: relative;
 }
 
 .pull-quote {
-  color: white;
   font-size: 2em;
   font-weight: bold;
   position: absolute;

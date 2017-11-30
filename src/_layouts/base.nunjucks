@@ -61,7 +61,7 @@
         class: "navsidebar container--navbar"
       })}}
 
-      <div class="container flex flex-col feature-background">
+      <div class="container flex flex-col feature-background  content--white">
         {% block layout %}{% endblock %}
       </div>
     </div>

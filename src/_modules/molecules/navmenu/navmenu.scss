@@ -5,7 +5,6 @@
 }
 
 .menu--link {
-  color: white;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   z-index: 2;
@@ -18,6 +17,7 @@
 
 .navmenu--featured {
   margin: $large 0;
+  a {color: white;}
 
   .menu--li {
     position: relative;
@@ -61,6 +61,7 @@
 // Secondary navmenu styles
 
 .navmenu--secondary {
+  a {color: white;}
   .menu--li {
     padding: $small 0;
     border-bottom: 1px solid #383838;
