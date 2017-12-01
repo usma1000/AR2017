@@ -55,6 +55,9 @@
   ],
   "topnav": [
     {
+      "name": "Home",
+      "url": "/"
+    },{
       "name": "Facts & Figures",
       "url": "/facts-figures/"
     },{
