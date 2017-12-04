@@ -15,4 +15,10 @@ $(function() {
   setTimeout(function() {
     document.body.classList.add('render');
   },60);
+
+  // SLICK
+  // Instantiate Slick Gallery
+  $('.slides').slick({
+    adaptiveHeight: true
+  });
 });

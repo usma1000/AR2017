@@ -13,14 +13,12 @@
     style: "topnav",
     ulclass: "topnav"
   })}}
-
-  {% block title %}{% endblock %}
 </header>
 
 <div class="content">
   {% block content %}{% endblock %}
 </div>
-    
+
 {% endblock %}
 
 {# Add extra scripts #}
