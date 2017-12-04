@@ -17,16 +17,43 @@ $(function() {
   },60);
 
   // SLICK
-  // Instantiate Slick Gallery
+  // Slick events
+  $('.slides')
+    .on('init', function(slick){
+      setBackground(1);
+      $('li[data-slide]').first().addClass('active');
+    })
+    .on('beforeChange', function(event, slick, currentSlide, nextSlide){
+      // Load quotes
+      console.log("before change", nextSlide);
+    })
+    .on('afterChange', function(event, slick, currentSlide){
+      // Change background image
+      setBackground(currentSlide + 1);
+    })
+    .on('lazyLoaded', function(event, slick, image, imageSource){
+      console.log("test");
+    });
+  // Bind Slick Gallery
   $('.slides').slick({
     arrows: false,
+    infinite: false,
+    lazyLoad: 'progressive',
   });
-  // Use sidebar nav to go to slide
+  // Set the background image url
+  function setBackground(num) {
+    var bkgUrl = 'url(../images/feature-bkg-' + num + '.jpg)';
+    $('.feature-background').css('background-image', bkgUrl);
+  }
+  // Use sidebar nav to go to slick slide
   $('li[data-slide]').click(function(e) {
+    e.preventDefault();
+    // Remove active class from all elements
     $('li[data-slide]').removeClass('active');
+    // Add active class to clicked element
     $(this).addClass('active');
-   e.preventDefault();
-   var slideno = $(this).data('slide');
-   $('.slides').slick('slickGoTo', slideno - 1);
- });
+    // Use data-slide attribute to go to that slide
+    var slideno = $(this).data('slide');
+    $('.slides').slick('slickGoTo', slideno - 1);
+  });
 });
