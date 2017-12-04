@@ -19,6 +19,14 @@ $(function() {
   // SLICK
   // Instantiate Slick Gallery
   $('.slides').slick({
-    adaptiveHeight: true
+    arrows: false,
   });
+  // Use sidebar nav to go to slide
+  $('li[data-slide]').click(function(e) {
+    $('li[data-slide]').removeClass('active');
+    $(this).addClass('active');
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('.slides').slick('slickGoTo', slideno - 1);
+ });
 });
