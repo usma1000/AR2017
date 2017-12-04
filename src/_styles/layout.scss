@@ -92,21 +92,27 @@ $navwidth: 300px;
   }
 }
 
-.pull-quote {
-  opacity: 0;
+.mask {
+  opacity: .5;
   position: fixed;
-  transition: opacity .4s;
-}
-.pull-quote.visible {
-  opacity: 1;
   top: 0;
   bottom: 0;
   right: 0;
   left: $navwidth;
-  background-color: $cwru-blue;
-  padding: $large;
-  font-size: 5em;
-  display: flex;
-  text-align: center;
-  align-items: center;
+  content: '';
+  background-color: black;
+  transition: opacity .4s;
+}
+.mask.active {
+  opacity: 1;
+}
+
+.pull-quote {
+  padding: $large 0;
+  font-size: 2em;
+  transition: opacity .4s;
+}
+
+.slide-text {
+  display: none;
 }

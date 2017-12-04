@@ -18,32 +18,40 @@ $(function() {
 
   // SLICK
   // Slick events
+  var DELAY = 3000;
   $('.slides')
     .on('init', function(slick){
-      setBackground(1);
       $('li[data-slide]').first().addClass('active');
+      $('.slick-active .pull-quote').delay(DELAY).slideUp();
+      $('.slick-active .slide-text').delay(DELAY).slideDown();
+      setBackground(1);
     })
     .on('beforeChange', function(event, slick, currentSlide, nextSlide){
-      // Load quotes
-      console.log("before change", nextSlide);
+      $('.pull-quote').slideDown();
+      $('.slide-text').slideUp();
+      setBackground(nextSlide + 1);
     })
     .on('afterChange', function(event, slick, currentSlide){
-      // Change background image
-      setBackground(currentSlide + 1);
+      $('.slick-active .pull-quote').delay(DELAY).slideUp();
+      $('.slick-active .slide-text').delay(DELAY).slideDown();
     })
     .on('lazyLoaded', function(event, slick, image, imageSource){
-      console.log("test");
     });
   // Bind Slick Gallery
   $('.slides').slick({
     arrows: false,
     infinite: false,
-    lazyLoad: 'progressive',
   });
   // Set the background image url
   function setBackground(num) {
-    var bkgUrl = 'url(../images/feature-bkg-' + num + '.jpg)';
-    $('.feature-background').css('background-image', bkgUrl);
+    $('.mask').addClass('active');
+    var bkgSrc = 'images/feature-bkg-' + num + '.jpg';
+    var bkgUrl = 'url(' + bkgSrc + ')';
+    $('<img/>').attr('src', bkgSrc).on('load', function() {
+      $(this).remove();
+      $('.feature-background').css('background-image', bkgUrl);
+      $('.mask').removeClass('active');
+    });
   }
   // Use sidebar nav to go to slick slide
   $('li[data-slide]').click(function(e) {
