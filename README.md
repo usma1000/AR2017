@@ -1,4 +1,10 @@
 # CWRU Annual Report 2017 Site
+Quick start:
+- `cd ~/Documents/`
+- `git clone https://github.com/usma1000/AR2017.git`
+- `cd AR2017`
+- `npm install`
+- `gulp serve --open`
 
 ## ToDo
 - Move topnav above mask
