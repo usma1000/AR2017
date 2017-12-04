@@ -102,6 +102,7 @@ $navwidth: 300px;
   content: '';
   background-color: black;
   transition: opacity .4s;
+  pointer-events: none;
 }
 .mask.active {
   opacity: 1;

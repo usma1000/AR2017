@@ -3,6 +3,42 @@
 {% block content %}
 <div class="slides">
   <div class="slide">
+    {{pagetitle.content({text: "Applications"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "CES"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "You Are Welcome Here"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "Braingate"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
     {{pagetitle.content({text: "His Move"})}}
     <div class="pull-quote">
       “The code was still in his brain.”

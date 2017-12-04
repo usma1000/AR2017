@@ -1,12 +1,9 @@
 # CWRU Annual Report 2017 Site
 
 ## ToDo
-- Toggle pullquote visibility on menu item hover
+- Move topnav above mask
 - Add thumbnails to secondary stories in sidenav
 - Find SVG CWRU logo
-- Create pull quote atom
-- Add transition effect between stories
-- Set up a proper responsive container
 
 ## ToDo Later
 - Animation for hover and clicking of prev/next buttons

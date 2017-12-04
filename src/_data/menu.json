@@ -2,55 +2,37 @@
   "featured": [
     {
       "name": "Applications",
-      "url": "#",
-      "img": "feature-thumb-1.png",
-      "pullquote": "This is the pull quote."
+      "img": "feature-thumb-1.png"
     },{
       "name": "CES",
-      "url": "#",
-      "img": "feature-thumb-2.png",
-      "pullquote": "This is the pull quote."
+      "img": "feature-thumb-2.png"
     },{
       "name": "You Are Welcome Here",
-      "url": "#",
-      "img": "feature-thumb-3.png",
-      "pullquote": "This is the pull quote."
+      "img": "feature-thumb-3.png"
     },{
       "name": "Braingate",
-      "url": "#",
-      "img": "feature-thumb-4.png",
-      "pullquote": "This is the pull quote."
+      "img": "feature-thumb-4.png"
     }
   ],
   "secondary": [
     {
-      "name": "Prosthetic sense of touch",
-      "url": "#",
-      "pullquote": "This is the pull quote"
+      "name": "His Move"
     },{
-      "name": "Computer program beats physicians at brain cancer diagnoses",
-      "url": "#",
-      "pullquote": "This is the pull quote"
+      "name": "Closer Connections"
     },{
-      "name": "Innocence Project",
-      "url": "#",
-      "pullquote": "This is the pull quote"
+      "name": "A Better Diagnosis"
     },{
-      "name": "Colorectal Cancer \"Dream Team\"",
-      "url": "#",
-      "pullquote": "This is the pull quote"
+      "name": "A Dream Achieved"
     },{
-      "name": "Medicine, physics collaboration wins federal Patent for Humanity Award",
-      "url": "#",
-      "pullquote": "This is the pull quote"
+      "name": "Computer program beats physicians at brain cancer diagnoses"
     },{
-      "name": "Professor, trustee contribute to report on curtailing the opioid epidemic",
-      "url": "#",
-      "pullquote": "This is the pull quote"
+      "name": "Innocence Project"
     },{
-      "name": "His Move",
-      "url": "/his-move/",
-      "pullquote": "This is the pull quote"
+      "name": "Colorectal Cancer \"Dream Team\""
+    },{
+      "name": "Medicine, physics collaboration wins federal Patent for Humanity Award"
+    },{
+      "name": "Professor, trustee contribute to report on curtailing the opioid epidemic"
     }
   ],
   "topnav": [
