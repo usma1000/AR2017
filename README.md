@@ -9,7 +9,6 @@ Quick start:
 - `gulp serve --open`
 
 ## ToDo
-- Move topnav above mask
 - Add thumbnails to secondary stories in sidenav
 - Find SVG CWRU logo
 - Add final background images

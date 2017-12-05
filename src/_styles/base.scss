@@ -17,6 +17,10 @@ body {
   padding: 0;
 }
 
+header {
+  z-index: 10;
+}
+
 // Fade effect
 .js body {
   opacity: 0;
