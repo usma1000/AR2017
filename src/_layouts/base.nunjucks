@@ -6,6 +6,7 @@
 {% endblock %}
 
 {% import "../_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
+{% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -61,6 +62,14 @@
         class: "navsidebar container--navbar"
       })}}
       <div class="container flex flex-col feature-background content--white">
+
+        <header>
+          {{navmenu.content({
+            data: site.data.menu,
+            style: "topnav",
+            ulclass: "topnav"
+          })}}
+        </header>
         <div class="mask"></div>
         {% block layout %}{% endblock %}
       </div>
