@@ -4,16 +4,8 @@
 {% block stylesheets %}{% endblock %}
 
 {% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
-{% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
 {% block layout %}
-<header>
-  {{navmenu.content({
-    data: site.data.menu,
-    style: "topnav",
-    ulclass: "topnav"
-  })}}
-</header>
 
 <div class="content">
   {% block content %}{% endblock %}
