@@ -4,32 +4,20 @@ Quick start:
 - `git clone https://github.com/usma1000/AR2017.git`
 - `cd AR2017`
 - `npm install`
+- `npm install -g yo`
+- `npm install -g generator-yeogurt`
 - `gulp serve --open`
 
 ## ToDo
 - Move topnav above mask
 - Add thumbnails to secondary stories in sidenav
 - Find SVG CWRU logo
-
-## ToDo Later
-- Animation for hover and clicking of prev/next buttons
 - Add final background images
 - Crop and resize all images
-- Progressive loading for background images
 - Secondary stories layout
 - Integrate PatternLab
 
-## First time setup
-
-`npm install` will install all the necessary node files.
-
-`npm install -g yo` will allow you to run yo commands.
-
-`npm install -g generator-yeogurt` will allow you to run the generators built on yo.
-
-If everything is setup correctly, `gulp serve --open` should launch the site.
-
-## Technologies used
+## Documentation Links
 
 Styles
 - [Sass](http://sass-lang.com/) via ([node-sass](https://github.com/sass/node-sass))
