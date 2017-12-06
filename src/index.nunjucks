@@ -1,14 +1,116 @@
 {% extends '_layouts/featured.nunjucks' %}
 
-{% block title %}
-{{pagetitle.content({text: "His Move"})}}
-{% endblock %}
-
 {% block content %}
-  <p>When a teenage Bob Kirsch began dating his future wife, Donna, he quickly found that her family would become an important part of his personal life. It wasn’t until far later that he realized how much they would drive his career—and, decades later, catalyze a landmark discovery.</p>
-  <p>As the lead researcher on a project that gave a Cleveland man with quadriplegia the power to move his paralyzed limb with his thoughts, Kirsch created a first-of-its-kind connection that drew worldwide attention.</p>
-  <p>After years of testing, Kirsch—chair of the university’s Department of Biomedical Engineering—and his team discovered a way to pair electrical stimulation with a unique brain-computer interface allowed the man move his arm and hand—and even feed himself—just by thinking.</p>
-  <p>Kirsch’s inspiration? Donna’s late brother, paralyzed at 18 by a sports injury.</p>
-  <p>“I saw there were things I could do for … people like him,” Kirsch said.</p>
-  <p>And with this breakthrough, he has.</p>
+<div class="slides">
+  <div class="slide">
+    {{pagetitle.content({text: "Applications"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "CES"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "You Are Welcome Here"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "Braingate"})}}
+    <div class="pull-quote">
+      “Temporary quote.”
+    </div>
+    <div class="slide-text">
+      <p>Placeholder text</p>
+    </div>
+  </div>
+  <div class="slide">
+    {{pagetitle.content({text: "His Move"})}}
+    <div class="pull-quote">
+      “The code was still in his brain.”
+    </div>
+    <div class="slide-text">
+      <p>When a teenage Bob Kirsch began dating his future wife, Donna, he quickly found that her family would become an important part of his personal life. It wasn’t until far later that he realized how much they would drive his career—and, decades later, catalyze a landmark discovery.</p>
+      <p>As the lead researcher on a project that gave a Cleveland man with quadriplegia the power to move his paralyzed limb with his thoughts, Kirsch created a first-of-its-kind connection that drew worldwide attention.</p>
+      <p>After years of testing, Kirsch—chair of the university’s Department of Biomedical Engineering—and his team discovered a way to pair electrical stimulation with a unique brain-computer interface allowed the man move his arm and hand—and even feed himself—just by thinking.</p>
+      <p>Kirsch’s inspiration? Donna’s late brother, paralyzed at 18 by a sports injury.</p>
+      <p>“I saw there were things I could do for … people like him,” Kirsch said.</p>
+      <p>And with this breakthrough, he has.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    {{pagetitle.content({text: "Closer Connections"})}}
+    <div class="pull-quote">
+      “I had a really bad day, and I just wanted a hug.”
+    </div>
+    <div class="slide-text">
+      <p>The night before her first Consumer Electronics Show (CES), Xyla Foxlin soldered by the light of
+  her iPhone in her Las Vegas hotel room, feeling unprepared and overwhelmed.</p>
+      <p>But the next morning, she watched in awe as tradeshow attendees who stopped by her booth
+  shifted quickly from casual curiosity to intense interest.</p>
+      <p>“People started pulling out their credit cards,” she remembered, “saying, ‘Can I buy this now?’”</p>
+      <p>“This” was Parihug, a wireless-enabled stuffed animal that can transmit cuddles around the
+  world.</p>
+      <p>The idea for the product emerged from a stressful day as a second-year college student. With
+  loved ones hundreds of miles away, Foxlin realized the only way to feel the kind of connection
+  she craved would be to create it herself.</p>
+      <p>Three years after building her first prototype in the Larry Sears and Sally Zlotnick Sears
+  think[box], Foxlin has raised more than $XXXXX for her start-up and drawn international
+  attention—including an appearance in Microsoft television commercials. ln 2017, Foxlin
+  returned to CES, where Case Western Reserve claimed 10 booths, the most of any university,
+  thanks in part to the assistance of the entrepreneurial support program CWRU LaunchNet.</p>
+      <p>The showing is just one of ways that our students think beyond the possible</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    {{pagetitle.content({text: "A Better Diagnosis"})}}
+    <div class="pull-quote">
+      “The existing solution just wasn’t good enough.”
+    </div>
+    <div class="slide-text">
+      <p>thanks in part to the assistance of the entrepreneurial support program CWRU LaunchNet.</p>
+      <p>But even that self-taught experience was enough to steer her to technological studies—and,
+  last fall, a discovery that may transform human health.</p>
+      <p>As an assistant professor of biomedical engineering, Tiwari works on ways that computers can
+  improve patient care. One of her most recent projects involved identifying alternatives to risky
+  biopsies for evaluating brain tumors. Using magnetic resonance imaging (MRI), Tiwari and her
+  team developed algorithms that taught the computer to distinguish between active and dead
+  cancer cells—a task so difficult that neurologists sometimes have to turn to surgery to be
+  certain.</p>
+      <p>The more scans the software reviewed, the better it became, ultimately discerning features the average eye could not.</p>
+      <p>In a test against two human neurologists, the computer correctly diagnosed four out of every five brain scans, while the physicians only got about half right.</p>
+      <p>Tiwari still needs to assess the technology’s accuracy with larger numbers of scans, but if it continues to work, patients could well have more promising futures.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    {{pagetitle.content({text: "A Dream Achieved"})}}
+    <div class="pull-quote">
+      “If we can starve the tumors, we can stop them from growing.”
+    </div>
+    <div class="slide-text">
+      <p>As a young researcher from China in graduate school in the U.S., Zhenghe “John” Wang found himself captivated by the possibilities of the then-emerging field of genome sequencing.</p>
+      <p>After earning his PhD, he won a fellowship in this country with one of the world’s pioneers in the subject. Within a few years, Wang himself discovered a gene mutation that appeared to have a connection with colorectal cancer.</p>
+      <p>Now, through a promising clinical trial backed by a multimillion-dollar grant, he and his team are testing an approach that aims to undo the damage the mutation creates. Specifically they are testing whether a one-two punch—blocking a key amino acid while delivering a specific chemotherapy drug—can “starve” the kinds of cancer cells found in patients with the mutation Wang found.</p>
+      <p>Recognizing the promise of this and other work by Case Western Reserve researchers, the university and the Case Comprehensive Cancer Center have been named one of 20 “Dream Teams” designated by the American Association for Cancer Research and Stand Up to Cancer.  Wang is one of the Cleveland team’s co-leaders.</p>
+      <p>“To work with the world’s research leaders to find treatment for cancer patients,” Wang said, “it’s beyond my wildest dream.”</p>
+    </div>
+  </div>
+</div>
 {% endblock %}

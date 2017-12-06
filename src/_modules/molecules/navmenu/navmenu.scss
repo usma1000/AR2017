@@ -20,6 +20,7 @@
   a {color: white;}
 
   .menu--li {
+    cursor: pointer;
     position: relative;
     margin-bottom: $small;
     margin-top: $medium;
@@ -35,7 +36,7 @@
       right: 100%;
       transition: right 0.3s ease;
     }
-
+    &.active:after,
     &:hover:after {
       right: 0;
     }
@@ -68,6 +69,10 @@
 
     &:last-of-type {
       border-bottom: none;
+    }
+
+    &.active a.link--underline {
+      background-size: 100% 100%;
     }
   }
 }

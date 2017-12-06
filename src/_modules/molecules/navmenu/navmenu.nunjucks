@@ -12,8 +12,8 @@
 {% if (_style == "featured") %}
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.featured %}
-    <li class="{{_liClass}}" data-pullquote="{{val.pullquote}}">
-      <a href="{{val.url}}" class="menu--featured-link">
+    <li class="{{_liClass}}" data-slide="{{loop.index}}">
+      <a href="#" class="menu--featured-link">
         {{image.content({
           class: "menu--featured-img",
           src: "images/" + val.img,
@@ -29,11 +29,11 @@
 {# secondary menu #}
 {% if (_style == "secondary") %}
   <ul class="navmenu {{_ulClass}}">
+  {% set featureCount = _data.featured.length %}
   {% for val in _data.secondary %}
-    <li class="{{_liClass}}" data-pullquote="{{val.pullquote}}">
+    <li class="{{_liClass}}" data-slide="{{loop.index + featureCount}}">
       {{link.content({
         class: "menu--link link--underline",
-        href: val.url,
         text: val.name
       })}}
     </li>
