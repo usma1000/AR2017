@@ -45,7 +45,7 @@ $(function() {
   // Set the background image url
   function setBackground(num) {
     $('.mask').addClass('active');
-    var bkgSrc = 'images/feature-bkg-' + num + '.jpg';
+    var bkgSrc = '../images/story-bkg-' + num + '.jpg';
     var bkgUrl = 'url(' + bkgSrc + ')';
     $('<img/>').attr('src', bkgSrc).on('load', function() {
       $(this).remove();

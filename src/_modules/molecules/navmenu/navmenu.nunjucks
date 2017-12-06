@@ -4,6 +4,7 @@
 {% set _ulClass = spec.ulclass or '' %}
 {% set _liClass = spec.liclass or 'menu--li' %}
 {% set _style = spec.style or 'featured' %}
+{% set baseUrl = '../' %}
 
 {% import "_modules/atoms/image/image.nunjucks" as image %}
 {% import "_modules/atoms/link/link.nunjucks" as link %}
@@ -16,7 +17,7 @@
       <a href="#" class="menu--featured-link">
         {{image.content({
           class: "menu--featured-img",
-          src: "images/" + val.img,
+          src: baseUrl + "images/" + val.img,
           alt: "thumbnail for " + val.name|lower
         })}}
         <p class="menu--link">{{val.name}}</p>
