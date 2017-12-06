@@ -1,7 +1,7 @@
 'use strict';
 
 var $ = require('jquery');
-var slick = require('slick-carousel');
+require('slick-carousel');
 
 $(function() {
   // REQUIRE MODULES
@@ -19,6 +19,18 @@ $(function() {
   // SLICK
   // Slick events
   var DELAY = 3000;
+  // Set the background image url
+  function setBackground(num) {
+    $('.mask').addClass('active');
+    var bkgSrc = '../images/story-bkg-' + num + '.jpg';
+    var bkgUrl = 'url(' + bkgSrc + ')';
+    $('<img/>').attr('src', bkgSrc).on('load', function () {
+      $(this).remove();
+      $('.feature-background').css('background-image', bkgUrl);
+      $('.mask').removeClass('active');
+    });
+  }
+  
   $('.slides')
     .on('init', function(slick){
       $('li[data-slide]').first().addClass('active');
@@ -42,19 +54,8 @@ $(function() {
     arrows: false,
     infinite: false,
   });
-  // Set the background image url
-  function setBackground(num) {
-    $('.mask').addClass('active');
-    var bkgSrc = '../images/story-bkg-' + num + '.jpg';
-    var bkgUrl = 'url(' + bkgSrc + ')';
-    $('<img/>').attr('src', bkgSrc).on('load', function() {
-      $(this).remove();
-      $('.feature-background').css('background-image', bkgUrl);
-      $('.mask').removeClass('active');
-    });
-  }
   // Use sidebar nav to go to slick slide
-  $('li[data-slide]').click(function(e) {
+  $('.false-links li[data-slide]').click(function(e) {
     e.preventDefault();
     // Remove active class from all elements
     $('li[data-slide]').removeClass('active');

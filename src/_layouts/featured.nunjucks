@@ -5,6 +5,13 @@
 
 {% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
 
+{% block sidebarnav %}
+  {{navsidebar.content({
+    data: site.data.menu,
+    class: "navsidebar container--navbar false-links"
+  })}}
+{% endblock %}
+
 {% block layout %}
 
 <div class="content">

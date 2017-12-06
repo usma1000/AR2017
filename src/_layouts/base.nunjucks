@@ -57,10 +57,13 @@
     <![endif]-->
 
     <div class="container--main flex">
-      {{navsidebar.content({
-        data: site.data.menu,
-        class: "navsidebar container--navbar"
-      })}}
+      {% block sidebarnav %}
+        {{navsidebar.content({
+          data: site.data.menu,
+          class: "navsidebar container--navbar"
+        })}}
+      {% endblock %}
+      
       <div class="container flex flex-col feature-background content--white">
 
         <header>

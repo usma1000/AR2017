@@ -14,7 +14,7 @@
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.featured %}
     <li class="{{_liClass}}" data-slide="{{loop.index}}">
-      <a href="#" class="menu--featured-link">
+      <a href="/stories" class="menu--featured-link">
         {{image.content({
           class: "menu--featured-img",
           src: baseUrl + "images/" + val.img,
@@ -35,7 +35,8 @@
     <li class="{{_liClass}}" data-slide="{{loop.index + featureCount}}">
       {{link.content({
         class: "menu--link link--underline",
-        text: val.name
+        text: val.name,
+        href: "/stories"
       })}}
     </li>
   {% endfor %}

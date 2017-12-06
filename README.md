@@ -8,13 +8,27 @@ Quick start:
 - `npm install -g generator-yeogurt`
 - `gulp serve --open`
 
+## Issues
+- Featured links don't span entire li. Only text/img are clickable
+- Sidebar links should open story page with correct story pulled up
+- When clicking through to story page, correct link should be active in sidebar
+- OR: easiest answer is that home page doesn't have the sidebar
+
 ## ToDo
-- Add thumbnails to secondary stories in sidenav
+- Design/create home page
+- Design/create one-col page layout
+- Design/create facts & figures page
+- Design/create president's letter page
+- Responsiveness
+- Accessibility
+- Add thumbnails to secondary stories in sidenav?
 - Find SVG CWRU logo
+- Integrate PatternLab?
+
+## Waiting On
+- Get final PDF from Emma and link to topnav
 - Add final background images
 - Crop and resize all images
-- Secondary stories layout
-- Integrate PatternLab
 
 ## Documentation Links
 
