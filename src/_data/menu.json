@@ -24,49 +24,35 @@
       "img": "thumb-carmen.jpg",
       "url": "/guilty-until-proven-innocent"
     },{
-      "name": "A Better Diagnosis",
-      "img": "thumb-bob-brian.jpg",
-      "url": "/"
-    },{
       "name": "A Dream Achieved",
-      "img": "thumb-carmen.jpg",
-      "url": "/"
-    },{
-      "name": "Computer program beats physicians at brain cancer diagnoses",
-      "img": "thumb-dustin.jpg",
-      "url": "/"
-    },{
-      "name": "Innocence Project",
       "img": "thumb-john.jpg",
-      "url": "/"
+      "url": "/a-dream-achieved"
     },{
-      "name": "Colorectal Cancer \"Dream Team\"",
+      "name": "A Better Diagnosis",
       "img": "thumb-pallavi.jpg",
-      "url": "/"
+      "url": "/a-better-diagnosis"
     },{
-      "name": "Medicine, physics collaboration wins federal Patent for Humanity Award",
-      "img": "thumb-sue.jpg",
-      "url": "/"
-    },{
-      "name": "Professor, trustee contribute to report on curtailing the opioid epidemic",
-      "img": "thumb-bob-brian.jpg",
-      "url": "/"
+      "name": "A Different Feeling",
+      "img": "thumb-dustin.jpg",
+      "url": "/a-different-feeling"
     },{
       "name": "The Key to a Cure",
       "img": "thumb-bob-brian.jpg",
-      "url": "/"
-    },{
-      "name": "A Different Feeling",
-      "img": "thumb-bob-brian.jpg",
-      "url": "/"
+      "url": "/key-to-a-cure"
     }
   ],
   "tertiary": [
     {
       "name": "Finding Our Way",
-      "url": "/"
+      "url": "/finding-our-way"
     },{
       "name": "Triple Threat",
+      "url": "/triple-threat"
+    },{
+      "name": "Data Stories",
+      "url": "/"
+    },{
+      "name": "Self(ie)-Help",
       "url": "/"
     }
   ],

@@ -1,0 +1,26 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+<img src="{{baseUrl}}images/story-bkg-bob-brian.jpg" class="hidden get-bkg">
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "The Key to a Cure"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “Without something like this, the world could possibly never get rid of malaria.”
+{% endblock %}
+
+{% block content %}
+<p>Brian Grimberg first studied infectious diseases at Case Western Reserve as part of a gifted program for youth.</p>
+<p>A decade and a half later, he was back on campus—this time with malaria as his designated target.</p>
+<p>The disease persists as one of the developing world’s deadliest, in part because of the difficulty of securing accurate diagnoses in remote areas.</p>
+<p>Working with a team including Distinguished University Professor and physicist Bob Brown, Grimberg, an assistant professor of pathology in the School of Medicine’s Center for Global Health and Diseases, developed MOD (for Magneto-Optical Detector), a portable device that can detect malaria with one drop of blood.</p>
+<p>It not only is 20 times faster than traditional rapid-test methods, but is also more accurate and less expensive. Last year, the team earned one of four federal Patent for Humanity Awards in the medicine.</p>
+<p>“The interplay between scientific disciplines can be difficult,” Grimberg said, “but when it works, it can provide very powerful results.”</p>
+{% endblock %}

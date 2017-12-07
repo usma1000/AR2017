@@ -1,0 +1,26 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+<img src="{{baseUrl}}images/story-bkg-dustin.jpg" class="hidden get-bkg">
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "A Different Feeling"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “The patient told me, ‘I&#39;m becoming two-handed again.’”
+{% endblock %}
+
+{% block content %}
+<p>As a child, Dustin Tyler bought an Atari 2600—not to play games, but to program.</p>
+<p>This fascination with STEM fields ultimately led him to the then-emerging field of biomedical engineering.</p>
+<p>When he began working with patients at the Louis Stokes Cleveland Veterans Affairs Medical Center, Tyler quickly found a focus for his new knowledge.</p>
+<p>Prosthetics could restore some sense of normalcy for injured veterans, but they craved more. “Everyone we talked to said, ‘I want to be able to feel again,’” recalled Tyler, the Kent H. Smith II Professor of Biomedical Engineering.</p>
+<p>Tyler and his team crafted a system that used electrical stimulation to give patients not only sensation, but also the ability to gauge the level of pressure applied.</p>
+<p>“Our goal is not just to restore function,” he said, “but to build a reconnection to the world.”</p>
+{% endblock %}

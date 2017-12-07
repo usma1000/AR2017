@@ -1,0 +1,25 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+<img src="{{baseUrl}}images/story-bkg-john.jpg" class="hidden get-bkg">
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "A Dream Achieved"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “If we can starve the tumors, we can stop them from growing.”
+{% endblock %}
+
+{% block content %}
+<p>As a young researcher from China in graduate school in the U.S., Zhenghe “John” Wang found himself captivated by the possibilities of the then-emerging field of genome sequencing.</p>
+<p>After earning his PhD, he won a fellowship in this country with one of the world’s pioneers in the subject. Within a few years, Wang himself discovered a gene mutation that appeared to have a connection with colorectal cancer.</p>
+<p>Now, through a promising clinical trial backed by a multimillion-dollar grant, he and his team are testing an approach that aims to undo the damage the mutation creates. Specifically they are testing whether a one-two punch—blocking a key amino acid while delivering a specific chemotherapy drug—can “starve” the kinds of cancer cells found in patients with the mutation Wang found.</p>
+<p>Recognizing the promise of this and other work by Case Western Reserve researchers, the university and the Case Comprehensive Cancer Center have been named one of 20 “Dream Teams” designated by the American Association for Cancer Research and Stand Up to Cancer.  Wang is one of the Cleveland team’s co-leaders.</p>
+<p>“To work with the world’s research leaders to find treatment for cancer patients,” Wang said, “it’s beyond my wildest dream.”</p>
+{% endblock %}

@@ -14,6 +14,7 @@ Quick start:
 - Correct link should be active in sidebar
 
 ## ToDo
+- Add Daniel's stories
 - Add Depot New font for body copy
 - Need glow/animated indicatior to show that the sidenav is scrollable
 - Design/create home page
