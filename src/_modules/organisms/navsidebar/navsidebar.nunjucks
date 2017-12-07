@@ -10,14 +10,18 @@
 <div class="{{_class}}">
   {{image.content({
     class: "cwru-logo",
-    src: "images/cwru-logo-white.png"
+    src: "../images/cwru-logo-white.png"
   })}}
+
+  <h3 class="content--white green-underline spacer--top">Features</h3>
 
   {{navmenu.content({
     data: _data,
     style: "featured",
     ulclass: "navmenu--featured"
   })}}
+
+  <h3 class="content--white green-underline spacer--top">Other Stories</h3>
 
   {{navmenu.content({
     data: _data,

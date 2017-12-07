@@ -16,33 +16,47 @@
   ],
   "secondary": [
     {
-      "name": "His Move"
+      "name": "His Move",
+      "url": "/his-move"
     },{
-      "name": "Closer Connections"
+      "name": "Closer Connections",
+      "url": "/"
     },{
-      "name": "A Better Diagnosis"
+      "name": "A Better Diagnosis",
+      "url": "/"
     },{
-      "name": "A Dream Achieved"
+      "name": "A Dream Achieved",
+      "url": "/"
     },{
-      "name": "Computer program beats physicians at brain cancer diagnoses"
+      "name": "Computer program beats physicians at brain cancer diagnoses",
+      "url": "/"
     },{
-      "name": "Innocence Project"
+      "name": "Innocence Project",
+      "url": "/"
     },{
-      "name": "Colorectal Cancer \"Dream Team\""
+      "name": "Colorectal Cancer \"Dream Team\"",
+      "url": "/"
     },{
-      "name": "Medicine, physics collaboration wins federal Patent for Humanity Award"
+      "name": "Medicine, physics collaboration wins federal Patent for Humanity Award",
+      "url": "/"
     },{
-      "name": "Professor, trustee contribute to report on curtailing the opioid epidemic"
+      "name": "Professor, trustee contribute to report on curtailing the opioid epidemic",
+      "url": "/"
     },{
-      "name": "Guilty Until Proven Innocent"
+      "name": "Guilty Until Proven Innocent",
+      "url": "/"
     },{
-      "name": "The Key to a Cure"
+      "name": "The Key to a Cure",
+      "url": "/"
     },{
-      "name": "A Different Feeling"
+      "name": "A Different Feeling",
+      "url": "/"
     },{
-      "name": "Finding Our Way"
+      "name": "Finding Our Way",
+      "url": "/"
     },{
-      "name": "Triple Threat"
+      "name": "Triple Threat",
+      "url": "/"
     }
   ],
   "topnav": [

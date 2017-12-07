@@ -7,12 +7,12 @@ Quick start:
 - `npm install -g yo`
 - `npm install -g generator-yeogurt`
 - `gulp serve --open`
+- May need to refresh the browser if you see a blank page
 
 ## Issues
 - Featured links don't span entire li. Only text/img are clickable
-- Sidebar links should open story page with correct story pulled up
+- Slider should be removed and each story should live on its own page
 - When clicking through to story page, correct link should be active in sidebar
-- OR: easiest answer is that home page doesn't have the sidebar
 
 ## ToDo
 - Design/create home page

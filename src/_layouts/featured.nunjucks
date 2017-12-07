@@ -8,7 +8,7 @@
 {% block sidebarnav %}
   {{navsidebar.content({
     data: site.data.menu,
-    class: "navsidebar container--navbar false-links"
+    class: "navsidebar container--navbar flex flex-col false-links"
   })}}
 {% endblock %}
 

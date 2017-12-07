@@ -1,4 +1,4 @@
-{% extends '_layouts/secondary.nunjucks' %}
+{% extends '_layouts/featured.nunjucks' %}
 
 {% block config %}
   {# Correct base url pathing for this page #}
