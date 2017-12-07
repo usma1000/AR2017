@@ -1,7 +1,6 @@
 'use strict';
 
 var $ = require('jquery');
-require('slick-carousel');
 
 $(function() {
   // REQUIRE MODULES

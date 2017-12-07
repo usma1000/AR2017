@@ -1,0 +1,26 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+<img src="{{baseUrl}}images/story-bkg-cami.jpg" class="hidden get-bkg">
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "Making a Statement"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “I know the value that international students, refugees and immigrants bring to our
+community.”
+{% endblock %}
+
+{% block content %}
+  <p>Cami Ross studied abroad four times as a college student—and each trip deepened her appreciation of cultural differences.</p>
+  <p>So when President Trump limited travel to and from several predominantly Muslim countries, Ross said she “thought of our students first.”</p>
+  <p>The program coordinator in the university’s Center for International Affairs, she worried whether students from affected countries would have to leave. She wondered whether their families could visit here. And she feared that the university would not be able to bring in future students from the identified countries.</p>
+  <p>Ross rallied the community around a customized version of the national #YouAreWelcomeHere campaign designed to show campus support for international students.</p>
+  <p>Soon, #YouAreWelcomeHereCWRU buttons and signs began appearing everywhere. The idea: to remind international students that, at Case Western Reserve, they are valued, appreciated and always welcome.</p>
+{% endblock %}

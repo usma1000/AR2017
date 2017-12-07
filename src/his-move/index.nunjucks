@@ -5,15 +5,15 @@
 {% endblock %}
 
 {% block backgroundimage %}
-<img src="{{baseUrl}}images/story-bkg-1.jpg" class="hidden get-bkg">
+<img src="{{baseUrl}}images/story-bkg-bob-kirsch.jpg" class="hidden get-bkg">
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Making a Statement"})}}
+  {{pagetitle.content({text: "His Move"})}}
 {% endblock %}
 
 {% block pullquote %}
-  “He can now think about moving his arm, and his arm moves.”
+  “The code was still in his brain.”
 {% endblock %}
 
 {% block content %}

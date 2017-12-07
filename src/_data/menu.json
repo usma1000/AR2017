@@ -1,65 +1,71 @@
 {
   "featured": [
     {
-      "name": "Applications",
-      "img": "feature-thumb-1.png",
-      "url": "/"
+      "name": "His Move",
+      "img": "feature-thumb-bob-kirsch.png",
+      "url": "/his-move"
     },{
-      "name": "CES",
-      "img": "feature-thumb-2.png",
+      "name": "Closer Connections",
+      "img": "feature-thumb-xyla.png",
+      "url": "/closer-connections"
+    },{
+      "name": "TITLE",
+      "img": "feature-thumb-amber-ethan.png",
       "url": "/"
     },{
       "name": "Making a Statement",
-      "img": "feature-thumb-3.png",
-      "url": "/"
-    },{
-      "name": "Braingate",
-      "img": "feature-thumb-4.png",
-      "url": "/"
+      "img": "feature-thumb-cami.png",
+      "url": "/making-a-statement"
     }
   ],
   "secondary": [
     {
-      "name": "His Move",
-      "url": "/his-move"
-    },{
-      "name": "Closer Connections",
-      "url": "/closer-connections"
-    },{
       "name": "A Better Diagnosis",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "A Dream Achieved",
+      "img": "thumb-carmen.jpg",
       "url": "/"
     },{
       "name": "Computer program beats physicians at brain cancer diagnoses",
+      "img": "thumb-dustin.jpg",
       "url": "/"
     },{
       "name": "Innocence Project",
+      "img": "thumb-john.jpg",
       "url": "/"
     },{
       "name": "Colorectal Cancer \"Dream Team\"",
+      "img": "thumb-pallavi.jpg",
       "url": "/"
     },{
       "name": "Medicine, physics collaboration wins federal Patent for Humanity Award",
+      "img": "thumb-sue.jpg",
       "url": "/"
     },{
       "name": "Professor, trustee contribute to report on curtailing the opioid epidemic",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "Guilty Until Proven Innocent",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "The Key to a Cure",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "A Different Feeling",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "Finding Our Way",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "Triple Threat",
+      "img": "thumb-bob-brian.jpg",
       "url": "/"
     }
   ],

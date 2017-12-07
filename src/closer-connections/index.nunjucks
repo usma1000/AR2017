@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block backgroundimage %}
-<img src="{{baseUrl}}images/story-bkg-2.jpg" class="hidden get-bkg">
+<img src="{{baseUrl}}images/story-bkg-xyla.jpg" class="hidden get-bkg">
 {% endblock %}
 
 {% block pagetitle %}
@@ -13,26 +13,21 @@
 {% endblock %}
 
 {% block pullquote %}
-  “He can now think about moving his arm, and his arm moves.”
+  “I had a really bad day, and I just wanted a hug.”
 {% endblock %}
 
 {% block content %}
-<p>When a teenage Bob Kirsch began dating his future wife, Donna, he quickly found that her
-family would become an important part of his personal life. It wasn’t until far later that he
-realized how much they would drive his career—and, decades later, catalyze a landmark
-discovery.</p>
+<p>The night before her first Consumer Electronics Show (CES), Xyla Foxlin soldered by the light of her iPhone in her Las Vegas hotel room, feeling unprepared and overwhelmed.</p>
 
-<p>As the lead researcher on a project that gave a Cleveland man with quadriplegia the power to
-move his paralyzed limb with his thoughts, Kirsch created a first-of- its-kind connection that
-drew worldwide attention.</p>
+<p>But the next morning, she watched in awe as tradeshow attendees who stopped by her booth shifted quickly from casual curiosity to intense interest.</p>
 
-<p>After years of testing, Kirsch—chair of the university’s Department of Biomedical Engineering—
-and his team discovered a way to pair electrical stimulation with a unique brain-computer
-interface allowed the man move his arm and hand—and even feed himself—just by thinking.</p>
+<p>“People started pulling out their credit cards,” she remembered, “saying, ‘Can I buy this now?’”</p>
 
-<p>Kirsch’s inspiration? Donna’s late brother, paralyzed at 18 by a sports injury.</p>
+<p>“This” was Parihug, a wireless-enabled stuffed animal that can transmit cuddles around the world.</p>
 
-<p>“I saw there were things I could do for … people like him,” Kirsch said.</p>
+<p>The idea for the product emerged from a stressful day as a second-year college student. With loved ones hundreds of miles away, Foxlin realized the only way to feel the kind of connection she craved would be to create it herself.</p>
 
-<p>And with this breakthrough, he has.</p>
+<p>Three years after building her first prototype in the Larry Sears and Sally Zlotnick Sears think[box], Foxlin has raised more than $XXXXX for her start-up and drawn international attention—including an appearance in Microsoft television commercials. ln 2017, Foxlin returned to CES, where Case Western Reserve claimed 10 booths, the most of any university, thanks in part to the assistance of the entrepreneurial support program CWRU LaunchNet.</p>
+
+<p>The showing is just one of ways that our students think beyond the possible.</p>
 {% endblock %}
