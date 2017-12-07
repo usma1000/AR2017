@@ -1,20 +1,23 @@
 {% extends '_layouts/featured.nunjucks' %}
+{% import "_modules/atoms/link/link.nunjucks" as link %}
 
 {% block config %}
-  {# Correct base url pathing for this page #}
   {% set baseUrl = '../' %}
 {% endblock %}
-{% block title %}
-<h2>his-move title</h2>
-His Move
-{% endblock %}
-{% block pullquote %}
-<h2>his-move pullquote</h2>
-“He can now think about moving his arm, and his arm moves.”
-{% endblock %}
-{% block content %}
-<h2>his-move content</h2>
 
+{% block backgroundimage %}
+<img src="{{baseUrl}}images/story-bkg-1.jpg" class="hidden get-bkg">
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "Making a Statement"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “He can now think about moving his arm, and his arm moves.”
+{% endblock %}
+
+{% block content %}
 <p>When a teenage Bob Kirsch began dating his future wife, Donna, he quickly found that her
 family would become an important part of his personal life. It wasn’t until far later that he
 realized how much they would drive his career—and, decades later, catalyze a landmark

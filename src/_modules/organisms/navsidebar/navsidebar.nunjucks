@@ -8,10 +8,12 @@
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
 <div class="{{_class}}">
-  {{image.content({
-    class: "cwru-logo",
-    src: "../images/cwru-logo-white.png"
-  })}}
+  <a href="//case.edu">
+    {{image.content({
+      class: "cwru-logo",
+      src: "../images/cwru-logo-white.png"
+    })}}
+  </a>
 
   <h3 class="content--white green-underline spacer--top">Features</h3>
 

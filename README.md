@@ -12,7 +12,7 @@ Quick start:
 ## Issues
 - Featured links don't span entire li. Only text/img are clickable
 - Slider should be removed and each story should live on its own page
-- When clicking through to story page, correct link should be active in sidebar
+- Correct link should be active in sidebar
 
 ## ToDo
 - Design/create home page

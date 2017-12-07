@@ -15,6 +15,11 @@
 {% block layout %}
 
 <div class="content">
+  {% block backgroundimage %}{% endblock %}
+  {% block pagetitle %}{% endblock %}
+  <div class="pull-quote">
+    {% block pullquote %}{% endblock %}
+  </div>
   {% block content %}{% endblock %}
 </div>
 
