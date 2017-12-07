@@ -30,7 +30,6 @@
 {# secondary menu #}
 {% if (_style == "secondary") %}
   <ul class="navmenu {{_ulClass}}">
-  {% set featureCount = _data.featured.length %}
   {% for val in _data.secondary %}
     <li class="{{_liClass}}">
       <a href="{{val.url}}">
@@ -40,6 +39,21 @@
           alt: "thumbnail for " + val.name|lower
         })}}
       </a>
+      {{link.content({
+        class: "menu--link link--underline",
+        href: val.url,
+        text: val.name
+      })}}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{# tertiary menu #}
+{% if (_style == "tertiary") %}
+  <ul class="navmenu {{_ulClass}}">
+  {% for val in _data.tertiary %}
+    <li class="{{_liClass}}">
       {{link.content({
         class: "menu--link link--underline",
         href: val.url,

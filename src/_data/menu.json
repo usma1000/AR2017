@@ -9,9 +9,9 @@
       "img": "feature-thumb-xyla.png",
       "url": "/closer-connections"
     },{
-      "name": "TITLE",
+      "name": "Meeting Their Needs",
       "img": "feature-thumb-amber-ethan.png",
-      "url": "/"
+      "url": "/meeting-their-needs"
     },{
       "name": "Making a Statement",
       "img": "feature-thumb-cami.png",
@@ -20,6 +20,10 @@
   ],
   "secondary": [
     {
+      "name": "Guilty Until Proven Innocent",
+      "img": "thumb-carmen.jpg",
+      "url": "/guilty-until-proven-innocent"
+    },{
       "name": "A Better Diagnosis",
       "img": "thumb-bob-brian.jpg",
       "url": "/"
@@ -48,10 +52,6 @@
       "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
-      "name": "Guilty Until Proven Innocent",
-      "img": "thumb-bob-brian.jpg",
-      "url": "/"
-    },{
       "name": "The Key to a Cure",
       "img": "thumb-bob-brian.jpg",
       "url": "/"
@@ -59,13 +59,14 @@
       "name": "A Different Feeling",
       "img": "thumb-bob-brian.jpg",
       "url": "/"
-    },{
+    }
+  ],
+  "tertiary": [
+    {
       "name": "Finding Our Way",
-      "img": "thumb-bob-brian.jpg",
       "url": "/"
     },{
       "name": "Triple Threat",
-      "img": "thumb-bob-brian.jpg",
       "url": "/"
     }
   ],

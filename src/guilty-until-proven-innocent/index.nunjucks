@@ -1,0 +1,26 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+<img src="{{baseUrl}}images/story-bkg-carmen.jpg" class="hidden get-bkg">
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "Guilty Until Proven Innocent"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “It’s beyond dispute that our system is fallible.”
+{% endblock %}
+
+{% block content %}
+<p>Three wrongfully imprisoned men are free today—thanks in part to Case Western Reserve law students and faculty.</p>
+<p>Teens when they were convicted of murder in 1996, the East Cleveland men won release after students in the school’s Milton A. Kramer Law Clinic Center joined the Ohio Innocence Project in challenging the original verdict.</p>
+<p>Under the supervision of senior law instructor Carmen Naso and associate dean Judith Lipton, the students spent months poring over documents and helping prepare the attorneys who argued the case in court.</p>
+<p>Judges ultimately agreed that prosecutors’ withholding of information favorable to the defense—coupled with a witness recanting an identification—cast enough doubt of the men’s guilt to overturn the jury’s decision.</p>
+<p>For Naso, who has practiced law for more than 30 years, the case was a chance to right a grave injustice.</p>
+<p>“We’ve done so much to improve our criminal justice system,” he said, “but if we’re really serious, we need to go back and fix our mistakes.”</p>
+{% endblock %}

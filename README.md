@@ -10,18 +10,17 @@ Quick start:
 - May need to refresh the browser if you see a blank page
 
 ## Issues
-- Featured links don't span entire li. Only text/img are clickable
-- Slider should be removed and each story should live on its own page
+- Secondary links in sidenav have broken underlines on hover because of flex
 - Correct link should be active in sidebar
 
 ## ToDo
+- Add Depot New font for body copy
+- Need glow/animated indicatior to show that the sidenav is scrollable
 - Design/create home page
-- Design/create one-col page layout
 - Design/create facts & figures page
 - Design/create president's letter page
 - Responsiveness
 - Accessibility
-- Add thumbnails to secondary stories in sidenav?
 - Find SVG CWRU logo
 - Integrate PatternLab?
 
