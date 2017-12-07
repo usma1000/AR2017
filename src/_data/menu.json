@@ -2,16 +2,20 @@
   "featured": [
     {
       "name": "Applications",
-      "img": "feature-thumb-1.png"
+      "img": "feature-thumb-1.png",
+      "url": "/"
     },{
       "name": "CES",
-      "img": "feature-thumb-2.png"
+      "img": "feature-thumb-2.png",
+      "url": "/"
     },{
       "name": "Making a Statement",
-      "img": "feature-thumb-3.png"
+      "img": "feature-thumb-3.png",
+      "url": "/"
     },{
       "name": "Braingate",
-      "img": "feature-thumb-4.png"
+      "img": "feature-thumb-4.png",
+      "url": "/"
     }
   ],
   "secondary": [
@@ -20,7 +24,7 @@
       "url": "/his-move"
     },{
       "name": "Closer Connections",
-      "url": "/"
+      "url": "/closer-connections"
     },{
       "name": "A Better Diagnosis",
       "url": "/"

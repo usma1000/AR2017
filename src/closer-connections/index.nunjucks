@@ -5,11 +5,11 @@
 {% endblock %}
 
 {% block backgroundimage %}
-<img src="{{baseUrl}}images/story-bkg-1.jpg" class="hidden get-bkg">
+<img src="{{baseUrl}}images/story-bkg-2.jpg" class="hidden get-bkg">
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Making a Statement"})}}
+  {{pagetitle.content({text: "Closer Connections"})}}
 {% endblock %}
 
 {% block pullquote %}
