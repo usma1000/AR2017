@@ -1,0 +1,25 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+{# <img src="{{baseUrl}}images/story-bkg-pallavi.jpg" class="hidden get-bkg"> #}
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "Selfie Help"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “People were slipping through the cracks.”
+{% endblock %}
+
+{% block content %}
+<p>Lance Vernon turned to dentistry after stints in special education and clinical research and found a risky but often-overlooked effect of a lack of health care access: periodontal disease.</p>
+<p>Bleeding gums can sound minor, relative to untreated ailments like asthma or diabetes. Yet an abundance of research has shown that people with periodontal disease are more likely to suffer heart attacks and strokes—in some studies, more than twice as likely as those without the condition.</p>
+<p>Since earning degrees in dental medicine and public health 15 years ago, Vernon, now senior instructor at Case Western Reserve’s dental school, has looked for better ways to help patients head off gum problems before they grow worse. He’s found evidence that although many people floss and brush their teeth, many may to improve their skills.</p>
+<p>One solution: the selfie. In a study with colleagues in India, Vernon showed that taking a video selfie with a smartphone while brushing, and later reviewed by a dentist, can increase the accuracy and number of brush strokes—as if being supervised.</p>
+<p>“Getting guidance by phone can be a new way to promote oral health and prevent disease,” Vernon said.</p>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+{# <img src="{{baseUrl}}images/story-bkg-pallavi.jpg" class="hidden get-bkg"> #}
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "Training Ground"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “My parents proved what a little help could do.”
+{% endblock %}
+
+{% block content %}
+<p>Thanks to a boost from federal programs during tough times in the 1940s and 50s, Sue Helper’s parents were able to raise a family and achieve a dream: sending their children to college.</p>
+<p>Helper seized her undergraduate opportunity, winning acceptance to Harvard University for graduate school. After earning her doctorate there, she established such a strong reputation as a scholar that, in 2012, the White House appointed her to work as senior economist to its Council of Economic Advisers and then, a year later, to serve as the chief economist of the U.S. Department of Commerce.</p>
+<p>Back on campus as the Frank Tracy Carlton Professor of Economics at the Weatherhead School of Management, Helper remains active in advocating for initiatives that she believes benefit the nation. Among her favorites are apprenticeships, and she hasn’t let a change in administration slow her efforts. In the spring, she penned “Will Trump be the one to take apprenticeships to scale?”—a Brookings Institution piece that noted the president’s embrace of the German apprenticeship model. Citing research she conducted with former Department of Commerce colleagues, she noted that such programs not only benefit participants, but can provide significant return for companies as well.</p>
+<p>“Everybody should have a chance to reach their potential, and apprenticeships are a proven path,” she said.</p>
+{% endblock %}

@@ -17,7 +17,7 @@
 {% endblock %}
 
 {% block content %}
-<p>thanks in part to the assistance of the entrepreneurial support program CWRU LaunchNet.</p>
+<p>When Pallavi Tiwari first got her hands on a computer as a high school student in India, she had to figure out by herself how to use it.</p>
 <p>But even that self-taught experience was enough to steer her to technological studies—and, last fall, a discovery that may transform human health.</p>
 <p>As an assistant professor of biomedical engineering, Tiwari works on ways that computers can improve patient care. One of her most recent projects involved identifying alternatives to risky biopsies for evaluating brain tumors. Using magnetic resonance imaging (MRI), Tiwari and her team developed algorithms that taught the computer to distinguish between active and dead cancer cells—a task so difficult that neurologists sometimes have to turn to surgery to be certain.</p>
 <p>The more scans the software reviewed, the better it became, ultimately discerning features the average eye could not.</p>

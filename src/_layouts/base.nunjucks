@@ -7,6 +7,7 @@
 
 {% import "../_modules/organisms/navsidebar/navsidebar.nunjucks" as navsidebar %}
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
+{% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -63,7 +64,7 @@
           class: "navsidebar container--navbar flex flex-col"
         })}}
       {% endblock %}
-      
+
       <div class="container flex flex-col feature-background content--white">
 
         <header>

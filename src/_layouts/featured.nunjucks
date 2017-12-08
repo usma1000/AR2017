@@ -3,8 +3,6 @@
 {# Add extra stylesheets #}
 {% block stylesheets %}{% endblock %}
 
-{% import "_modules/atoms/pagetitle/pagetitle.nunjucks" as pagetitle %}
-
 {% block sidebarnav %}
   {{navsidebar.content({
     data: site.data.menu,

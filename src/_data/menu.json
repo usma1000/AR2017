@@ -39,6 +39,18 @@
       "name": "The Key to a Cure",
       "img": "thumb-bob-brian.jpg",
       "url": "/key-to-a-cure"
+    },{
+      "name": "A Healthy Chill",
+      "img": "thumb-bob-brian.jpg",
+      "url": "/a-healthy-chill"
+    },{
+      "name": "Care Amid Crisis",
+      "img": "thumb-bob-brian.jpg",
+      "url": "/care-amid-crisis"
+    },{
+      "name": "Training Ground",
+      "img": "thumb-bob-brian.jpg",
+      "url": "/training-ground"
     }
   ],
   "tertiary": [
@@ -50,10 +62,10 @@
       "url": "/triple-threat"
     },{
       "name": "Data Stories",
-      "url": "/"
+      "url": "/data-stories"
     },{
       "name": "Self(ie)-Help",
-      "url": "/"
+      "url": "/selfie-help"
     }
   ],
   "topnav": [
@@ -62,10 +74,10 @@
       "url": "/"
     },{
       "name": "Facts & Figures",
-      "url": "/facts-figures/"
+      "url": "/facts-figures"
     },{
       "name": "President's Letter",
-      "url": "presidents-letter/"
+      "url": "/presidents-letter"
     },{
       "name": "Download PDF",
       "url": "/"
