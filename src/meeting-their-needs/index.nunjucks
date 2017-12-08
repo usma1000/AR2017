@@ -13,8 +13,8 @@
 {% endblock %}
 
 {% block pullquote %}
-  “I am achieving the dreams that I never thought I’d be able to.” <br>—Ambar Solis-
-Fuentes
+  “I am achieving the dreams that I never thought I’d be able to.”
+  <span class="attribution">—Ambar Solis-Fuentes</span>
 {% endblock %}
 
 {% block content %}

@@ -12,9 +12,11 @@ Quick start:
 ## Issues
 - Secondary links in sidenav have broken underlines on hover because of flex
 - Correct link should be active in sidebar
+- Sidebar should scroll to current active story
 
 ## ToDo
-- Add Daniel's stories
+- Add Google Tag Manager
+- Add skip to main content button
 - Add Depot New font for body copy
 - Need glow/animated indicatior to show that the sidenav is scrollable
 - Design/create home page

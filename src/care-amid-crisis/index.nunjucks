@@ -13,8 +13,10 @@
 {% endblock %}
 
 {% block pullquote %}
-  “Human caring saved me.” <br>—Linda Burnes Bolton<br>
-  “Meet people where they are, even when they’re in a low place.” <br>—Lee Hoffer
+  “Human caring saved me.”
+  <span class="attribution spacer--bottom">—Linda Burnes Bolton</span>
+  “Meet people where they are, even when they’re in a low place.”
+  <span class="attribution">—Lee Hoffer</span>
 {% endblock %}
 
 {% block content %}
