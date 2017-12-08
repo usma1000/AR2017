@@ -139,9 +139,30 @@ $navwidth: 300px;
 .home-container {
   background-color: #f1f2f3;
   width: 100%;
+  padding: $large;
 }
-
+.title-container {
+  width: 500px;
+  margin: 0 auto;
+}
 .home-title {
   color: $cwru-blue;
+  font-weight: 100;
   text-transform: uppercase;
+  border: 3px solid $cwru-blue;
+  padding: $large;
+  position: relative;
+  display: inline-block;
+  strong {
+    font-weight: 800;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 30%;
+    background-color: #f1f2f3;
+    height: 40%;
+  }
 }

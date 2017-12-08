@@ -1,6 +1,6 @@
 {% extends '_layouts/one-col.nunjucks' %}
-{% block maincontent %}
-<div class="home-container">
-    <h1 class="home-title">Behind the story</h1>
-</div>
+{% block content %}
+  <div class="title-container">
+    <h1 class="home-title"><strong>Behind</strong> the story</h1>
+  </div>
 {% endblock %}
