@@ -3,11 +3,7 @@
 {# Add extra stylesheets #}
 {% block stylesheets %}{% endblock %}
 
-{% block layout %}
-<div class="layout-wrapper one-col content">
-  {% block content %}{% endblock %}
-</div>
-{% endblock %}
+{% block maincontent %}{% endblock %}
 
 {# Add extra scripts #}
 {% block scripts %}{% endblock %}

@@ -133,5 +133,15 @@ $navwidth: 300px;
 }
 
 .content--body {
-  font-family: DepotNew-Regular;
+  font-family: DepotNew-Regular, "Titillium Web";
+}
+
+.home-container {
+  background-color: #f1f2f3;
+  width: 100%;
+}
+
+.home-title {
+  color: $cwru-blue;
+  text-transform: uppercase;
 }

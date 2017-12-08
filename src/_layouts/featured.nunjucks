@@ -10,19 +10,30 @@
   })}}
 {% endblock %}
 
-{% block layout %}
+{% block maincontent %}
+  <div class="container flex flex-col feature-background content--white">
+    <header>
+      {{navmenu.content({
+        data: site.data.menu,
+        style: "topnav",
+        ulclass: "topnav"
+      })}}
+    </header>
 
-<div class="content" id="skiptocontent">
-  {% block backgroundimage %}{% endblock %}
-  {% block pagetitle %}{% endblock %}
-  <div class="pull-quote animated fadeInLeft delay1">
-    {% block pullquote %}{% endblock %}
+    {% block layout %}
+      <div class="mask active"></div>
+      <div class="content" id="skiptocontent">
+        {% block backgroundimage %}{% endblock %}
+        {% block pagetitle %}{% endblock %}
+        <div class="pull-quote animated fadeInLeft delay1">
+          {% block pullquote %}{% endblock %}
+        </div>
+        <div class="content--body animated fadeInLeft delay2">
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+    {% endblock %}
   </div>
-  <div class="content--body animated fadeInLeft delay2">
-    {% block content %}{% endblock %}
-  </div>
-</div>
-
 {% endblock %}
 
 {# Add extra scripts #}

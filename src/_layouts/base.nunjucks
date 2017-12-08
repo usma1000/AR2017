@@ -70,18 +70,7 @@
         })}}
       {% endblock %}
 
-      <div class="container flex flex-col feature-background content--white">
-
-        <header>
-          {{navmenu.content({
-            data: site.data.menu,
-            style: "topnav",
-            ulclass: "topnav"
-          })}}
-        </header>
-        <div class="mask active"></div>
-        {% block layout %}{% endblock %}
-      </div>
+      {% block maincontent %}{% endblock %}
     </div>
 
     <script src="{{baseUrl}}scripts/main.js"></script>
