@@ -15,9 +15,9 @@ Quick start:
 - Sidebar should scroll to current active story
 
 ## ToDo
+- Add page title to <title> of each page
 - Add Google Tag Manager
 - Add skip to main content button
-- Add Depot New font for body copy
 - Need glow/animated indicatior to show that the sidenav is scrollable
 - Design/create home page
 - Design/create facts & figures page

@@ -79,7 +79,7 @@
             ulclass: "topnav"
           })}}
         </header>
-        <div class="mask"></div>
+        <div class="mask active"></div>
         {% block layout %}{% endblock %}
       </div>
     </div>

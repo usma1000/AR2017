@@ -12,7 +12,7 @@
 
 {% block layout %}
 
-<div class="content">
+<div class="content" id="skiptocontent">
   {% block backgroundimage %}{% endblock %}
   {% block pagetitle %}{% endblock %}
   <div class="pull-quote animated fadeInLeft delay1">
