@@ -137,20 +137,23 @@ $navwidth: 300px;
 }
 
 .home-container {
+  background-image: url('/images/home-bkg.png');
+  background-size: cover;
+  background-position: right center;
   background-color: #f1f2f3;
   width: 100%;
   padding: $large;
 }
 .title-container {
   width: 500px;
-  margin: 0 auto;
+  margin: 160px 20px 0 auto;
 }
 .home-title {
   color: $cwru-blue;
   font-weight: 100;
   text-transform: uppercase;
   border: 3px solid $cwru-blue;
-  padding: $large;
+  padding: $medium;
   position: relative;
   display: inline-block;
   strong {
@@ -162,7 +165,7 @@ $navwidth: 300px;
     top: -3px;
     right: -3px;
     width: 30%;
-    background-color: #f1f2f3;
+    background-color: #eaf5ff;
     height: 40%;
   }
 }
