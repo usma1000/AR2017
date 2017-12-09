@@ -9,7 +9,7 @@
     {{navmenu.content({
       data: site.data.menu,
       style: "topnav",
-      ulclass: "topnav"
+      ulclass: "topnav content--white"
     })}}
   </header>
 
