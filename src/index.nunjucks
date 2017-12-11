@@ -1,6 +1,9 @@
 {% extends '_layouts/one-col.nunjucks' %}
 {% block content %}
-  <div class="onboard animated bounceX"><div class="arrow"></div> Start reading</div>
+<video autoplay id="video-background" muted plays-inline>
+  <source src="home-bkg.mp4" type="video/mp4">
+</video>
+  <div class="onboard animated bounceX"><div class="arrow"></div> Choose a story to start reading</div>
   <div class="title-container">
     <h1 class="home-title"><strong>Behind</strong> the story</h1>
   </div>
