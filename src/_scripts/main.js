@@ -27,4 +27,13 @@ $(function() {
     // Remove the original <img>
     $(this).remove();
   });
+
+  // ONBOARD
+  // Show .onboard div on homepage after some time
+  if ($('.onboard').length) {
+    setTimeout(function() {
+      $('.onboard').addClass('active');
+    }, 1000);
+  }
+  
 });

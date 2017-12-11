@@ -1,5 +1,6 @@
 {% extends '_layouts/one-col.nunjucks' %}
 {% block content %}
+  <div class="onboard animated bounceX"><div class="arrow"></div> Start reading</div>
   <div class="title-container">
     <h1 class="home-title"><strong>Behind</strong> the story</h1>
   </div>
