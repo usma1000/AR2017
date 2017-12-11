@@ -139,14 +139,17 @@ $navwidth: 300px;
 .home-container {
   background-image: url('/images/home-bkg.png');
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   background-color: #f1f2f3;
   width: 100%;
   padding: $large;
+  header, .title-container {
+    flex-grow: 1;
+  }
 }
 .title-container {
   width: 500px;
-  margin: 160px 20px 0 auto;
+  margin: 0 20px 0 auto;
 }
 .home-title {
   color: $cwru-blue;
@@ -169,3 +172,34 @@ $navwidth: 300px;
     height: 40%;
   }
 }
+
+.onboard {
+  position: absolute;
+  top: 235px;
+  background: #333;
+  color: #fff;
+  padding: .5em 2em .5em .5em;
+  font-size: .75em;
+  font-weight: bold;
+  border-radius: 32px;
+  box-shadow: 10px 10px 40px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  transition: all linear;
+  opacity: 0;
+  &.active {
+    opacity: 1;
+  }
+  .arrow {
+    background: black url("/images/arrow.svg");
+    background-size: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    content: '';
+  }
+}
+

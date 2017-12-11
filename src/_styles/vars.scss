@@ -44,3 +44,13 @@ $large: 48px;
 .delay2 {
   animation-delay: 1s;
 }
+
+@keyframes bounceX {
+  50% { transform: translateX(2%)}
+  100% { transform: translateX(0%)}
+}
+
+.bounceX {
+  animation-name: bounceX;
+  animation-iteration-count: infinite;
+}
