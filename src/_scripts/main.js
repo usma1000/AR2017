@@ -17,16 +17,30 @@ $(function() {
 
   // BACKGROUND IMAGES
   // Fade background image in only once it's loaded
-  $('.get-bkg').on('load', function(){
-    // Get <img> src
-    var bkgUrl = 'url(' + $(this).attr('src') + ')';
-    // Apply same img to background
-    $('.feature-background').css('background-image', bkgUrl);
-    // Mask fades away
-    $('.mask').removeClass('active');
-    // Remove the original <img>
-    $(this).remove();
+  $(document).ready(function() {
+    console.log($('.get-bkg'));
+    var imageholder = $('.get-bkg');
+    if (imageholder.length > 0) {
+      console.log('loaded');
+      // Get <img> src
+      var bkgUrl = 'url(' +  imageholder.attr('src') + ')';
+      // Apply same img to background
+      $('.feature-background').css('background-image', bkgUrl);
+      // Mask fades away
+      $('.mask').removeClass('active');
+      // Remove the original <img>
+      // imageholder.remove();
+    };
   });
+  // $(document).ready(function() {
+  //   console.log('document ready');
+  //   $('.get-bkg').load(function() {
+  //     console.log('image loaded');
+  //     var bkgurl = 'url(' + $(this).attr('src') + ')';
+  //     $('.feature-background').css('background-image', bkgUrl);
+  //     $('.mask').removeClass('active');
+  //   });
+  // });
 
   // ONBOARD
   // Show .onboard div on homepage after some time
