@@ -20,6 +20,7 @@ $navwidth: 300px;
   overflow-y: auto;
   margin-left: 0;
   transition: margin-left .4s;
+  z-index: 1;
 }
 
 .container--navbar.hidden {
@@ -113,8 +114,8 @@ $navwidth: 300px;
   font-size: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
-  border-top: 1px solid #666666;
-  border-bottom: 1px solid #666666;
+  border-top: 4px solid #666666;
+  border-bottom: 4px solid #666666;
   margin-bottom: $large;
   .attribution {
     display: block;
@@ -140,11 +141,14 @@ $navwidth: 300px;
   background-image: url('../images/home-bkg.png');
   background-size: cover;
   background-position: center;
-  background-color: #f1f2f3;
+  // background-color: #f1f2f3;
   width: 100%;
   padding: $large;
-  header, .title-container {
+  header {
     flex-grow: 1;
+  }  
+  .title-container {
+    flex-grow: 2;
   }
 }
 .title-container {
@@ -168,7 +172,7 @@ $navwidth: 300px;
     top: -3px;
     right: -3px;
     width: 30%;
-    background-color: #eaf5ff;
+    background-color: #dde3eb;
     height: 40%;
   }
 }
@@ -203,3 +207,14 @@ $navwidth: 300px;
   }
 }
 
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: 0;
+}

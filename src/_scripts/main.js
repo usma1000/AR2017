@@ -38,7 +38,7 @@ $(function() {
   if ($('.onboard').length) {
     setTimeout(function() {
       $('.onboard').addClass('active');
-    }, 1000);
+    }, 6000);
   }
   
 });
