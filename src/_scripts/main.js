@@ -32,6 +32,15 @@ $(function() {
       // imageholder.remove();
     };
   });
+  // $(document).ready(function() {
+  //   console.log('document ready');
+  //   $('.get-bkg').load(function() {
+  //     console.log('image loaded');
+  //     var bkgurl = 'url(' + $(this).attr('src') + ')';
+  //     $('.feature-background').css('background-image', bkgUrl);
+  //     $('.mask').removeClass('active');
+  //   });
+  // });
 
   // ONBOARD
   // Show .onboard div on homepage after some time

@@ -71,7 +71,7 @@
   "topnav": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/behind-the-story"
     },{
       "name": "Facts & Figures",
       "url": "/behind-the-story/facts-figures"
@@ -80,7 +80,7 @@
       "url": "/behind-the-story/presidents-letter"
     },{
       "name": "Download PDF",
-      "url": "/"
+      "url": "/behind-the-story"
     }
   ]
 }
