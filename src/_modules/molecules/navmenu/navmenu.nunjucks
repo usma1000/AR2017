@@ -17,7 +17,7 @@
       <a href="{{val.url}}" class="menu--featured-link">
         {{image.content({
           class: "menu--featured-img",
-          src: baseUrl + "images/" + val.img,
+          src: val.img,
           alt: "thumbnail for " + val.name|lower
         })}}
         <p class="menu--link">{{val.name}}</p>
@@ -35,7 +35,7 @@
       <a href="{{val.url}}">
         {{image.content({
           class: "menu--thumb",
-          src: baseUrl + "images/" + val.img,
+          src: val.img,
           alt: "thumbnail for " + val.name|lower
         })}}
       </a>
