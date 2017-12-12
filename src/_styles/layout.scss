@@ -138,7 +138,7 @@ $navwidth: 300px;
 }
 
 .home-container {
-  // background-image: url('/images/home-bkg.png');
+  background-image: url('../images/home-bkg.png');
   background-size: cover;
   background-position: center;
   // background-color: #f1f2f3;
@@ -195,7 +195,7 @@ $navwidth: 300px;
     opacity: 1;
   }
   .arrow {
-    background: black url("/images/arrow.svg");
+    background: black url("../images/arrow.svg");
     background-size: 5px;
     background-repeat: no-repeat;
     background-position: center;
