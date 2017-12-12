@@ -14,6 +14,7 @@
 
 {% block pullquote %}
   “If we can starve the tumors, we can stop them from growing.”
+  <span class="attribution">—Zhenghe "John" Wang</span>
 {% endblock %}
 
 {% block content %}

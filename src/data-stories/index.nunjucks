@@ -14,6 +14,7 @@
 
 {% block pullquote %}
   “Data often tells a story.”
+  <span class="attribution">—April Hirsh Urban</span>
 {% endblock %}
 
 {% block content %}

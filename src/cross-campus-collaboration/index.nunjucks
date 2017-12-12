@@ -9,11 +9,12 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "The Key to a Cure"})}}
+  {{pagetitle.content({text: "Cross-Campus Collaboration"})}}
 {% endblock %}
 
 {% block pullquote %}
   “Without something like this, the world could possibly never get rid of malaria.”
+  <span class="attribution">—Brian Grimberg</span>
 {% endblock %}
 
 {% block content %}

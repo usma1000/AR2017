@@ -40,13 +40,13 @@
       "img": "/images/thumb-bob-brian.jpg",
       "url": "/cross-campus-collaboration"
     },{
-      "name": "Training Ground",
-      "img": "/images/thumb-sue.jpg",
-      "url": "/training-ground"
-    },{
       "name": "Care Amid Crisis",
       "img": "/images/thumb-lee.jpg",
       "url": "/care-amid-crisis"
+    },{
+      "name": "Training Ground",
+      "img": "/images/thumb-sue.jpg",
+      "url": "/training-ground"
     },{
       "name": "A Dream Achieved",
       "img": "/images/thumb-john.jpg",
@@ -61,8 +61,8 @@
       "name": "Self(ie)-Help",
       "url": "/selfie-help"
     },{
-      "name": "More than a Name",
-      "url": "/more-than-a-name"
+      "name": "Representation Matters",
+      "url": "/representation-matters"
     },{
       "name": "Triple Threat",
       "url": "/triple-threat"

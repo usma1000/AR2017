@@ -14,6 +14,7 @@
 
 {% block pullquote %}
   “My parents proved what a little help could do.”
+  <span class="attribution">—Sue Helper</span>
 {% endblock %}
 
 {% block content %}

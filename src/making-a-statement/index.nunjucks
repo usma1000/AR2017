@@ -15,6 +15,7 @@
 {% block pullquote %}
   “I know the value that international students, refugees and immigrants bring to our
 community.”
+  <span class="attribution">—Cami Ross</span>
 {% endblock %}
 
 {% block content %}
