@@ -14,6 +14,7 @@
 
 {% block pullquote %}
   “It’s beyond dispute that our system is fallible.”
+  <span class="attribution">—Carmen Naso</span>
 {% endblock %}
 
 {% block content %}

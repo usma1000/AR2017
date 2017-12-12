@@ -15,6 +15,7 @@
 
 {% block pullquote %}
   “People were slipping through the cracks.”
+  <span class="attribution">—Lance Vernon</span>
 {% endblock %}
 
 {% block content %}

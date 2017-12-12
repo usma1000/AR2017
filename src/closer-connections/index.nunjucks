@@ -14,6 +14,7 @@
 
 {% block pullquote %}
   “I had a really bad day, and I just wanted a hug.”
+  <span class="attribution">—Xyla Foxlin</span>
 {% endblock %}
 
 {% block content %}

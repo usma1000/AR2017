@@ -6,6 +6,7 @@
 
 {% block backgroundimage %}
 <img src="{{baseUrl}}images/story-bkg-jill.jpg" class="hidden get-bkg">
+<div class="gradient"></div>
 {% endblock %}
 
 {% block pagetitle %}
@@ -14,6 +15,7 @@
 
 {% block pullquote %}
   “The surgeon started singing show tunes.”
+  <span class="attribution">—Jill Byrne</span>
 {% endblock %}
 
 {% block content %}

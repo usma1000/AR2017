@@ -15,6 +15,7 @@
 
 {% block pullquote %}
   "I was by no means expecting this..."
+  <span class="attribution">—C.J. Krimbill</span>
 {% endblock %}
 
 {% block content %}
