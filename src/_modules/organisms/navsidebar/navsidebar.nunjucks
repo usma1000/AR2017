@@ -11,7 +11,7 @@
   <a href="//case.edu">
     {{image.content({
       class: "cwru-logo",
-      src: "/behind-the-story/images/cwru-logo-white.png"
+      src: "/images/cwru-logo-white.png"
     })}}
   </a>
 

@@ -5,7 +5,8 @@
 {% endblock %}
 
 {% block backgroundimage %}
-{# <img src="{{baseUrl}}images/story-bkg-pallavi.jpg" class="hidden get-bkg"> #}
+<img src="{{baseUrl}}images/story-bkg-selfie.jpg" class="hidden get-bkg">
+<div class="gradient"></div>
 {% endblock %}
 
 {% block pagetitle %}

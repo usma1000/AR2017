@@ -2,85 +2,88 @@
   "featured": [
     {
       "name": "His Move",
-      "img": "/behind-the-story/images/feature-thumb-bob-kirsch.png",
-      "url": "/behind-the-story/his-move"
+      "img": "/images/feature-thumb-bob-kirsch.png",
+      "url": "/his-move"
     },{
       "name": "Closer Connections",
-      "img": "/behind-the-story/images/feature-thumb-xyla.png",
-      "url": "/behind-the-story/closer-connections"
+      "img": "/images/feature-thumb-xyla.png",
+      "url": "/closer-connections"
     },{
       "name": "Meeting Their Needs",
-      "img": "/behind-the-story/images/feature-thumb-amber-ethan.png",
-      "url": "/behind-the-story/meeting-their-needs"
+      "img": "/images/feature-thumb-amber-ethan.png",
+      "url": "/meeting-their-needs"
     },{
       "name": "Making a Statement",
-      "img": "/behind-the-story/images/feature-thumb-cami.png",
-      "url": "/behind-the-story/making-a-statement"
+      "img": "/images/feature-thumb-cami.png",
+      "url": "/making-a-statement"
     }
   ],
   "secondary": [
     {
-      "name": "Guilty Until Proven Innocent",
-      "img": "/behind-the-story/images/thumb-carmen.jpg",
-      "url": "/behind-the-story/guilty-until-proven-innocent"
-    },{
-      "name": "A Dream Achieved",
-      "img": "/behind-the-story/images/thumb-john.jpg",
-      "url": "/behind-the-story/a-dream-achieved"
+      "name": "A Different Feeling",
+      "img": "/images/thumb-dustin.jpg",
+      "url": "/a-different-feeling"
     },{
       "name": "A Better Diagnosis",
-      "img": "/behind-the-story/images/thumb-pallavi.jpg",
-      "url": "/behind-the-story/a-better-diagnosis"
-    },{
-      "name": "A Different Feeling",
-      "img": "/behind-the-story/images/thumb-dustin.jpg",
-      "url": "/behind-the-story/a-different-feeling"
-    },{
-      "name": "The Key to a Cure",
-      "img": "/behind-the-story/images/thumb-bob-brian.jpg",
-      "url": "/behind-the-story/key-to-a-cure"
+      "img": "/images/thumb-pallavi.jpg",
+      "url": "/a-better-diagnosis"
     },{
       "name": "A Healthy Chill",
-      "img": "/behind-the-story/images/thumb-bob-brian.jpg",
-      "url": "/behind-the-story/a-healthy-chill"
+      "img": "/images/thumb-jill.jpg",
+      "url": "/a-healthy-chill"
     },{
-      "name": "Care Amid Crisis",
-      "img": "/behind-the-story/images/thumb-bob-brian.jpg",
-      "url": "/behind-the-story/care-amid-crisis"
+      "name": "Guilty Until Proven Innocent",
+      "img": "/images/thumb-carmen.jpg",
+      "url": "/guilty-until-proven-innocent"
+    },{
+      "name": "Cross-Campus Collaboration",
+      "img": "/images/thumb-bob-brian.jpg",
+      "url": "/cross-campus-collaboration"
     },{
       "name": "Training Ground",
-      "img": "/behind-the-story/images/thumb-bob-brian.jpg",
-      "url": "/behind-the-story/training-ground"
+      "img": "/images/thumb-sue.jpg",
+      "url": "/training-ground"
+    },{
+      "name": "Care Amid Crisis",
+      "img": "/images/thumb-lee.jpg",
+      "url": "/care-amid-crisis"
+    },{
+      "name": "A Dream Achieved",
+      "img": "/images/thumb-john.jpg",
+      "url": "/a-dream-achieved"
     }
   ],
   "tertiary": [
     {
-      "name": "Finding Our Way",
-      "url": "/behind-the-story/finding-our-way"
-    },{
-      "name": "Triple Threat",
-      "url": "/behind-the-story/triple-threat"
-    },{
-      "name": "Data Stories",
-      "url": "/behind-the-story/data-stories"
+      "name": "Native Navigation",
+      "url": "/native-navigation"
     },{
       "name": "Self(ie)-Help",
-      "url": "/behind-the-story/selfie-help"
+      "url": "/selfie-help"
+    },{
+      "name": "More than a Name",
+      "url": "/more-than-a-name"
+    },{
+      "name": "Triple Threat",
+      "url": "/triple-threat"
+    },{
+      "name": "Data Stories",
+      "url": "/data-stories"
     }
   ],
   "topnav": [
     {
       "name": "Home",
-      "url": "/behind-the-story"
+      "url": "/"
     },{
       "name": "Facts & Figures",
-      "url": "/behind-the-story/facts-figures"
+      "url": "/facts-figures"
     },{
       "name": "President's Letter",
-      "url": "/behind-the-story/presidents-letter"
+      "url": "/presidents-letter"
     },{
       "name": "Download PDF",
-      "url": "/behind-the-story"
+      "url": "/"
     }
   ]
 }

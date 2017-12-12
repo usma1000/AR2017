@@ -114,8 +114,8 @@ $navwidth: 300px;
   font-size: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
-  border-top: 4px solid #666666;
-  border-bottom: 4px solid #666666;
+  border-top: 4px solid rgba(255,255,255,.2);
+  border-bottom: 4px solid rgba(255,255,255,.2);
   margin-bottom: $large;
   .attribution {
     display: block;
@@ -224,4 +224,14 @@ $navwidth: 300px;
   flex-grow: 4;
   width: 600px;
   margin-left: auto;
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

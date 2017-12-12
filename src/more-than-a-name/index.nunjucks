@@ -1,0 +1,21 @@
+{% extends '_layouts/featured.nunjucks' %}
+
+{% block config %}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block backgroundimage %}
+{# <img src="{{baseUrl}}images/story-bkg-carmen.jpg" class="hidden get-bkg"> #}
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "More than a Name"})}}
+{% endblock %}
+
+{% block pullquote %}
+  “ADD”
+{% endblock %}
+
+{% block content %}
+<p>ADD</p>
+{% endblock %}
