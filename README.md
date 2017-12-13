@@ -9,6 +9,11 @@ Quick start:
 - `gulp serve --open`
 - May need to refresh the browser if you see a blank page
 
+## Before Presentation
+- Adjust Images for Back in Touch and Training Grounds
+- Upload to Aurora
+- Make sure all links/images have correct paths
+
 ## Issues
 - Secondary links in sidenav have broken underlines on hover because of flex
 - Correct link should be active in sidebar

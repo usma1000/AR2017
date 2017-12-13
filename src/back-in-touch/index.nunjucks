@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "A Different Feeling"})}}
+  {{pagetitle.content({text: "Back in Touch"})}}
 {% endblock %}
 
 {% block pullquote %}

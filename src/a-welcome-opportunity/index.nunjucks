@@ -5,16 +5,17 @@
 {% endblock %}
 
 {% block backgroundimage %}
-<img src="{{baseUrl}}images/story-bkg-amber-ethan.jpg" class="hidden get-bkg">
+<img src="{{baseUrl}}images/story-bkg-cami.jpg" class="hidden get-bkg">
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Meeting Their Needs"})}}
+  {{pagetitle.content({text: "A Welcome Opportunity"})}}
 {% endblock %}
 
 {% block pullquote %}
-  “I am achieving the dreams that I never thought I’d be able to.”
-  <span class="attribution">—Ambar Solis-Fuentes</span>
+  “I know the value that international students, refugees and immigrants bring to our
+community.”
+  <span class="attribution">—Cami Ross</span>
 {% endblock %}
 
 {% block content %}

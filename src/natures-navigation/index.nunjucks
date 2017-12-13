@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Finding Our Way"})}}
+  {{pagetitle.content({text: "Nature's Navigation"})}}
 {% endblock %}
 
 {% block pullquote %}
