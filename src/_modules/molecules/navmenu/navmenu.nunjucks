@@ -3,6 +3,7 @@
 {% set _data = spec.data %}
 {% set _ulClass = spec.ulclass or '' %}
 {% set _liClass = spec.liclass or 'menu--li' %}
+{% set _divClass = spec.divclass or 'menu--div' %}
 {% set _style = spec.style or 'featured' %}
 {% set baseUrl = '../' %}
 
@@ -32,18 +33,22 @@
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.secondary %}
     <li class="{{_liClass}}">
-      <a href="{{val.url}}">
-        {{image.content({
-          class: "menu--thumb",
-          src: val.img,
-          alt: "thumbnail for " + val.name|lower
+      <div class="{{_divClass}}">
+        <a href="{{val.url}}">
+          {{image.content({
+            class: "menu--thumb",
+            src: val.img,
+            alt: "thumbnail for " + val.name|lower
+          })}}
+        </a>
+      </div>
+      <div class="{{_divClass}}">
+        {{link.content({
+          class: "menu--link link--underline",
+          href: val.url,
+          text: val.name
         })}}
-      </a>
-      {{link.content({
-        class: "menu--link link--underline",
-        href: val.url,
-        text: val.name
-      })}}
+      </div>
     </li>
   {% endfor %}
   </ul>
