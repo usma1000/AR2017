@@ -32,6 +32,9 @@
           {% block content %}{% endblock %}
         </div>
       </div>
+      <div class="content--stats">
+        {% block stats %}{% endblock %}
+      </div>
     {% endblock %}
   </div>
 {% endblock %}

@@ -31,6 +31,9 @@ $(function() {
       // Remove the original <img>
       // imageholder.remove();
     };
+    setTimeout(function() {
+      $('div.navsidebar').animate({ scrollTop: ($("[href='" + window.location.pathname.trim().slice(0,-1) + "']")[0].offsetTop - 35) }, 2500);
+    },1000);
   });
   // $(document).ready(function() {
   //   console.log('document ready');

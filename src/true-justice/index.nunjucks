@@ -25,3 +25,26 @@
 <p>For Naso, who has practiced law for more than 30 years, the case was a chance to right a grave injustice.</p>
 <p>“We’ve done so much to improve our criminal justice system,” he said, “but if we’re really serious, we need to go back and fix our mistakes.”</p>
 {% endblock %}
+
+{% block stats %}
+<div class="statbox">
+	<h4 class="statbox-title">45%</h4>
+	<p class="statbox-text">2017-2018</p>
+</div>
+<div class="statbox">
+	<h4 class="statbox-title">45%</h4>
+	<p class="statbox-text">2017-2018</p>
+</div>
+<div class="statbox">
+	<h4 class="statbox-title">45%</h4>
+	<p class="statbox-text">2017-2018</p>
+</div>
+<div class="statbox">
+	<h4 class="statbox-title">45%</h4>
+	<p class="statbox-text">2017-2018</p>
+</div>
+<div class="statbox">
+	<h4 class="statbox-title">45%</h4>
+	<p class="statbox-text">2017-2018</p>
+</div>
+{% endblock %}
