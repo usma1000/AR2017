@@ -108,3 +108,9 @@
   padding: .4em 1em;
   border-radius: 43px;
 }
+
+@media (max-width: 1600px) {
+  .topnav .menu--li {
+    margin-left: 1em;
+  }
+}

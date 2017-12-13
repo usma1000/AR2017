@@ -45,6 +45,10 @@ $large: 48px;
   animation-delay: 1s;
 }
 
+.delay-title {
+  animation-delay: 2s;
+}
+
 @keyframes bounceX {
   50% { transform: translateX(2%)}
   100% { transform: translateX(0%)}

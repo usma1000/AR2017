@@ -171,7 +171,15 @@ $navwidth: 300px;
 .hidden {
   display: none;
 }
-
+@media (max-width: 1600px) {
+  .hidden {
+    display: block;
+    margin-top: $large;
+  }
+  .feature-background {
+    background-image: none !important;
+  }
+}
 .content--body {
   font-family: DepotNew-Regular, "Titillium Web";
 }
@@ -261,17 +269,17 @@ $navwidth: 300px;
 .behind-svg {
   z-index: 10;
   flex-grow: 4;
-  width: 600px;
+  width: 70%;
   margin-left: auto;
 }
 
 .gradient {
-  background: linear-gradient(to right, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);
+  background: rgba(0,0,0,0.6);
   content: '';
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  width: 1000px;
   pointer-events: none;
 }
