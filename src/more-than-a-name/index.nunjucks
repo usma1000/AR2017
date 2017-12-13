@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Representation Matters"})}}
+  {{pagetitle.content({text: "More than a Name"})}}
 {% endblock %}
 
 {% block pullquote %}

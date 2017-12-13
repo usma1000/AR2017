@@ -9,32 +9,32 @@
       "img": "/images/feature-thumb-xyla.png",
       "url": "/closer-connections"
     },{
-      "name": "Meeting Their Needs",
+      "name": "Full Support",
       "img": "/images/feature-thumb-amber-ethan.png",
-      "url": "/meeting-their-needs"
+      "url": "/full-support"
     },{
-      "name": "Making a Statement",
+      "name": "A Welcome Opportunity",
       "img": "/images/feature-thumb-cami.png",
-      "url": "/making-a-statement"
+      "url": "/a-welcome-opportunity"
     }
   ],
   "secondary": [
     {
-      "name": "A Different Feeling",
+      "name": "Back in Touch",
       "img": "/images/thumb-dustin.jpg",
-      "url": "/a-different-feeling"
+      "url": "/back-in-touch"
     },{
-      "name": "A Better Diagnosis",
+      "name": "Digital Diagnosis",
       "img": "/images/thumb-pallavi.jpg",
-      "url": "/a-better-diagnosis"
+      "url": "/digital-diagnosis"
     },{
       "name": "A Healthy Chill",
       "img": "/images/thumb-jill.jpg",
       "url": "/a-healthy-chill"
     },{
-      "name": "Guilty Until Proven Innocent",
+      "name": "True Justice",
       "img": "/images/thumb-carmen.jpg",
-      "url": "/guilty-until-proven-innocent"
+      "url": "/true-justice"
     },{
       "name": "Cross-Campus Collaboration",
       "img": "/images/thumb-bob-brian.jpg",
@@ -48,27 +48,27 @@
       "img": "/images/thumb-sue.jpg",
       "url": "/training-ground"
     },{
-      "name": "A Dream Achieved",
+      "name": "Dream Team",
       "img": "/images/thumb-john.jpg",
-      "url": "/a-dream-achieved"
+      "url": "/dream-team"
     }
   ],
   "tertiary": [
     {
-      "name": "Native Navigation",
-      "url": "/native-navigation"
+      "name": "Nature's Navigation",
+      "url": "/natures-navigation"
     },{
       "name": "Self(ie)-Help",
       "url": "/selfie-help"
     },{
-      "name": "Representation Matters",
-      "url": "/representation-matters"
+      "name": "More than a Name",
+      "url": "/more-than-a-name"
     },{
       "name": "Triple Threat",
       "url": "/triple-threat"
     },{
-      "name": "Data Stories",
-      "url": "/data-stories"
+      "name": "Data Impact",
+      "url": "/data-impact"
     }
   ],
   "topnav": [

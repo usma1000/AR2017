@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Guilty Until Proven Innocent"})}}
+  {{pagetitle.content({text: "True Justice"})}}
 {% endblock %}
 
 {% block pullquote %}

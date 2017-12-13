@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Data Stories"})}}
+  {{pagetitle.content({text: "Data Impact"})}}
 {% endblock %}
 
 {% block pullquote %}

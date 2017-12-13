@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "A Better Diagnosis"})}}
+  {{pagetitle.content({text: "Digital Diagnosis"})}}
 {% endblock %}
 
 {% block pullquote %}

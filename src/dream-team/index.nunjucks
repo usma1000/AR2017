@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "A Dream Achieved"})}}
+  {{pagetitle.content({text: "Dream Team"})}}
 {% endblock %}
 
 {% block pullquote %}
