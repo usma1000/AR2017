@@ -93,6 +93,15 @@ $navwidth: 300px;
   }
 }
 
+.content-right {
+  margin-left: auto;
+}
+
+.content-right .page-title {
+  text-align: right;
+  margin-left: auto;
+}
+
 .content--stats {
   width: 42%;
   position: absolute;
