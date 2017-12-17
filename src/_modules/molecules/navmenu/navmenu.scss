@@ -104,7 +104,13 @@
 }
 
 .home-container .topnav .menu--li {
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.6);
   padding: .4em 1em;
   border-radius: 43px;
+}
+
+@media (max-width: 1600px) {
+  .topnav .menu--li {
+    margin-left: 1em;
+  }
 }

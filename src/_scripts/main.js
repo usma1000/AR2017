@@ -15,25 +15,24 @@ $(function() {
     document.body.classList.add('render');
   },60);
 
-  // BACKGROUND IMAGES
-  // Fade background image in only once it's loaded
   $(document).ready(function() {
-    console.log($('.get-bkg'));
+    // BACKGROUND IMAGES
+    // Fade background image in only once it's loaded
     var imageholder = $('.get-bkg');
     if (imageholder.length > 0) {
-      console.log('loaded');
       // Get <img> src
       var bkgUrl = 'url(' +  imageholder.attr('src') + ')';
       // Apply same img to background
       $('.feature-background').css('background-image', bkgUrl);
       // Mask fades away
       $('.mask').removeClass('active');
-      // Remove the original <img>
-      // imageholder.remove();
     };
-    setTimeout(function() {
-      $('div.navsidebar').animate({ scrollTop: ($("[href='" + window.location.pathname.trim().slice(0,-1) + "']")[0].offsetTop - 35) }, 2500);
-    },1000);
+  
+    // NAVBAR
+    // Navbar scrolls to current story
+    // setTimeout(function() {
+    $('div.navsidebar').scrollTop($("[href='.." + window.location.pathname.trim().slice(17,-1) + "']")[0].offsetTop - 35);
+    // },1000);
   });
   // $(document).ready(function() {
   //   console.log('document ready');

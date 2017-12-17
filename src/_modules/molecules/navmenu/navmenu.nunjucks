@@ -15,10 +15,10 @@
   <ul class="navmenu {{_ulClass}}">
   {% for val in _data.featured %}
     <li class="{{_liClass}}">
-      <a href="{{val.url}}" class="menu--featured-link">
+      <a href="{{baseUrl + val.url}}" class="menu--featured-link">
         {{image.content({
           class: "menu--featured-img",
-          src: val.img,
+          src: baseUrl + val.img,
           alt: "thumbnail for " + val.name|lower
         })}}
         <p class="menu--link">{{val.name}}</p>
@@ -34,10 +34,10 @@
   {% for val in _data.secondary %}
     <li class="{{_liClass}}">
       <div class="{{_divClass}}">
-        <a href="{{val.url}}">
+        <a href="{{baseUrl + val.url}}">
           {{image.content({
             class: "menu--thumb",
-            src: val.img,
+            src: baseUrl + val.img,
             alt: "thumbnail for " + val.name|lower
           })}}
         </a>
@@ -45,7 +45,7 @@
       <div class="{{_divClass}}">
         {{link.content({
           class: "menu--link link--underline",
-          href: val.url,
+          href: baseUrl + val.url,
           text: val.name
         })}}
       </div>
@@ -61,7 +61,7 @@
     <li class="{{_liClass}}">
       {{link.content({
         class: "menu--link link--underline",
-        href: val.url,
+        href: baseUrl + val.url,
         text: val.name
       })}}
     </li>
@@ -76,7 +76,7 @@
     <li class="{{_liClass}}">
       {{link.content({
         class: "menu--link link--underline",
-        href: val.url,
+        href: baseUrl + val.url,
         text: val.name
       })}}
     </li>

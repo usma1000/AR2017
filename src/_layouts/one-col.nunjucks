@@ -3,18 +3,37 @@
 {# Add extra stylesheets #}
 {% block stylesheets %}{% endblock %}
 
-{% block maincontent %}
-<div class="flex flex-col home-container">
-  <header>
-    {{navmenu.content({
-      data: site.data.menu,
-      style: "topnav",
-      ulclass: "topnav content--white"
-    })}}
-  </header>
+{% block sidebarnav %}
+  {{navsidebar.content({
+    data: site.data.menu,
+    class: "navsidebar container--navbar flex flex-col false-links"
+  })}}
+{% endblock %}
 
-  {% block content %}{% endblock %}
-</div>
+{% block maincontent %}
+  <div class="container flex flex-col feature-background content--white">
+    <header>
+      {{navmenu.content({
+        data: site.data.menu,
+        style: "topnav",
+        ulclass: "topnav"
+      })}}
+    </header>
+
+    {% block layout %}
+      <div class="mask active"></div>
+      <div class="content" id="skiptocontent">
+        {% block backgroundimage %}{% endblock %}
+        {% block pagetitle %}{% endblock %}
+        <div class="content--body animated fadeInLeft delay2">
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+      <div class="content--stats">
+        {% block stats %}{% endblock %}
+      </div>
+    {% endblock %}
+  </div>
 {% endblock %}
 
 {# Add extra scripts #}

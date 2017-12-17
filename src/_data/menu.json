@@ -2,88 +2,88 @@
   "featured": [
     {
       "name": "His Move",
-      "img": "/images/feature-thumb-bob-kirsch.png",
-      "url": "/his-move"
+      "img": "images/feature-thumb-bob-kirsch.png",
+      "url": "his-move"
     },{
       "name": "Closer Connections",
-      "img": "/images/feature-thumb-xyla.png",
-      "url": "/closer-connections"
+      "img": "images/feature-thumb-xyla.png",
+      "url": "closer-connections"
     },{
       "name": "Full Support",
-      "img": "/images/feature-thumb-amber-ethan.png",
-      "url": "/full-support"
+      "img": "images/feature-thumb-amber-ethan.png",
+      "url": "full-support"
     },{
       "name": "A Welcome Opportunity",
-      "img": "/images/feature-thumb-cami.png",
-      "url": "/a-welcome-opportunity"
+      "img": "images/feature-thumb-cami.png",
+      "url": "a-welcome-opportunity"
     }
   ],
   "secondary": [
     {
       "name": "Back in Touch",
-      "img": "/images/thumb-dustin.jpg",
-      "url": "/back-in-touch"
+      "img": "images/thumb-dustin.jpg",
+      "url": "back-in-touch"
     },{
       "name": "Digital Diagnosis",
-      "img": "/images/thumb-pallavi.jpg",
-      "url": "/digital-diagnosis"
+      "img": "images/thumb-pallavi.jpg",
+      "url": "digital-diagnosis"
     },{
       "name": "A Healthy Chill",
-      "img": "/images/thumb-jill.jpg",
-      "url": "/a-healthy-chill"
+      "img": "images/thumb-jill.jpg",
+      "url": "a-healthy-chill"
     },{
       "name": "True Justice",
-      "img": "/images/thumb-carmen.jpg",
-      "url": "/true-justice"
+      "img": "images/thumb-carmen.jpg",
+      "url": "true-justice"
     },{
       "name": "Cross-Campus Collaboration",
-      "img": "/images/thumb-bob-brian.jpg",
-      "url": "/cross-campus-collaboration"
+      "img": "images/thumb-bob-brian.jpg",
+      "url": "cross-campus-collaboration"
     },{
       "name": "Care Amid Crisis",
-      "img": "/images/thumb-lee.jpg",
-      "url": "/care-amid-crisis"
+      "img": "images/thumb-lee.jpg",
+      "url": "care-amid-crisis"
     },{
       "name": "Training Ground",
-      "img": "/images/thumb-sue.jpg",
-      "url": "/training-ground"
+      "img": "images/thumb-sue.jpg",
+      "url": "training-ground"
     },{
       "name": "Dream Team",
-      "img": "/images/thumb-john.jpg",
-      "url": "/dream-team"
+      "img": "images/thumb-john.jpg",
+      "url": "dream-team"
     }
   ],
   "tertiary": [
     {
       "name": "Nature's Navigation",
-      "url": "/natures-navigation"
+      "url": "natures-navigation"
     },{
       "name": "Self(ie)-Help",
-      "url": "/selfie-help"
+      "url": "selfie-help"
     },{
       "name": "More than a Name",
-      "url": "/more-than-a-name"
+      "url": "more-than-a-name"
     },{
       "name": "Triple Threat",
-      "url": "/triple-threat"
+      "url": "triple-threat"
     },{
       "name": "Data Impact",
-      "url": "/data-impact"
+      "url": "data-impact"
     }
   ],
   "topnav": [
     {
       "name": "Home",
-      "url": "/"
+      "url": ""
     },{
       "name": "Facts & Figures",
-      "url": "/facts-figures"
+      "url": "facts-figures"
     },{
       "name": "President's Letter",
-      "url": "/presidents-letter"
+      "url": "presidents-letter"
     },{
       "name": "Download PDF",
-      "url": "/"
+      "url": ""
     }
   ]
 }

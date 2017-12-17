@@ -1,10 +1,18 @@
-{% extends '_layouts/featured.nunjucks' %}
+{% extends '_layouts/one-col.nunjucks' %}
 
 {% block config %}
   {# Correct base url pathing for this page #}
   {% set baseUrl = '../' %}
 {% endblock %}
 
+{% block pagetitle %}
+  {{pagetitle.content({text: "Facts & Figures"})}}
+{% endblock %}
+
 {% block content %}
-<p>facts-figures page</p>
+<p>facts-figures content</p>
+<div class="chart-container"></div>
+<p>charts go here</p>
+<div class="chart-container"></div>
+<p>explainer text goes in between</p>
 {% endblock %}
