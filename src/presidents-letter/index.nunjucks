@@ -1,12 +1,15 @@
-{% extends '_layouts/featured.nunjucks' %}
+{% extends '_layouts/one-col.nunjucks' %}
 
 {% block config %}
   {# Correct base url pathing for this page #}
   {% set baseUrl = '../' %}
 {% endblock %}
 
+{% block pagetitle %}
+  {{pagetitle.content({text: "Care Amid Crisis"})}}
+{% endblock %}
+
 {% block content %}
-{{pagetitle.content({text: "Care Amid Crisis"})}}
 <p>To the Case Western Reserve community:</p>
 <p>The quadriplegic man is able to move.</p>
 <p>The wrongfully imprisoned are set free.</p>
