@@ -10,21 +10,37 @@
 {% endblock %}
 
 {% block content %}
-<p>To the Case Western Reserve community:</p>
-<p>The quadriplegic man is able to move.</p>
-<p>The wrongfully imprisoned are set free.</p>
-<p>The scourge of malaria meets a formidable foe.</p>
-<p>With these and so many other examples, people usually learn of the accomplishment only after it is achieved.</p>
-<p>In a time-pressed world, the order makes sense. Almost always, the development becomes newsworthy after it actually happens—not when the idea first emerges, not during many revisions en route to discovery, and certainly not when it fails, flops or flounders.</p>
-<p>Yet there is a reason that nearly every superhero saga includes an origin story. As impressive as outcomes are, they seldom happen without a “why” that drives them.</p>
-<p>This year’s report looks at some of Case Western Reserve’s biggest stories from the 2016–17 year, but this time from a different perspective.</p>
-<p>Sometimes we view from the beginning. Sometimes the middle. But in each case, we try to illustrate the moment that matters most.</p>
-<p>When the brother of a friend is paralyzed in a freak accident.</p>
-<p>Or when students realize due process sometimes deserve doubt.</p>
-<p>Or when a teenager discovers a passion for infectious diseases at a summer camp, then returns, years later to try to defeat them.</p>
-<p>I want to congratulate all of those chronicled in this volume—and the hundreds more who contribute to Case Western Reserve’s mission in countless other ways.</p>
-<p>As you will read, we had an extraordinary year—one whose roots date back years and, in some cases, even decades.</p>
-<p>I hope you find their stories as fascinating as I did.</p>
-<p>Barbara R. Snyder</p>
-<p>President</p>
+<div class="flex space-between">
+  <div class="content">
+    <p><strong>To the Case Western Reserve community:</strong></p>
+    <p>The quadriplegic man is able to move.</p>
+    <p>The wrongfully imprisoned are set free.</p>
+    <p>The scourge of malaria meets a formidable foe.</p>
+    <p>With these and so many other examples, people usually learn of the accomplishment only after it is achieved.</p>
+    <p>In a time-pressed world, the order makes sense. Almost always, the development becomes newsworthy after it actually happens—not when the idea first emerges, not during many revisions en route to discovery, and certainly not when it fails, flops or flounders.</p>
+    <p>Yet there is a reason that nearly every superhero saga includes an origin story. As impressive as outcomes are, they seldom happen without a “why” that drives them.</p>
+    <p>This year’s report looks at some of Case Western Reserve’s biggest stories from the 2016–17 year, but this time from a different perspective.</p>
+    <p>Sometimes we view from the beginning. Sometimes the middle. But in each case, we try to illustrate the moment that matters most.</p>
+    <p>When the brother of a friend is paralyzed in a freak accident.</p>
+    <p>Or when students realize due process sometimes deserve doubt.</p>
+    <p>Or when a teenager discovers a passion for infectious diseases at a summer camp, then returns, years later to try to defeat them.</p>
+    <p>I want to congratulate all of those chronicled in this volume—and the hundreds more who contribute to Case Western Reserve’s mission in countless other ways.</p>
+    <p>As you will read, we had an extraordinary year—one whose roots date back years and, in some cases, even decades.</p>
+    <p>I hope you find their stories as fascinating as I did.</p>
+
+    {{image.content({
+      class: "image-auto",
+      src: baseUrl + "images/president-signature.png",
+      alt: "president snyder signature"
+    })}}
+
+    <p><strong>Barbara R. Snyder</strong>
+    <br>President</p>
+  </div>
+  {{image.content({
+    class: "image-auto align-self-flex-start",
+    src: baseUrl + "images/snyder.png",
+    alt: "president snyder"
+  })}}
+</div>
 {% endblock %}

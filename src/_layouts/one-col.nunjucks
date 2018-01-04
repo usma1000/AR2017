@@ -1,5 +1,5 @@
 {% extends './base.nunjucks' %}
-
+{% import "_modules/atoms/image/image.nunjucks" as image %}
 {# Add extra stylesheets #}
 {% block stylesheets %}{% endblock %}
 
@@ -22,10 +22,10 @@
 
     {% block layout %}
       <div class="mask active"></div>
-      <div class="content" id="skiptocontent">
+      <div class="content--full" id="skiptocontent">
         {% block backgroundimage %}{% endblock %}
         {% block pagetitle %}{% endblock %}
-        <div class="content--body animated fadeInLeft delay2">
+        <div class="content--body animated fadeIn">
           {% block content %}{% endblock %}
         </div>
       </div>

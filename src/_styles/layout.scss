@@ -193,7 +193,7 @@ $navwidth: 300px;
   padding: $large;
   // header {
   //   // flex-grow: 1;
-  // }  
+  // }
   .title-container {
     flex-grow: 2;
   }
@@ -257,11 +257,11 @@ $navwidth: 300px;
 #video-background {
 /*  making the video fullscreen  */
   position: fixed;
-  right: 0; 
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
+  width: auto;
   height: auto;
   z-index: 0;
 }
@@ -282,4 +282,16 @@ $navwidth: 300px;
   left: 0;
   width: 1000px;
   pointer-events: none;
+}
+
+.image-auto {
+  width: auto;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.space-between {
+  justify-content: space-between;
 }
