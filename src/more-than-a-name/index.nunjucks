@@ -19,11 +19,10 @@
 {% endblock %}
 
 {% block content %}
-<p>It’s not hyperbole when Makela Hayford calls Stephanie Tubbs Jones (FSM ’71, LAW ’74) her hero.</p>
+<p>It’s not hyperbole when Makela Hayford calls double alumna Stephanie Tubbs Jones her hero.</p>
 <p>Hayford is a sociology major (as was Tubbs Jones) who wants to earn a law degree to advance social justice (as did Tubbs Jones).</p>
-<p>Hayford also served as president of the university’s African American Society (which Tubbs Jones helped found), and in 2014 co-founded the student group #webelonghere (which, in 2016, persuaded the university to name its new residence hall name after Tubbs Jones).</p>
-<p>“[She] embodied the type of leadership and student activism that creates lasting change,” Hayford told the student newspaper that year.</p>
-<p>Tubbs Jones, who died in 2008, was the first African-American woman to become an Ohio Common Pleas court judge, and then the first to become a county prosecutor.</p>
-<p>In 1998, she became the first African-American woman elected to represent Ohio in Congress. Fittingly, the residence hall marks the first time a campus building bears the name of an African-American woman.</p>
+<p>Hayford served as president of the university’s African American Society (which Tubbs Jones helped found), and in 2014 co-founded the student group #webelonghere (which, in 2016, suggested that the university name its new residence hall name after Tubbs Jones).</p>
+<p>She “embodied the type of leadership and student activism that creates lasting change,” Hayford told the student newspaper that year.</p>
+<p>Tubbs Jones, who died in 2008, was the first African-American woman to become an Ohio Common Pleas court judge, and then the first to become a county prosecutor. In 1998, she became the first African-American woman elected to represent Ohio in Congress. Fittingly, the residence hall marks the first time a campus building bears the name of an African-American woman.</p>
 <p>“We are thrilled this residence hall will celebrate her legacy,” Hayford said at the dedication. “But I don’t think Stephanie Tubbs Jones would want us to stop with this naming today.”</p>
 {% endblock %}

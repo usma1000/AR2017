@@ -21,7 +21,7 @@
 {% block content %}
 <p>As a nurse for 30 years, Jill Byrne has seen firsthand how tempers and temperatures can rise in the operating room.</p>
 <p>To chill out heat-stressed surgeons and others, Byrne invented a vest outfitted with ice packs to put under their often-stifling gowns.</p>
-<p>“Wearing the vest, the surgeons are calmer and cooler—which is healthier for them,” said Byrne, a PhD student at the Frances Payne Bolton School of Nursing and a Cleveland Clinic nurse. “One broke even into song.”</p>
-<p>The vest proved so popular that Byrne found herself making hundreds for colleagues, continuing to updating her designs. Ultimately, she recognized the business potential of the concept, and worked with Cleveland Clinic Innovations, the commercialization arm of the hospital system, to seek a patent. Today, she is licensing the product with hopes of making the vests available worldwide.</p>
-<p>Meanwhile, the idea applies to her academic endeavors as well. The subject of her dissertation? The occupational hazards of heat stress.</p>
+<p>“Wearing the vest, the surgeons are calmer and cooler—which is healthier for them,” said Byrne, a PhD student at the Frances Payne Bolton School of Nursing and a Cleveland Clinic nurse. “One even broke into song.”</p>
+<p>The vest proved so popular that Byrne found herself making hundreds for colleagues, continuing to update her designs. Ultimately, she recognized the business potential of  the concept, and connected with Cleveland Clinic Innovations, the commercialization arm of the hospital system, to seek a patent. Today, they are working to facilitate licensing the product with a goal of making the vests available worldwide.</p>
+<p>Meanwhile, the idea applies to her  academic endeavors as well. The subject of  her dissertation? The occupational hazards of heat stress.</p>
 {% endblock %}

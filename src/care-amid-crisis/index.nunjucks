@@ -22,11 +22,11 @@
 {% block content %}
 <p>When severe childhood asthma forced Linda Burnes Bolton into frequent medical care, the compassion shown by nurses helped her recover.</p>
 <p>It also pointed her toward a career in caregiving.</p>
-<p>Now a university trustee and vice president of nursing at Los Angeles’ Cedars-Sinai Health System, Burnes Bolton has achieved such national renown that she is called on regularly to contribute her expertise on critical health issues.</p>
-<p>The most recent example involves opiates, where she joined Case Western Reserve faculty member Lee Hoffer on an expert committee providing analysis and recommendations for easing the epidemic.</p>
-<p>Convened by The National Academies of Sciences, Engineering, and Medicine, the group issued a 482-page report in July that calls for expanding access to treatment, increasing  research and encouraging more responsible prescribing among health care providers. The report found that, as of 2015, about 2 million people have a “use disorder” involving prescription opioids, and 600,000 have the disorder relating to heroin.</p>
+<p>Now a university trustee, vice president of nursing and chief nursing officer at Los Angeles’ Cedars-Sinai Health System, and an American Academy of Nursing “Living Legend,” Burnes Bolton has achieved such renown that she is asked regularly to contribute her expertise on critical health issues.</p>
+<p>The most recent example involves opiates,  where she joined Case Western Reserve faculty member Lee Hoffer on an expert committee providing analysis and recommendations for easing the epidemic.</p>
+<p>Convened by The National Academies of Sciences, Engineering, and Medicine, the group issued a 482-page report in July that calls for expanding access to treatment, increasing research and encouraging more responsible prescribing among health care providers. The report found that, as of 2015, about 2 million people have a “use disorder” involving prescription opioids, and 600,000 have the disorder relating to heroin.</p>
 <p>“Data from the front lines, so to speak, helps policymakers be better informed to fix this issue,” Hoffer said.</p>
 <p>As an anthropologist whose research focuses on heroin, Hoffer is all too familiar with the havoc the drug can wreak.</p>
-<p>As he came to know some heroin users, Hoffer detailed the everyday experiences of their condition as a way to humanize the problem for the public.</p>
-<p>As Burnes Bolton explains, “caring about others means doing what you can, no matter who you are.”</p>
+<p>As his research led him to know some heroin users, Hoffer detailed their everyday experiences as a way to humanize the problem for the public.</p>
+<p>“Caring about others,” Burnes Bolton explained, “means doing what you can, no matter who you are.”</p>
 {% endblock %}

@@ -13,13 +13,13 @@
 {% endblock %}
 
 {% block pullquote %}
-  “Data often tells a story.”
+  “All numbers tell their own story.”
   <span class="attribution">—April Hirsh Urban</span>
 {% endblock %}
 
 {% block content %}
 <p>When April Hirsh Urban befriended a childhood classmate too shy to speak to anyone else, she felt guided by the same force that inspires her today: an innate desire to understand the perspectives of those who need help.</p>
 <p>“I try to see everything through a lens of potential impacts on already-vulnerable people,” she said.</p>
-<p>Now a research associate at the Jack, Joseph and Morton Mandel School of Applied Social Sciences, Urban has expanded her focus from one to many—and her tools from conversation to multi-layered analysis.</p>
+<p>Now a research associate at the Jack, Joseph  and Morton Mandel School of Applied Social Sciences, Urban has expanded her focus from one to many—and her tools from conversation to multi-layered analysis.</p>
 <p>In a report for the Western Reserve Land Conservancy that she co-authored, Urban and her colleagues mined and mapped public data to find surprising outcomes. Chief among them: Violent crime rates are higher in areas with large concentrations of vacancies. The finding—and the statistics that support it—will help guide officials working to make Cleveland neighborhoods safer.</p>
 {% endblock %}

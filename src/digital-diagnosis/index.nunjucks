@@ -20,8 +20,8 @@
 {% block content %}
 <p>When Pallavi Tiwari first got her hands on a computer as a high school student in India, she had to figure out by herself how to use it.</p>
 <p>But even that self-taught experience was enough to steer her to technological studies—and, last fall, a discovery that may transform human health.</p>
-<p>As an assistant professor of biomedical engineering, Tiwari works on ways that computers can improve patient care. One of her most recent projects involved identifying alternatives to risky biopsies for evaluating brain tumors. Using magnetic resonance imaging (MRI), Tiwari and her team developed algorithms that taught the computer to distinguish between active and dead cancer cells—a task so difficult that neurologists sometimes have to turn to surgery to be certain.</p>
-<p>The more scans the software reviewed, the better it became, ultimately discerning features the average eye could not.</p>
-<p>In a test against two human neurologists, the computer correctly diagnosed four out of every five brain scans, while the physicians only got about half right.</p>
+<p>As an assistant professor of biomedical engineering, Tiwari works on ways that  computers can improve patient care. One of her most recent projects involved identifying alternatives to risky biopsies for evaluating brain tumors. Using magnetic resonance imaging, Tiwari and her team developed artificial intelligence algorithms that taught the computer to distinguish between spots that either could be the recurrence of cancer or a benign effect of radiation—a task so difficult that neuroradiologists often turn to  surgery to be certain.</p>
+<p>The more scans the software reviewed, the better  it became, ultimately discerning features the average eye could not.</p>
+<p>In a test against two human experts, the computer correctly diagnosed 80 percent of brain scans, while the physicians only got about half right.</p>
 <p>Tiwari still needs to assess the technology’s accuracy with larger numbers of scans, but if it continues to work, patients could well have more promising futures.</p>
 {% endblock %}

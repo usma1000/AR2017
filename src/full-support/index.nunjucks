@@ -18,9 +18,10 @@
 {% endblock %}
 
 {% block content %}
-  <p>Cami Ross studied abroad four times as a college student—and each trip deepened her appreciation of cultural differences.</p>
-  <p>So when President Trump limited travel to and from several predominantly Muslim countries, Ross said she “thought of our students first.”</p>
-  <p>The program coordinator in the university’s Center for International Affairs, she worried whether students from affected countries would have to leave. She wondered whether their families could visit here. And she feared that the university would not be able to bring in future students from the identified countries.</p>
-  <p>Ross rallied the community around a customized version of the national #YouAreWelcomeHere campaign designed to show campus support for international students.</p>
-  <p>Soon, #YouAreWelcomeHereCWRU buttons and signs began appearing everywhere. The idea: to remind international students that, at Case Western Reserve, they are valued, appreciated and always welcome.</p>
+  <p>When it came to selecting a college, Ambar Solis-Fuentes and Ethan Voss considered three factors: academics, social life and, equally important, cost.</p>
+  <p>As a first-generation college student, Solis-Fuentes recognized that schools’ scholarships and aid would play a primary role in her decision.</p>
+  <p>Voss, meanwhile, knew early that Case Western Reserve was his first choice. Actually enrolling  here, though, would depend on the financial support he received.</p>
+  <p>The two applied at an opportune time: The Class of 2021 is the first accepted under the university’s new policy of meeting the full need of every admitted student. Previously, about a quarter of students received aid lower than their demonstrated need. The new approach has dramatically increased diversity—including representation of economically disadvantaged students.</p>
+  <p>Today both Voss and Solis-Fuentes are  first-year students. He’s majoring in engineering, while she’s pursuing biochemistry on a pre-med track—and working to realize the dreams of her immigrant parents.</p>
+  <p>“They came here,” she said, “to give my siblings and me the chance to be more successful.”</p>
 {% endblock %}

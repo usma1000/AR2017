@@ -18,11 +18,12 @@
 {% endblock %}
 
 {% block content %}
-<p>The night before her first Consumer Electronics Show (CES), Xyla Foxlin soldered by the light of her iPhone in her Las Vegas hotel room, feeling unprepared and overwhelmed.</p>
-<p>But the next morning, she watched in awe as tradeshow attendees who stopped by her booth shifted quickly from casual curiosity to intense interest.</p>
-<p>“People started pulling out their credit cards,” she remembered, “saying, ‘Can I buy this now?’”</p>
-<p>“This” was Parihug, a wireless-enabled stuffed animal that can transmit cuddles around the world.</p>
-<p>The idea for the product emerged from a stressful day as a second-year college student. With loved ones hundreds of miles away, Foxlin realized the only way to feel the kind of connection she craved would be to create it herself.</p>
-<p>Three years after building her first prototype in the Larry Sears and Sally Zlotnick Sears think[box], Foxlin has raised more than $XXXXX for her start-up and drawn international attention—including an appearance in Microsoft television commercials. ln 2017, Foxlin returned to CES, where Case Western Reserve claimed 10 booths, the most of any university, thanks in part to the assistance of the entrepreneurial support program CWRU LaunchNet.</p>
-<p>The showing is just one of ways that our students think beyond the possible.</p>
+<p>The night before her first Consumer Electronics Show (CES), Xyla Foxlin soldered circuit boards by the light of her iPhone, feeling unprepared and overwhelmed.</p>
+<p>But the next morning, people who stopped by  her booth shifted quickly from casual curiosity to intense interest.</p>
+<p>They “started pulling out their credit cards,” she remembered, “saying, ‘Can I buy this now?’”</p>
+<p>“This” was Parihug, a wireless-enabled stuffed animal that can transmit cuddles to other Parihugs around the world.</p>
+<p>The idea emerged from a stressful day as a second-year college student. With loved ones hundreds of miles away, Foxlin realized the only way to feel the connection she craved would be to create it herself.</p>
+<p>Three years after building her first prototype in the Larry Sears and Sally Zlotnick Sears think[box], Foxlin has raised more than $200,000 for her startup and even appeared in Microsoft television commercials. </p>
+<p>In 2017, Foxlin returned to CES, where Case Western Reserve claimed more booths than any university, thanks in part to the assistance of the entrepreneurship program CWRU LaunchNet. </p>
+<p>The showing is just one of ways that demonstrates how our students think beyond the possible.</p>
 {% endblock %}

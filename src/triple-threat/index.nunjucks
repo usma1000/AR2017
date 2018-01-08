@@ -14,13 +14,13 @@
 {% endblock %}
 
 {% block pullquote %}
-  "I was by no means expecting this..."
+  "I was by no means expecting this."
   <span class="attribution">—C.J. Krimbill</span>
 {% endblock %}
 
 {% block content %}
 <p>University record-holder. All-American. National champion.</p>
 <p>By the end of his sophomore year, C.J. Krimbill (CWR ’16) already had made university history as half of the NCAA champion men’s doubles tennis duo—the first time Case Western Reserve claimed a national title in that sport.</p>
-<p>Over the years, his on-court success continued—and his off-court accomplishments proved just as impressive, among them a 3.94 cumulative GPA and extensive community service including tutoring math and teaching tennis.</p>
-<p>This combination of achievements made Krimbill an NCAA Today’s Top 10 Award recipient—the first athlete in school history and the first men’s tennis player in any NCAA division to receive the honor, previously awarded to the likes of Archie Griffin, John Elway and Drew Brees.</p>
+<p>Over the years, his on-court success continued—and his off-court accomplishments proved just as impressive, among them a 3.94 cumulative GPA and extensive community service, including tutoring math and teaching tennis.</p>
+<p>This combination of achievements made Krimbill an NCAA Today’s Top 10 Award recipient—the first athlete in school history and the first men’s tennis player in any NCAA division to receive the honor, which previously was awarded to the likes of Archie Griffin, John Elway and Drew Brees.</p>
 {% endblock %}

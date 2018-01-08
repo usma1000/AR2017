@@ -13,14 +13,14 @@
 {% endblock %}
 
 {% block pullquote %}
-  “Some of the most amazing things that we see in the animal world involve
-navigation.”
+  “Some of the most amazing things that we see in the animal world involve navigation.”
+  <span class="attribution">—Roy Ritzmann</span>
 {% endblock %}
 
 {% block content %}
-<p>Roy Ritzmann’s research career began with a dreaded undergraduate course: invertebrate biology. That class led to a lab opportunity through which he learned from Nobel Prize winners and experts in the field. From that moment, he was hooked.</p>
-<p>Ever since, he’s worked to understand more about how even the tiniest creatures traverse complex paths.</p>
+<p>Roy Ritzmann’s research career began with a “dreaded” undergraduate course: invertebrate biology. Through that class, though, he found a lab opening, which, in turn, led him to learn from Nobel Prize winners and other experts in the field. From that point on, he was hooked.</p>
+<p>Ever since, he’s worked to understand more about how even these seemingly simple creaturestraverse complex paths.</p>
 <p>One surprising answer? GPS.</p>
 <p>The biology professor’s team found that, like humans and other mammals, cockroaches appear to have a sophisticated navigation system in their brains that helps steer them through new surroundings.</p>
-<p>The finding likely represents convergent evolution—the idea that distinct animals developed similar systems to manage the same problems. Ritzmann hopes to discover more about the cockroaches’ system to deepen our understanding of what happens in humans when we lose our way.</p>
+<p>The finding likely represents convergent evolution—the idea that distinct animals developed similar systems to manage the same problems. Ritzmann hopes to discover more about the cockroaches’ system to expand our understanding of how all animals navigate their surroundings.</p>
 {% endblock %}
