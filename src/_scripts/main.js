@@ -34,15 +34,31 @@ $(function() {
     $('div.navsidebar').scrollTop($("[href='.." + window.location.pathname.trim().slice(17,-1) + "']")[0].offsetTop - 35);
     // },1000);
   });
-  // $(document).ready(function() {
-  //   console.log('document ready');
-  //   $('.get-bkg').load(function() {
-  //     console.log('image loaded');
-  //     var bkgurl = 'url(' + $(this).attr('src') + ')';
-  //     $('.feature-background').css('background-image', bkgUrl);
-  //     $('.mask').removeClass('active');
-  //   });
-  // });
+
+  $.fn.spanLetters = function() {
+    this.each(function() {
+      var words,i,text;
+      words = $(this).text().split('');
+      for (i = 0; i in words; i++) {
+        words[i] = '<span class="span-letter opacity-0">' + words[i] + '</span>'
+      };
+      text = words.join('');
+      $(this).html(text);
+    })
+  }
+
+  $('.page-title').spanLetters();
+  var titleLetters = document.getElementsByClassName('span-letter');
+  var iterate = 0;
+  function showTitle() {
+    titleLetters[iterate].classList.remove('opacity-0');
+
+    if (++iterate == titleLetters.length) {
+      return;
+    }
+    setTimeout(showTitle, 50);
+  }
+  showTitle();
 
   // ONBOARD
   // Show .onboard div on homepage after some time

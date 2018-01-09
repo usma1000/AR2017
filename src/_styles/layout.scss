@@ -164,10 +164,19 @@ $navwidth: 300px;
   }
 }
 
+.margin-left {
+  margin-left: $large;
+}
+
 .slide-text {
   display: none;
 }
-
+.opacity-0 {
+  opacity: 0;
+}
+.span-letter {
+  transition: opacity .6s;
+}
 .hidden {
   display: none;
 }
