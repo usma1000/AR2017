@@ -21,7 +21,6 @@
     </header>
 
     {% block layout %}
-      <div class="mask active"></div>
       <div class="content--full" id="skiptocontent">
         {% block backgroundimage %}{% endblock %}
         {% block pagetitle %}{% endblock %}
