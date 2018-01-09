@@ -55,7 +55,7 @@ $navwidth: 300px;
 }
 
 .feature-background {
-  background: #2B2B2B;
+  background: #1B1B1B;
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -294,4 +294,22 @@ $navwidth: 300px;
 
 .space-between {
   justify-content: space-between;
+}
+
+@media (max-width: 950px) {
+  .navsidebar {
+    position: absolute;
+    width: 300px;
+  }
+  .container.flex {
+    z-index: 10;
+    transition: transform .4s;
+    padding: 20px;
+  }
+  .container.flex.active {
+    transform: translateX(300px);
+  }
+  .content {
+    margin: 0 auto;
+  }
 }

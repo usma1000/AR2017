@@ -96,10 +96,22 @@
 .topnav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
 
   .menu--li {
     margin-left: 2em;
+  }
+}
+
+.topnav.mobile {
+  display: none;
+  .menu--li {
+    margin-left: 0;
+    padding: 10px 0;
+    a {
+      color: white;
+    }
   }
 }
 
@@ -112,5 +124,14 @@
 @media (max-width: 1600px) {
   .topnav .menu--li {
     margin-left: 1em;
+  }
+}
+
+@media (max-width: 950px) {
+  .topnav {
+    display: none;
+  }
+  .topnav.mobile {
+    display: block;
   }
 }
