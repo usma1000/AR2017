@@ -27,7 +27,7 @@ $(function() {
       // Mask fades away
       $('.mask').removeClass('active');
     };
-  
+
     // NAVBAR
     // Navbar scrolls to current story
     // setTimeout(function() {
@@ -51,5 +51,10 @@ $(function() {
       $('.onboard').addClass('active');
     }, 6000);
   }
-  
+
+  $('.hamburger').click(function(event) {
+    event.preventDefault();
+    $('.container').toggleClass('active');
+  });
+
 });

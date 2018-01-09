@@ -296,6 +296,24 @@ $navwidth: 300px;
   justify-content: space-between;
 }
 
+.hamburger {
+  padding: 8px;
+  display: none;
+  .line {
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 30px;
+    margin-bottom: 8px;
+  }
+  &:before {
+    content: 'MENU';
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+
 @media (max-width: 950px) {
   .navsidebar {
     position: absolute;
@@ -311,5 +329,8 @@ $navwidth: 300px;
   }
   .content {
     margin: 0 auto;
+  }
+  .hamburger {
+    display: inline-block;
   }
 }
