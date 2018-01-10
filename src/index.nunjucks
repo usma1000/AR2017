@@ -1,10 +1,10 @@
 {% extends '_layouts/one-col.nunjucks' %}
 {% block content %}
 <video autoplay id="video-background" muted plays-inline>
-  <source src="home-bkg.mp4" type="video/mp4">
+  <source src="home-bkg-test.mp4" type="video/mp4">
 </video>
   <a href="his-move" class="onboard animated bounceX"><div class="arrow"></div> Choose a story to start reading</a>
-  <img src="images/behind-the-story.svg" alt="behind the story" class="behind-svg animated fadeInLeft delay-title">
+  {# <img src="images/behind-the-story.svg" alt="behind the story" class="behind-svg animated fadeInLeft delay-title"> #}
   {# <div class="title-container animated fadeInLeft delay2">
     <h1 class="home-title"><strong>Behind</strong> the story</h1>
   </div> #}

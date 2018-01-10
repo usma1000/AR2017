@@ -11,31 +11,21 @@ Quick start:
 
 ## Before Presentation
 - Adjust Images for Back in Touch and Training Grounds
-- Upload to Aurora
 - Make sure all links/images have correct paths
 
 ## Issues
-- Secondary links in sidenav have broken underlines on hover because of flex
 - Correct link should be active in sidebar
 - Sidebar should scroll to current active story
 
 ## ToDo
 - Add page title to <title> of each page
 - Add Google Tag Manager
-- Add skip to main content button
 - Need glow/animated indicatior to show that the sidenav is scrollable
-- Design/create home page
+- Home Page Video/Cover image
 - Design/create facts & figures page
-- Design/create president's letter page
 - Responsiveness
 - Accessibility
-- Find SVG CWRU logo
-- Integrate PatternLab?
-
-## Waiting On
-- Get final PDF from Emma and link to topnav
-- Add final background images
-- Crop and resize all images
+- Upload final PDF to Aurora and make sure it links
 
 ## Documentation Links
 
