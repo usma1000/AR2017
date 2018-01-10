@@ -10,9 +10,260 @@
 {% endblock %}
 
 {% block content %}
-<p>facts-figures content</p>
-<div class="chart-container"></div>
-<p>charts go here</p>
-<div class="chart-container"></div>
-<p>explainer text goes in between</p>
+<div class="facts-figures-container">
+  <h3 class="underline-title">Degrees and Campus Statistics</h3>
+  <p class="table-subtitle">July 1, 2016 - June 30, 2017</p>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Degrees Awarded</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bachelor's</td>
+          <td>1,249</td>
+        </tr>
+        <tr>
+          <td>Master's</td>
+          <td>1,451</td>
+        </tr>
+        <tr>
+          <td>PHD</td>
+          <td>206</td>
+        </tr>
+        <tr>
+          <td>Other Doctorate (JD, MD, DMD, DNP, DM, DMA, SJD)</td>
+          <td>451</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Degrees by School <span class="subtext">Undergraduate and Graduate</span></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Case School of Engineering</td>
+          <td>741</td>
+        </tr>
+        <tr>
+          <td>College of Arts and Sciences</td>
+          <td>675</td>
+        </tr>
+        <tr>
+          <td>Frances Payne Bolton School of Nursing</td>
+          <td>268</td>
+        </tr>
+        <tr>
+          <td>Jack, Joseph and Morton Mandel School of Applied Social Sciences</td>
+          <td>191</td>
+        </tr>
+        <tr>
+          <td>School of Dental Medicine</td>
+          <td>81</td>
+        </tr>
+        <tr>
+          <td>School of Law</td>
+          <td>196</td>
+        </tr>
+        <tr>
+          <td>School of Medicine</td>
+          <td>563</td>
+        </tr>
+        <tr>
+          <td>Weatherhead School of Management</td>
+          <td>654</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Campus</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Faculty (Full-Time)</td>
+          <td>3,501</td>
+        </tr>
+        <tr>
+          <td>Staff (Full-Time and Part-Time)</td>
+          <td>3,098</td>
+        </tr>
+        <tr>
+          <td>Campus Size (Acres)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="padding-left">University Circle</td>
+          <td>267</td>
+        </tr>
+        <tr>
+          <td class="padding-left">University Farm (Hunting Valley, Ohio)</td>
+          <td>400</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Enrollment <span class="subtext">Fall 2017</span></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Undergraduate</td>
+          <td>5,150</td>
+        </tr>
+        <tr>
+          <td>Graduate and Professional</td>
+          <td>6,674</td>
+        </tr>
+        <tr>
+          <td>States Represented</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Countries Represented</td>
+          <td>81</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Alumni + Honors</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alumni</td>
+          <td>112,661</td>
+        </tr>
+        <tr>
+          <td>Nobel Laureates</td>
+          <td>16</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="underline-title">Degrees and Campus Statistics</h3>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Research</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sponsored Research Projects</td>
+          <td>1,364</td>
+        </tr>
+        <tr>
+          <td>Sponsored Research Project Awards</td>
+          <td>$337.1 million</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Technology Transfer</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>New Intellectual Property Deals with Industry</td>
+          <td>59</td>
+        </tr>
+        <tr>
+          <td>Licensing Revenues</td>
+          <td>$2.21 million</td>
+        </tr>
+        <tr>
+          <td>New Inventions</td>
+          <td>236</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <table class="ui table inverted small padded">
+      <thead>
+        <tr>
+          <th>Competitive Sponsored Research Projects</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Projects Awarded</th>
+          <th>Awarded, in Millions*</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sponsored Research Projects</td>
+          <td>1,364</td>
+        </tr>
+        <tr>
+          <td>Sponsored Research Project Awards</td>
+          <td>$337.1 million</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th>*Numbers have been rounded</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <h3 class="underline-title">Financial Highlights</h3>
+  <p class="table-subtitle">July 1, 2016 - June 30, 2017</p>
+
+  <p>(3 different bar graphs go here)</p>
+
+  <h3 class="underline-title">University Trustees</h3>
+  <p class="table-subtitle">As of Jan 1, 2018</p>
+
+  <p>(list of names go here)</p>
+
+  <h3 class="underline-title">University Administration</h3>
+  <p class="table-subtitle">As of Jan 1, 2018</p>
+
+  <p>(List of names go here)</p>
+
+</div>
 {% endblock %}

@@ -9,23 +9,19 @@ Quick start:
 - `gulp serve --open`
 - May need to refresh the browser if you see a blank page
 
-## Before Presentation
-- Adjust Images for Back in Touch and Training Grounds
+## Before Thursday
+- Design/create facts & figures page
+- Check/update all background images
 - Make sure all links/images have correct paths
-
-## Issues
-- Correct link should be active in sidebar
-- Sidebar should scroll to current active story
+- Responsiveness
+- Upload final PDF to Aurora and make sure it links
 
 ## ToDo
 - Add page title to <title> of each page
 - Add Google Tag Manager
 - Need glow/animated indicatior to show that the sidenav is scrollable
 - Home Page Video/Cover image
-- Design/create facts & figures page
-- Responsiveness
 - Accessibility
-- Upload final PDF to Aurora and make sure it links
 
 ## Documentation Links
 
