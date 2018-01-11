@@ -1,0 +1,108 @@
+{% extends '_layouts/one-col.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block pagetitle %}
+  {{pagetitle.content({text: "University Leadership"})}}
+{% endblock %}
+
+{% block content %}
+<h3 class="underline-title">University Trustees</h3>
+<p class="table-subtitle">As of Jan 1, 2018</p>
+
+<div class="leadership-block">
+  <ul class="ul-block columns">
+      <li class="list-group-item leadership">James C. Wyant <span class="subtext">Chair of the Board</span></li>
+      <li class="list-group-item leadership">Virginia Nord Barbato</li>
+      <li class="list-group-item leadership">Linda Burnes Bolton</li>
+      <li class="list-group-item leadership">Timothy J. Callahan</li>
+      <li class="list-group-item leadership">Archie G. Co</li>
+      <li class="list-group-item leadership">Scott S. Cowen</li>
+      <li class="list-group-item leadership">Fred DiSanto</li>
+      <li class="list-group-item leadership">Thalia Dorwick</li>
+      <li class="list-group-item leadership">Geoffrey M. Duyk</li>
+      <li class="list-group-item leadership">Gregory L. Eastwood</li>
+      <li class="list-group-item leadership">Charles D. Fowler</li>
+      <li class="list-group-item leadership">Vincent A. Gaudiani</li>
+      <li class="list-group-item leadership">Julie Gerberding</li>
+      <li class="list-group-item leadership">Susie Gharib</li>
+      <li class="list-group-item leadership">Joie A. Gregor</li>
+      <li class="list-group-item leadership">Charles E. Hallberg</li>
+      <li class="list-group-item leadership">Daniel P. Harrington</li>
+      <li class="list-group-item leadership">Samir “Sam” Jadallah</li>
+      <li class="list-group-item leadership">Mary Ann Jorgenson</li>
+      <li class="list-group-item leadership">Charles “Bud” Koch</li>
+      <li class="list-group-item leadership">Toby D. Lewis</li>
+      <li class="list-group-item leadership">Frank N. Linsalata</li>
+      <li class="list-group-item leadership">George L. Majoros Jr.</li>
+      <li class="list-group-item leadership">Joseph M. Mandato</li>
+      <li class="list-group-item leadership">Thomas A. Mandel</li>
+      <li class="list-group-item leadership">Milton A. Marquis</li>
+      <li class="list-group-item leadership">Ellen Stirn Mavec</li>
+      <li class="list-group-item leadership">Thomas F. McKee</li>
+      <li class="list-group-item leadership">Sara H. Moll</li>
+      <li class="list-group-item leadership">Susan P. Mucciarone</li>
+      <li class="list-group-item leadership">Dominic Ozanne</li>
+      <li class="list-group-item leadership">Robert D. Pavey</li>
+      <li class="list-group-item leadership">James A. Ratner</li>
+      <li class="list-group-item leadership">Donald J. Richards</li>
+      <li class="list-group-item leadership">Joseph A. Sabatini</li>
+      <li class="list-group-item leadership">Eric R. Schnur</li>
+      <li class="list-group-item leadership">Theodore L. Schroeder</li>
+      <li class="list-group-item leadership">Alan L. Schwartz</li>
+      <li class="list-group-item leadership">Lawrence M. Sears</li>
+      <li class="list-group-item leadership">Barbara R. Snyder <span class="subtext">ex officio</span></li>
+      <li class="list-group-item leadership">Celia Scott Weinberger</li>
+      <li class="list-group-item leadership">Michael G. Zink</li>
+  </ul>
+  <p class="subtext">For a listing of the most current trustees, including emeriti, please visit <a href="//case.edu/bot" class="underline">case.edu/bot</a>.</p>
+</div>
+
+<h3 class="underline-title">University Administration</h3>
+<p class="table-subtitle">As of Jan 1, 2018</p>
+
+<div class="administration-block">
+  <ul class="ul-block columns">
+    <li class="list-group-item leadership">Barbara R. Snyder<span class="subtext">President</span></li>
+    <li class="list-group-item leadership">William A. Baeslack, III<span class="subtext">Provost and Executive Vice President</span></li>
+    <li class="list-group-item leadership">Jessica W. Berg<span class="subtext">Dean, School of Law</span></li>
+    <li class="list-group-item leadership">Richard W. Bischoff<span class="subtext">Vice President, Enrollment</span></li>
+    <li class="list-group-item leadership">Katie Brancato<span class="subtext">Chief of Staff, Office of the President</span></li>
+    <li class="list-group-item leadership">Robert Clarke Brown<span class="subtext">Treasurer</span></li>
+    <li class="list-group-item leadership">Stephen M. Campbell<span class="subtext">Vice President, Campus Planning and Facilities Management</span></li>
+    <li class="list-group-item leadership">Jonathan S. Carlson<span class="subtext">Vice President, Financial Planning</span></li>
+    <li class="list-group-item leadership">Kenneth B. Chance<span class="subtext">Dean, School of Dental Medicine</span></li>
+    <li class="list-group-item leadership">Pamela B. Davis<span class="subtext">Dean, School of Medicine, and Senior Vice President, Medical Affairs</span></li>
+    <li class="list-group-item leadership">Daniel M. Ducoff<span class="subtext">Vice President, Engineering and Global Development</span></li>
+    <li class="list-group-item leadership">Donald L. Feke<span class="subtext">Vice Provost, Undergraduate Education</span></li>
+    <li class="list-group-item leadership">David Fleshler<span class="subtext">Associate Provost, International Affairs</span></li>
+    <li class="list-group-item leadership">Larry Gibson<span class="subtext">Vice President, Development Planning and Operations</span></li>
+    <li class="list-group-item leadership">Grover C. Gilmore<span class="subtext">Dean, Jack, Joseph and Morton Mandel School of Applied Social Sciences</span></li>
+    <li class="list-group-item leadership">Carolyn Gregory<span class="subtext">Vice President, Human Resources</span></li>
+    <li class="list-group-item leadership">Richard J. Jamieson<span class="subtext">Vice President, Campus Services</span></li>
+    <li class="list-group-item leadership">Elizabeth J. Keefer<span class="subtext">Senior Vice President for Administration, General Counsel and Secretary of the Corporation</span></li>
+    <li class="list-group-item leadership">Mary E. Kerr<span class="subtext">Dean, Frances Payne Bolton School of Nursing</span></li>
+    <li class="list-group-item leadership">Patricia L. Kost<span class="subtext">Controller</span></li>
+    <li class="list-group-item leadership">Bruce A. Loessin<span class="subtext">Senior Vice President, University Relations and Development</span></li>
+    <li class="list-group-item leadership">Manoj K. Malhotra<span class="subtext">Dean, Weatherhead School of Management</span></li>
+    <li class="list-group-item leadership">James McGuffin-Cawley<span class="subtext">Interim Dean, Case School of Engineering</span></li>
+    <li class="list-group-item leadership">Timothy R. Milanich<span class="subtext">Interim Chief Investment Officer</span></li>
+    <li class="list-group-item leadership">Marilyn Sanders Mobley<span class="subtext">Vice President, Inclusion, Diversity and Equal Opportunity</span></li>
+    <li class="list-group-item leadership">Carol L. Moss<span class="subtext">Vice President, Health Sciences Development, and Vice Dean, Medical External Affairs</span></li>
+    <li class="list-group-item leadership">Julie Rehm<span class="subtext">Vice President, Government and Foundation Relations</span></li>
+    <li class="list-group-item leadership">Suzanne Rivera<span class="subtext">Vice President, Research</span></li>
+    <li class="list-group-item leadership">Charles E. Rozek<span class="subtext">Vice Provost and Dean, School of Graduate Studies</span></li>
+    <li class="list-group-item leadership">Michael P. Scharf<span class="subtext">Dean, School of Law</span></li>
+    <li class="list-group-item leadership">Chris Sheridan<span class="subtext">Vice President, University Marketing and Communications, and Senior Advisor to the President</span></li>
+    <li class="list-group-item leadership">John F. Sideras<span class="subtext">Senior Vice President, Finance, and Chief Financial Officer</span></li>
+    <li class="list-group-item leadership">Lynn T. Singer<span class="subtext">Deputy Provost and Vice President, Academic Affairs</span></li>
+    <li class="list-group-item leadership">Louis W. Stark<span class="subtext">Vice President, Student Affairs</span></li>
+    <li class="list-group-item leadership">Cyrus C. Taylor<span class="subtext">Dean, College of Arts and Sciences</span></li>
+    <li class="list-group-item leadership">Jeffrey Wolcowitz<span class="subtext">Dean, Undergraduate Studies</span></li>
+    <li class="list-group-item leadership">Sue B. Workman<span class="subtext">Vice President, University Technology, and Chief Information Officer</span></li>
+  </ul>
+</div>
+{% endblock %}

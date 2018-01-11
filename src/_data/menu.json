@@ -76,11 +76,14 @@
       "name": "Home",
       "url": ""
     },{
+      "name": "President's Letter",
+      "url": "presidents-letter"
+    },{
       "name": "Facts & Figures",
       "url": "facts-figures"
     },{
-      "name": "President's Letter",
-      "url": "presidents-letter"
+      "name": "University Leadership",
+      "url": "university-leadership"
     },{
       "name": "Download PDF",
       "url": "images/CWRU-Annual-Report-2017.pdf"

@@ -13,6 +13,12 @@
 {% block maincontent %}
   <div class="container flex flex-col feature-background content--white">
     <header>
+      <a href="#" class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </a>
+      
       {{navmenu.content({
         data: site.data.menu,
         style: "topnav",

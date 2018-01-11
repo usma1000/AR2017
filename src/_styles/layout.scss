@@ -42,6 +42,17 @@ $navwidth: 300px;
   border: 1px solid #222222;
 }
 
+.columns {
+  column-count: 3;
+}
+
+.subtext {
+  display: block;
+  font-size: .9em;
+  font-style: italic;
+  color: #aaa;
+}
+
 .flex {
   display: flex;
 }
@@ -72,7 +83,7 @@ $navwidth: 300px;
   text-decoration-color: $cwru-green;
   text-decoration-skip: ink;
 }
-
+.underline {text-decoration: underline;}
 .spacer--top {
   margin-top: $large;
 }
@@ -214,6 +225,9 @@ a.skip-main:focus, a.skip-main:active {
   .feature-background {
     background-image: none !important;
   }
+  .columns {
+    column-count: 2;
+  }
 }
 .content--body {
   font-family: DepotNew-Regular, "Titillium Web";
@@ -348,6 +362,18 @@ a.skip-main:focus, a.skip-main:active {
   }
 }
 
+.align-center {
+  text-align: center;
+}
+
+.ul-block {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 4em;
+}
+.list-group-item {
+  margin-bottom: 25px;
+}
 
 @media (max-width: 950px) {
   .navsidebar {
@@ -368,4 +394,29 @@ a.skip-main:focus, a.skip-main:active {
   .hamburger {
     display: inline-block;
   }
+  .columns {
+    column-count: 1;
+  }
+}
+
+.ct-chart {
+  margin: 2em 0;
+}
+
+.ct-label {
+  fill: white;
+  color: white;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.ct-grid {
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+.ct-series-a .ct-bar {
+  stroke: $cwru-blue;
+}
+.ct-series-b .ct-bar {
+  stroke: #666;
 }

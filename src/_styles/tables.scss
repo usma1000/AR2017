@@ -67,6 +67,11 @@
   border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 
+/* Body */
+.ui.table tbody tr td:last-child {
+  width: 250px;
+}
+
 /* Footer */
 .ui.table tfoot {
   box-shadow: none;
@@ -466,7 +471,6 @@
 
 .underline-title {
   text-transform: uppercase;
-  text-decoration: underline;
   font-size: 1.5em;
   margin: 3em 0 0 20px;
 }
