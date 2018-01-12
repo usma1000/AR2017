@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block pagetitle %}
-  {{pagetitle.content({text: "Care Amid Crisis"})}}
+  {{pagetitle.content({text: "From the President"})}}
 {% endblock %}
 
 {% block content %}
