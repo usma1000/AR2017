@@ -11,7 +11,7 @@
 
 {% block content %}
 <h3 class="underline-title">University Trustees</h3>
-<p class="table-subtitle">As of Jan 1, 2018</p>
+<p class="table-subtitle">As of Jan. 1, 2018</p>
 
 <div class="leadership-block">
   <ul class="ul-block columns">
@@ -62,7 +62,7 @@
 </div>
 
 <h3 class="underline-title">University Administration</h3>
-<p class="table-subtitle">As of Jan 1, 2018</p>
+<p class="table-subtitle">As of Jan. 1, 2018</p>
 
 <div class="administration-block">
   <ul class="ul-block columns">
