@@ -320,7 +320,7 @@ a.skip-main:focus, a.skip-main:active {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: 0;
+  z-index: -1;
 }
 
 .behind-svg {
