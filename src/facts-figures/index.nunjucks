@@ -255,9 +255,18 @@
 
   <p class="align-center">GIFTS AND PLEDGES FROM PRIVATE SOURCES</p>
   <div class="ct-chart ct-series-l ct-perfect-fourth" id="chart1"></div>
+  <div class="align-center margin-bottom">$ IN MILLIONS</div>
+
   <p class="align-center">TOTAL OPERATING SURPLUS*</p>
   <div class="ct-chart ct-series-l ct-perfect-fourth" id="chart2"></div>
+  <div class="align-center margin-bottom">$ IN MILLIONS</div>
+
   <p class="align-center">TOTAL OPERATING REVENUES AND EXPENSES</p>
   <div class="ct-chart ct-series-a ct-perfect-fourth" id="chart3"></div>
+  <div class="key">
+    <span class="expense">EXPENSES</span>
+    <span class="revenues">REVENUES</span>
+  </div>
+  <div class="align-center margin-bottom">$ IN MILLIONS</div>
 </div>
 {% endblock %}

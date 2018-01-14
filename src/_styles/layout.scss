@@ -204,6 +204,12 @@ a.skip-main:focus, a.skip-main:active {
 .margin-left {
   margin-left: $large;
 }
+.margin-top {
+  margin-top: $large;
+}
+.margin-bottom {
+  margin-bottom: $large;
+}
 
 .slide-text {
   display: none;
@@ -217,7 +223,7 @@ a.skip-main:focus, a.skip-main:active {
 .hidden {
   display: none;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
   .hidden {
     display: block;
     margin-top: $large;
@@ -225,6 +231,8 @@ a.skip-main:focus, a.skip-main:active {
   .feature-background {
     background-image: none !important;
   }
+}
+@media (max-width: 1600px) {
   .columns {
     column-count: 2;
   }
@@ -353,9 +361,9 @@ a.skip-main:focus, a.skip-main:active {
     background-color: white;
     height: 2px;
     width: 30px;
-    margin-bottom: 8px;
+    margin: 0 auto 8px auto;
   }
-  &:before {
+  &:after {
     content: 'MENU';
     display: inline-block;
     margin-bottom: 20px;
@@ -399,10 +407,6 @@ a.skip-main:focus, a.skip-main:active {
   }
 }
 
-.ct-chart {
-  margin: 2em 0;
-}
-
 .ct-label {
   fill: white;
   color: white;
@@ -411,12 +415,29 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 .ct-grid {
-  stroke: rgba(255, 255, 255, 0.1);
+  stroke: rgba(255, 255, 255, 0.3);
 }
 
 .ct-series-a .ct-bar {
-  stroke: $cwru-blue;
+  stroke: $link-blue;
 }
 .ct-series-b .ct-bar {
   stroke: #666;
+}
+
+.key {
+  display: inline-block;
+  .expense:before,.revenues:before {
+    width: 2em;
+    height: 1em;
+    margin: 0 1em;
+    content: '';
+    display: inline-block;
+  }
+  .expense:before {
+    background-color: $cwru-blue;
+  }
+  .revenues:before {
+    background-color: #666;
+  }
 }
