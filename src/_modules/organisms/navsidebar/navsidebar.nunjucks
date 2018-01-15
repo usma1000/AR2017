@@ -43,6 +43,5 @@
     style: "tertiary",
     ulclass: "navmenu--secondary"
   })}}
-  <div class="pulse"></div>
 </div>
 {% endmacro %}
