@@ -5,6 +5,7 @@ $navwidth: 300px;
   width: 100%;
   padding: $medium $large $large;
   overflow-y: auto;
+  -webkit-transform:translate3d(0,0,0);
 }
 
 .container--main {
