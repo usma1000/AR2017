@@ -575,8 +575,21 @@ a.skip-main:focus, a.skip-main:active {
   .mobile-hamburger-menu {
     display: block;
   }
+  .president-photo {
+    flex-direction: column-reverse;
+    .margin-left {
+      margin-left: 0;
+      margin-bottom: $large;
+    }
+    .image-auto {
+      width: 100%;
+    }
+  }
 }
-
+.president-photo img {
+  width: 50%;
+  height: auto;
+}
 @media (max-width: 500px) {
   .hamburger {
     padding: 8px 0px;

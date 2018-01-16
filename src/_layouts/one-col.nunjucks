@@ -25,12 +25,17 @@
 
 {% block maincontent %}
   <div class="container flex flex-col feature-background content--white">
-    <header>
+    <header class="mobile-hamburger-menu">
       <a href="#" class="hamburger">
         <span class="line"></span>
         <span class="line"></span>
         <span class="line"></span>
       </a>
+      <div class="hamburger-logo">
+        <a href="//case.edu">
+          <img srcset="" src="../images/cwru-logo-white.png" class="cwru-logo" alt="">
+        </a>
+      </div>
     </header>
 
     {% block layout %}

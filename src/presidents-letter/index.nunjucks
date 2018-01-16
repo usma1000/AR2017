@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-<div class="flex">
+<div class="flex flex-col-break president-photo">
   <div class="content">
     <p><strong>To the Case Western Reserve community:</strong></p>
     <p>The quadriplegic man is able to move.</p>
