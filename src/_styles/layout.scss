@@ -429,6 +429,15 @@ a.skip-main:focus, a.skip-main:active {
     margin-bottom: 20px;
   }
 }
+.hamburger-logo {
+  display: none;
+  padding: 0px 20px;
+  img {
+    margin:0 auto;
+    max-width:265px;
+    width: 100%;
+  }
+}
 
 .align-center {
   text-align: center;
@@ -459,8 +468,9 @@ a.skip-main:focus, a.skip-main:active {
   .content {
     margin: 0 auto;
   }
-  .hamburger {
-    display: inline-block;
+  .hamburger, .hamburger-logo {
+    display: block;
+    float: left;
   }
   .columns {
     column-count: 1;
@@ -469,6 +479,16 @@ a.skip-main:focus, a.skip-main:active {
     opacity: 0;
   }
 }
+
+@media (max-width: 500px) {
+  .hamburger {
+    padding: 8px 0px;
+  }
+  .hamburger-logo {
+    padding: 0px 0px 0px 20px;
+  }
+}
+
 
 .ct-label {
   fill: white;
