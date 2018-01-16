@@ -81,6 +81,7 @@ $navwidth: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  padding-bottom: 100px;
 }
 
 .two-col {
@@ -586,7 +587,8 @@ a.skip-main:focus, a.skip-main:active {
       width: 100%;
     }
   }
-  .feature-background {
+  .feature-background,
+  .feature-background-home {
     padding-bottom: 48px;
   }
 }
