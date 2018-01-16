@@ -1,6 +1,10 @@
 $prevwidth: 100px;
 $navwidth: 300px;
 
+.home-bkg {
+  background-image:url('../images/home-bkg.jpg');
+  justify-content: space-between;
+}
 .container {
   width: 100%;
   padding: $medium $large $large;
@@ -595,6 +599,9 @@ a.skip-main:focus, a.skip-main:active {
   .feature-background,
   .feature-background-home {
     padding-bottom: 48px;
+  }
+  .home-bkg {
+    background-image:url('../images/home-bkg-mobile.jpg');
   }
 }
 .president-photo img {
