@@ -574,6 +574,12 @@ a.skip-main:focus, a.skip-main:active {
     display: block;
     float: left;
   }
+  .hamburger {
+    padding: 0px 8px;
+  }
+  .hamburger-logo {
+    margin-top: -8px;
+  }
   .columns {
     column-count: 1;
   }
@@ -610,9 +616,14 @@ a.skip-main:focus, a.skip-main:active {
 }
 @media (max-width: 500px) {
   .hamburger {
-    padding: 8px 0px;
+    padding: 0px;
   }
   .hamburger-logo {
     padding: 0px 0px 0px 20px;
+    margin-top: 0px;
+    img {
+      margin: 0px auto 0px;
+      max-width: 225px;
+    }
   }
 }

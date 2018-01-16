@@ -1,7 +1,13 @@
 // pagetitle styles
 .page-title {
-  font-size: 72px;
+  font-size: 5vw;
   padding-right: $tiny;
   max-width: 400px;
   line-height: 1.2;
+}
+
+@media (max-width: 950px) {
+  .page-title {
+    font-size: 10vw;
+  }
 }
