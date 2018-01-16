@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block backgroundimage %}
-<img src="{{baseUrl}}images/story-bkg-naturenavigation.jpg" class="hidden get-bkg">
+<img src="{{baseUrl}}images/story-bkg-naturenavigation.jpg" srcset="{{baseUrl}}images/story-nogradient-naturenavigation.jpg 950w" class="hidden get-bkg">
 {% endblock %}
 
 {% block pagetitle %}
