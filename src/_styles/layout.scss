@@ -489,8 +489,10 @@ a.skip-main:focus, a.skip-main:active {
 .list-group-item {
   margin-bottom: 25px;
 }
-
-
+.chartholder {
+  width: 100%;
+  overflow-x: auto;
+}
 #chart1, #chart2, #chart3 {
   min-width: 600px;
 }
