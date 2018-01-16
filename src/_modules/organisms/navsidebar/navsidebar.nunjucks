@@ -9,13 +9,6 @@
 {% import "_modules/molecules/navmenu/navmenu.nunjucks" as navmenu %}
 
 <div class="{{_class}}">
-  <a href="//case.edu">
-    {{image.content({
-      class: "cwru-logo",
-      src: "../images/cwru-logo-white.png"
-    })}}
-  </a>
-
   {{navmenu.content({
     data: _data,
     style: "topnav",

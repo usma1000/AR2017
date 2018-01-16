@@ -6,6 +6,7 @@ $navwidth: 300px;
   padding: $medium $large $large;
   overflow-y: auto;
   -webkit-transform:translate3d(0,0,0);
+  margin-top: 84px;
 }
 
 .container--main {
@@ -87,6 +88,9 @@ $navwidth: 300px;
 }
 .mobile-hamburger-menu {
   background-color: #0a304e;
+  margin: -20px -20px 0 -20px;
+  padding: 20px 20px 0 20px;
+  display: none;
 }
 .header-nav {
   background-color: #0a304e;
@@ -494,11 +498,13 @@ a.skip-main:focus, a.skip-main:active {
   .navsidebar {
     position: absolute;
     width: 300px;
+    margin-top: 0 !important;
   }
   .container.flex {
     z-index: 10;
     transition: transform .4s;
     padding: 20px;
+    margin-top: 0;
   }
   .container.flex.active {
     transform: translateX(300px);
@@ -518,6 +524,9 @@ a.skip-main:focus, a.skip-main:active {
   }
   .header-nav {
     display: none;
+  }
+  .mobile-hamburger-menu {
+    display: block;
   }
 }
 
