@@ -72,12 +72,55 @@ $navwidth: 300px;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+.feature-background-home {
+  background: #1B1B1B;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
 .two-col {
   column-count: 2;
   column-gap: 2em;
 }
-
+.header-nav {
+  background-color: #0a304e;
+  padding: 10px 20px 5px;
+  img {
+    padding-top: 5px;
+  }
+}
+.header-menu-right {
+  width: 100%;
+}
+.footer-row {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-one {
+  width: 28%;
+  padding: 10px 0px;
+  img {
+    margin:0 auto;
+    max-width:265px;
+    width: 100%;
+  }
+}
+.footer-two {
+  width: 52%;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 16px;
+}
+.footer-three {
+  width: 20%;
+  padding: 10px;
+}
+.footer-social > a > img {
+  width: 42px;
+  padding: 10px;
+}
 .green-underline {
   text-decoration: underline;
   text-decoration-color: $cwru-green;
@@ -224,12 +267,36 @@ a.skip-main:focus, a.skip-main:active {
   display: none;
 }
 @media (max-width: 1200px) {
+  .content {
+    max-width: 100%;
+  }
   .hidden {
     display: block;
     margin-top: $large;
   }
   .feature-background {
     background-image: none !important;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-one {
+    width: 100%;
+    padding: 0px;
+    img {
+      margin:0 auto;
+      max-width:265px;
+      width: 100%;
+    }
+  }
+  .footer-two {
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+  }
+  .footer-three {
+    width: 100%;
+    padding: 0px;
   }
 }
 @media (max-width: 1600px) {
@@ -325,9 +392,13 @@ a.skip-main:focus, a.skip-main:active {
 
 .behind-svg {
   z-index: 10;
-  flex-grow: 4;
-  width: 70%;
-  margin-left: auto;
+  // flex-grow: 4;
+  // width: 70%;
+  // margin-left: auto;
+  position: absolute;
+  height: 80%;
+  width: 40%;
+  right: 10%;
 }
 
 .gradient {
@@ -369,6 +440,15 @@ a.skip-main:focus, a.skip-main:active {
     margin-bottom: 20px;
   }
 }
+.hamburger-logo {
+  display: none;
+  padding: 0px 20px;
+  img {
+    margin:0 auto;
+    max-width:265px;
+    width: 100%;
+  }
+}
 
 .align-center {
   text-align: center;
@@ -399,13 +479,27 @@ a.skip-main:focus, a.skip-main:active {
   .content {
     margin: 0 auto;
   }
-  .hamburger {
-    display: inline-block;
+  .hamburger, .hamburger-logo {
+    display: block;
+    float: left;
   }
   .columns {
     column-count: 1;
   }
+  .onboard.active {
+    opacity: 0;
+  }
 }
+
+@media (max-width: 500px) {
+  .hamburger {
+    padding: 8px 0px;
+  }
+  .hamburger-logo {
+    padding: 0px 0px 0px 20px;
+  }
+}
+
 
 .ct-label {
   fill: white;

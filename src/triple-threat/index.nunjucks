@@ -6,7 +6,6 @@
 
 {% block backgroundimage %}
 <img src="{{baseUrl}}images/story-bkg-krimbill.jpg" class="hidden get-bkg">
-<div class="gradient"></div>
 {% endblock %}
 
 {% block pagetitle %}
