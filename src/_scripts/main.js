@@ -81,6 +81,7 @@ $(function() {
   });
 
   var chartOptions = {
+    seriesBarDistance: 30,
     axisY: { onlyInteger: true }
   }
 
