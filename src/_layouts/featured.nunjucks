@@ -38,6 +38,24 @@
           {% block content %}{% endblock %}
         </div>
       </div>
+      <footer>
+        <div class="footer-row">
+          <div class="footer-one">
+            <img src="../images/cwru-logo-white.png" alt="CWRU Logo White" class="img-responsive">
+          </div>
+          <div class="footer-two">
+            <p>© Case Western Reserve University 2018</p>
+          </div>
+          <div class="footer-three footer-social">
+            <a href="https://twitter.com/cwru">
+              <img src="../images/twitter-logo.svg" alt="twitter logo">
+            </a>
+            <a href="https://www.facebook.com/casewesternreserve/">
+              <img src="../images/facebook-logo.svg" alt="facebook logo">
+            </a>
+          </div>
+        </div>
+      </footer>
       {# <div class="content--stats">
         {% block stats %}{% endblock %}
       </div> #}
