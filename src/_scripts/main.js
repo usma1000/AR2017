@@ -104,9 +104,12 @@ $(function() {
     $('#chart1, #chart2, #chart3').find('.ct-series>line').each(function() {
       $(this).after('<text x="' + this.x1.baseVal.value + '" y="' + (this.y2.baseVal.value+55) + '" fill="white" transform="rotate(-90 ' + this.x1.baseVal.value + ',' + (this.y2.baseVal.value+50) + ')">' + $(this).attr('ct:value') + '</text>');
     });
-    $('#chart1, #chart2, #chart3').find('svg').each(function() {
-      $(this).after($(this)[0].outerHTML);
+    $('#chart1, #chart2, #chart3').each(function(i) {
+      var holder = $(this).find('svg');
+      holder.attr('viewBox', '0 0 ' + holder.width() + ' ' + holder.height() + '');
+      $(this).after('<div class="ct-chart ct-series-l ct-perfect-fourth" id="chart' + (i+1) + '">' + holder[0].outerHTML + '</div>');
       $(this).hide();
     });
+
   });
 });
