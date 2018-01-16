@@ -100,4 +100,10 @@ $(function() {
                [882, 904, 959, 973, 1005, 1013, 1030, 1084, 1107]]
     }, chartOptions);
   }
+  $(document).ready(function() {
+    $('#chart1, #chart2, #chart3').find('.ct-series>line').each(function() {
+      $(this).after('<text x="' + this.x1.baseVal.value + '" y="' + (this.y2.baseVal.value+55) + '" fill="white" transform="rotate(-90 ' + this.x1.baseVal.value + ',' + (this.y2.baseVal.value+50) + ')">' + $(this).attr('ct:value') + '</text>');
+    });
+
+  });
 });
