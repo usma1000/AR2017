@@ -74,6 +74,12 @@ $(function() {
     $('.container').toggleClass('active');
   });
 
+  $("html").click(function(event) {
+      if ($(event.target).closest('.navsidebar, .hamburger').length === 0) {
+          $('.container').toggleClass('active');
+      }
+  });
+
   var chartOptions = {
     axisY: { onlyInteger: true }
   }
