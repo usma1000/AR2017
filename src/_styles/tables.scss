@@ -118,7 +118,7 @@
 .ui.table:not(.unstackable) tr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.ui.table:not(.unstackable) tr:last-child {
+.ui.table:not(.unstackable) :not(thead) tr:last-child {
   border-bottom: none;
 }
 /* Responsive */
