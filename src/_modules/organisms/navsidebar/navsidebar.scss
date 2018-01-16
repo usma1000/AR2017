@@ -4,5 +4,11 @@
   height: 100vh;
   padding: 1em 1.5em;
   z-index: 1;
-  margin-top: 84px;
+  padding-top: 84px;
+}
+
+@media (max-width: 950px) {
+  .navsidebar {
+    padding-top: 1em;
+  }
 }
