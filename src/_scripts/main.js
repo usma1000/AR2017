@@ -76,7 +76,7 @@ $(function() {
 
   $("html").click(function(event) {
       if ($(event.target).closest('.navsidebar, .hamburger').length === 0) {
-          $('.container').toggleClass('active');
+        $('.container').hasClass('active') ? $('.container').toggleClass('active') : '';
       }
   });
 
