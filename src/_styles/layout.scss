@@ -135,9 +135,14 @@ $navwidth: 300px;
   width: 20%;
   padding: 10px;
 }
-.footer-social > a > img {
-  width: 42px;
-  padding: 10px;
+.footer-social {
+  &>a {
+    text-decoration: none;
+    &>img {
+      width: 42px;
+      padding: 10px;
+    }
+  }
 }
 .green-underline {
   text-decoration: underline;
