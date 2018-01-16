@@ -32,7 +32,7 @@ $(function() {
     // NAVBAR
     // Navbar scrolls to current story
     // setTimeout(function() {
-    $('div.navsidebar').scrollTop($("[href='.." + window.location.pathname.trim().slice(17,-1) + "']")[0].offsetTop - 35);
+    $('div.navsidebar').scrollTop($("[href='../" + window.location.pathname.trim().slice(16,-1) + "']")[0].offsetTop - 35);
     // },1000);
   });
 

@@ -3,29 +3,4 @@
   background: $off-black;
   height: 100vh;
   padding: 1em 1.5em;
-  .pulse {
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    left: 145px;
-    bottom: 0;
-    border-radius: 50%;
-    filter: blur(10px);
-    animation: pulse 5s infinite;
-  }
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(10,48,78,0);
-  }
-  80% {
-    box-shadow: 0 0 0 0 rgba(10,48,78,0);
-  }
-  90% {
-    box-shadow: 0 0 0 50px rgba(10,48,78,1);
-  }
-  100% {
-    box-shadow: 0 0 0 100px rgba(10,48,78,0);
-  }
 }

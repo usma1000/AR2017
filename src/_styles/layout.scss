@@ -72,6 +72,13 @@ $navwidth: 300px;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+.feature-background-home {
+  background: #1B1B1B;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
 .two-col {
   column-count: 2;
@@ -325,9 +332,13 @@ a.skip-main:focus, a.skip-main:active {
 
 .behind-svg {
   z-index: 10;
-  flex-grow: 4;
-  width: 70%;
-  margin-left: auto;
+  // flex-grow: 4;
+  // width: 70%;
+  // margin-left: auto;
+  position: absolute;
+  height: 80%;
+  width: 40%;
+  right: 10%;
 }
 
 .gradient {
