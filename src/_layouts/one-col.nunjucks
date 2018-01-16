@@ -3,6 +3,19 @@
 {# Add extra stylesheets #}
 {% block stylesheets %}{% endblock %}
 
+{% block headernav %}
+  <a href="//case.edu">
+    <img srcset="" src="../images/cwru-logo-white.png" class="cwru-logo" alt="">
+  </a>
+  <div class="header-menu-right content--white flex flex-col">
+    {{navmenu.content({
+      data: site.data.menu,
+      style: "topnav",
+      ulclass: "topnav"
+    })}}
+  </div>
+{% endblock %}
+
 {% block sidebarnav %}
   {{navsidebar.content({
     data: site.data.menu,
@@ -18,12 +31,6 @@
         <span class="line"></span>
         <span class="line"></span>
       </a>
-      
-      {{navmenu.content({
-        data: site.data.menu,
-        style: "topnav",
-        ulclass: "topnav"
-      })}}
     </header>
 
     {% block layout %}
