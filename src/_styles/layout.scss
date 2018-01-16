@@ -465,6 +465,9 @@ a.skip-main:focus, a.skip-main:active {
   .columns {
     column-count: 1;
   }
+  .onboard.active {
+    opacity: 0;
+  }
 }
 
 .ct-label {

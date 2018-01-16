@@ -1,5 +1,3 @@
-'use strict';
-
 var $ = require('jquery');
 var Chartist = require('chartist');
 
@@ -32,7 +30,7 @@ $(function() {
     // NAVBAR
     // Navbar scrolls to current story
     // setTimeout(function() {
-    $('div.navsidebar').scrollTop($("[href='../" + window.location.pathname.trim().slice(16,-1) + "']")[0].offsetTop - 35);
+    // $('div.navsidebar').scrollTop($("[href='../" + window.location.pathname.trim().slice(16,-1) + "']")[0].offsetTop - 35);
     // },1000);
   });
 
@@ -59,7 +57,9 @@ $(function() {
     }
     setTimeout(showTitle, 50);
   }
-  showTitle();
+  if ($('.page-title').length) {
+    showTitle();
+  }
 
   // ONBOARD
   // Show .onboard div on homepage after some time
