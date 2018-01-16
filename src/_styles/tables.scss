@@ -115,7 +115,12 @@
   padding: 0.78571429em 0.78571429em;
   text-align: inherit;
 }
-
+.ui.table:not(.unstackable) tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ui.table:not(.unstackable) tr:last-child {
+  border-bottom: none;
+}
 /* Responsive */
 @media only screen and (max-width: 767px) {
   .ui.table:not(.unstackable) {
@@ -133,6 +138,10 @@
   }
   .ui.table:not(.unstackable) thead {
     display: block;
+    tr {
+      background-color: #0a304e;
+      border-radius: 8px 8px 0px 0px;
+    }
   }
   .ui.table:not(.unstackable) tfoot {
     display: block;
