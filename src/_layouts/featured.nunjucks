@@ -37,7 +37,7 @@
         </a>
       </div>
 
-      
+
     </header>
 
     {% block layout %}
@@ -55,7 +55,7 @@
       <footer>
         <div class="footer-row">
           <div class="footer-one">
-            <img src="../images/cwru-logo-white.png" alt="CWRU Logo White" class="img-responsive">
+            {# <img src="../images/cwru-logo-white.png" alt="CWRU Logo White" class="img-responsive"> #}
           </div>
           <div class="footer-two">
             <p>© Case Western Reserve University 2018</p>
