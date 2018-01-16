@@ -474,11 +474,58 @@ a.skip-main:focus, a.skip-main:active {
 .list-group-item {
   margin-bottom: 25px;
 }
+
+
+#chart1, #chart2, #chart3 {
+  min-width: 600px;
+}
+.ct-label {
+  fill: white;
+  color: white;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.ct-grid {
+  stroke: rgba(255, 255, 255, 0.3);
+}
+
+.ct-series-a .ct-bar {
+  stroke: $link-blue;
+  stroke-width: 35px;
+}
+.ct-series-b .ct-bar {
+  stroke: #666;
+  stroke-width: 35px;
+}
+#chart3 .ct-bar {
+  stroke-width: 30px;
+}
+
+.key {
+  display: inline-block;
+  .expense:before,.revenues:before {
+    width: 2em;
+    height: 1em;
+    margin: 0 1em;
+    content: '';
+    display: inline-block;
+  }
+  .expense:before {
+    background-color: $cwru-blue;
+  }
+  .revenues:before {
+    background-color: #666;
+  }
+}
 @media (max-width: 1100px) {
   .header-menu-right {
     a.menu--link {
       font-size: 0.7em;
     }
+  }
+  #chart3 .ct-bar {
+    stroke-width: 25px;
   }
 }
 
@@ -527,41 +574,5 @@ a.skip-main:focus, a.skip-main:active {
   }
   .hamburger-logo {
     padding: 0px 0px 0px 20px;
-  }
-}
-
-
-.ct-label {
-  fill: white;
-  color: white;
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.ct-grid {
-  stroke: rgba(255, 255, 255, 0.3);
-}
-
-.ct-series-a .ct-bar {
-  stroke: $link-blue;
-}
-.ct-series-b .ct-bar {
-  stroke: #666;
-}
-
-.key {
-  display: inline-block;
-  .expense:before,.revenues:before {
-    width: 2em;
-    height: 1em;
-    margin: 0 1em;
-    content: '';
-    display: inline-block;
-  }
-  .expense:before {
-    background-color: $cwru-blue;
-  }
-  .revenues:before {
-    background-color: #666;
   }
 }
