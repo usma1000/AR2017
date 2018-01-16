@@ -611,10 +611,17 @@ a.skip-main:focus, a.skip-main:active {
   .home-bkg {
     background-image:url('../images/home-bkg-mobile.jpg');
   }
+  .chartholder {
+    margin-left: 20px;
+  }
 }
 .president-photo img {
   width: 50%;
   height: auto;
+}
+.revenues {
+  display: block;
+  margin-bottom: 20px;
 }
 @media (max-width: 500px) {
   .hamburger {
